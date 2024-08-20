@@ -6,6 +6,7 @@ import codeAnalysis.util.Extensions.IntExtension
 
 import scala.reflect.api.Position
 import scala.reflect.internal.Flags._
+import scala.reflect.internal.util.NoPosition
 
 object ParadigmSwitching extends MetricProducer {
 
@@ -30,7 +31,7 @@ object ParadigmSwitching extends MetricProducer {
         case _ => next
       }
 
-      def switch(next: Value) = (paradigm, next) match {
+      def switch(next: Value): Int = (paradigm, next) match {
         case (Neutral, _) => 0
         case (_, Neutral) => 0
         case _ => if (paradigm == next) 0 else 1
@@ -62,8 +63,8 @@ class ParadigmSwitching(override val compiler: Compiler) extends ObjectMetric wi
   def classifyNode(tree: global.ValOrDefDef): Paradigm.Value = tree match {
     case valDef: global.ValDef => // Could be a val or var, or a parameter
       if (valDef.mods hasFlag IMPLICIT) Paradigm.Inter // Implicit value/parameter
-      else if (valDef.isVar) Paradigm.Imperative // Mutable variable
-      else if (valDef.isLazy || valDef.isFunction) Paradigm.Functional // Lazy or function value
+      else if (valDef.mods hasFlag MUTABLE) Paradigm.Imperative // Mutable variable
+      else if (valDef.mods.hasFlag(LAZY) || valDef.isFunction) Paradigm.Functional // Lazy or function value
       else Paradigm.Neutral // Regular parameter/value
     case defDef: global.DefDef => // Any method (def)
       if (defDef.vparamss.length > 1 || isRecursive(defDef)) Paradigm.Functional // Curried or recursive
@@ -74,6 +75,11 @@ class ParadigmSwitching(override val compiler: Compiler) extends ObjectMetric wi
   def classifyNode(tree: global.Tree): Paradigm.Value = tree match {
     case _: global.Match => Paradigm.Functional // pattern match or destruct
     case labelDef: global.LabelDef if labelDef.name containsName "while" => Paradigm.Imperative // while loop
+    case function: global.Function
+      if function.symbol hasFlag SYNTHETIC => Paradigm.Neutral // Eliminate lambdas that are generated from for-loops
+    case function: global.Function
+      if function.body.isUnit => Paradigm.Inter // function with side effect
+    case _: global.Function => Paradigm.Functional // Function literal
     case term@(_: global.TermTree | _: global.SymTree)
       if term.isFunction && (term.isVar || tree.isUnit) => Paradigm.Inter // mutable/side effect function
     case term@(_: global.TermTree | _: global.SymTree)
@@ -88,10 +94,7 @@ class ParadigmSwitching(override val compiler: Compiler) extends ObjectMetric wi
     case apply: global.Apply
       if apply.isUnit => Paradigm.Imperative // side effect call
     case tree: global.Select
-      if tree.isVar => Paradigm.Imperative // mutable variable access, may double-count
-    case function: global.Function
-      if function.body.isUnit => Paradigm.Inter // function with side effect
-    case _: global.Function => Paradigm.Functional // Function literal
+      if tree.isVar || tree.name.string_==("foreach") => Paradigm.Imperative // mutable variable access, may double-count
     case _ => Paradigm.Neutral
   }
 
@@ -114,15 +117,13 @@ class ParadigmSwitching(override val compiler: Compiler) extends ObjectMetric wi
    * @return the list of metric results
    */
   override def run(tree: global.ImplDef): List[MetricResult] = {
-    val tags = collectConstructs(tree).sortBy(_._1.pointOrElse(-1)) // We can assume that we are in one source file, so the ordering is purely based on the offset
-    println(tags.map { case (p, v) => (p.lineContent, v) }.mkString("\n")) // Debug print
+    val tags = collectConstructs(tree).filterNot(_._1 == NoPosition).sortBy(_._1.point) // We can assume that we are in one source file, so the ordering is purely based on the offset
 
     process(tags)
   }
 
   override def run(tree: global.DefDef): List[MetricResult] = {
-    val tags = collectConstructs(tree).sortBy(_._1.point)
-    println(tags.map { case (p, v) => (p.line, v) }.mkString("\n")) // Debug print
+    val tags = collectConstructs(tree).filterNot(_._1 == NoPosition).sortBy(_._1.point)
 
     process(tags)
   }
