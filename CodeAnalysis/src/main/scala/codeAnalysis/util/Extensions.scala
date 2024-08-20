@@ -18,6 +18,34 @@ object Extensions {
    */
   def nlogn(n: Double): Double = if (n == 0) 0 else n * log2(n)
 
+  implicit class IntExtension(int: Int) {
+    import Numeric.Implicits._
+
+    /**
+     * Safe integer division, returning 0 when the denominator is 0.
+     * @param other denominator of the fraction
+     * @return int / other, or 0 if other == 0
+     */
+    def \(other: Int): Int = if (other != 0) int / other else 0
+
+    /**
+     * Exact division, casting the result to Double.
+     * @param other denominator of the fraction
+     * @tparam A Numeric type of `other`
+     * @return int / other : Double
+     */
+    def /![A: Numeric](other: A): Double = int.toDouble / other.toDouble
+
+    /**
+     * Safe exact division, casting the result to Double and returning 0 when the denominator is 0.
+ *
+     * @param other denominator of the fraction
+     * @tparam A Numeric type of `other`
+     * @return int / other : Double, or 0 if other == 0
+     */
+    def \![A: Numeric](other: A): Double = if (other != Numeric[A].zero) int /! other else 0.0
+  }
+
   implicit class DoubleExtension(double: Double) {
     /**
      * Safe division, returning 0 when the denominator is 0.

@@ -118,7 +118,7 @@ class ParadigmScoreCount(override val compiler: Compiler) extends MethodMetric {
   }
 
   /**
-   * CO1b: Counts the assignesnments to inner variables
+   * CO1b: Counts the assignments to inner variables
    */
   def countInnerVariableAssignment(tree: global.DefDef): Int = tree.countTraverse {
     case _: global.Assign => true // Inner variable assign

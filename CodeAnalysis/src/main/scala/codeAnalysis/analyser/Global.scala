@@ -347,6 +347,11 @@ class Global(settings: Settings, reporter: Reporter) extends interactive.Global(
       symbol != null && symbol.qualifiedName == "scala.Unit"
     }
 
+    def isMutableType: Boolean = {
+      val symbol = tree.getTypeSymbol
+      symbol.qualifiedName.startsWith("java.") || symbol.qualifiedName.contains("mutable")
+    }
+
     def isLazy: Boolean = tree.symbol != null && tree.symbol.isLazy
 
     def isVal: Boolean = tree.symbol != null && tree.symbol.kindString.contains("value")
