@@ -18,6 +18,16 @@ import scala.jdk.CollectionConverters._
 import scala.reflect.internal.util.SourceFile
 import scala.util.Using.{resource, resources}
 
+/**
+ *
+ * @param owner owner of the repository
+ * @param name name of the repository
+ * @param branch main branch name
+ * @param dir directory where the project should be placed
+ * @param outputDir directory where the metric results should be placed
+ * @param labels list of labels referring to bugs
+ * @param metrics list of metrics to be evaluated
+ */
 class Validator(owner: String, name: String, branch: String, dir: File, outputDir: File, labels: List[String], metrics: List[MetricProducer]) {
   private val repo = new Repo(owner, name, branch, dir, labels)
   private val latestResults = mutable.Map[String, Result]()

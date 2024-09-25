@@ -7,7 +7,7 @@
     </option>
     <option name="testKind" value="Class" />
     <option name="testClassPath" value="validator.ParadigmScoreFractionValidatorTest" />
-    <option name="workingDirectory" value="C:\Users\SvenK\Documents\ScalaMetrics" />
+    <option name="workingDirectory" value="C:\Users\IvoBr\IdeaProjects\ScalaMetrics" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
