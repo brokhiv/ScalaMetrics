@@ -176,8 +176,8 @@ class ParadigmScoreBool(override val compiler: Compiler) extends MethodMetric {
 
     val hasPoints = (fScore != 0 || oScore != 0).toInt
     val score = (fScore - oScore) \ (fScore + oScore)
-    val entropy = -nlogn(fScore \ (fScore + oScore)) - nlogn(oScore \ (fScore + oScore))
-    val gini = 1 - math.pow(fScore \ (fScore + oScore), 2) - math.pow(oScore \ (fScore + oScore), 2)
+    val entropy = -nlogn(fScore \! (fScore + oScore)) - nlogn(oScore \! (fScore + oScore))
+    val gini = 1 - math.pow(fScore \! (fScore + oScore), 2) - math.pow(oScore \! (fScore + oScore), 2)
 
     List(
       MetricResult("IsRecursive", f1),
