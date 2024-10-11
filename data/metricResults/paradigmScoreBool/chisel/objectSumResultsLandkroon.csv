@@ -1,0 +1,1169 @@
+commit,faults,path,IsRecursive,IsNested,HasNestedMethods,HasFunctions,IsFunction,HasFunctionParameters,HasHigherOrderCalls,HasFunctionCalls,HasCurrying,HasPatternMatching,HasLazyValues,HasMultipleParameterLists,FunctionalScoreBool,HasVariables,HasVariableDefinitions,HasInnerVariableAssignment,HasOuterVariableUsage,HasOuterVariableAssignment,HasSideEffects,IsSideEffect,HasSideEffectCalls,HasSideEffectFunctions,ImperativeScoreBool,HasPointsBool,ParadigmScoreBool
+HEAD,1,package internal - object BiConnect,1.0,0.0,1.0,4.0,0.0,0.0,4.0,0.0,0.0,7.0,2.0,2.0,21.0,0.0,0.0,0.0,0.0,0.0,6.0,6.0,4.0,2.0,18.0,8.0,2.0
+HEAD,0,package chisel3 - object SpecifiedDirection,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,1.0,6.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,3.0,2.0
+HEAD,0,package chisel3 - object ActualDirection,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - object cloneSupertype,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,1.0,0.0
+HEAD,0,package chisel3 - object getRecursiveFields,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - object getMatchedFields,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - object chiselTypeOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package chisel3 - object Input,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Output,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Flipped,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,1,package chisel3 - class Data,0.0,0.0,2.0,11.0,0.0,0.0,11.0,0.0,0.0,15.0,2.0,9.0,50.0,11.0,0.0,0.0,11.0,8.0,22.0,18.0,17.0,2.0,89.0,38.0,-1.0
+HEAD,0,package chisel3 - object Data,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Data - <$anon: chisel3.reflect.DataMirror.HasMatchingZipOfChildren[chisel3.Data]>,0.0,0.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0
+HEAD,0,package chisel3 - object Data - <$anon: chisel3.reflect.DataMirror.HasMatchingZipOfChildren[chisel3.Data]> - class VecOptOps,0.0,0.0,0.0,2.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - object Data - <$anon: chisel3.reflect.DataMirror.HasMatchingZipOfChildren[chisel3.Data]> - class RecordOptGet,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - object Data - class DataEquality,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0
+HEAD,0,package chisel3 - trait WireFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - trait WireDefaultImpl,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,4.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,4.0,3.0
+HEAD,0,package chisel3 - object DontCare,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,3.0,2.0,3.0,0.0,8.0,3.0,0.0
+HEAD,1,package chisel3 - class Aggregate,1.0,0.0,1.0,4.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,3.0,15.0,1.0,1.0,1.0,0.0,0.0,3.0,2.0,2.0,1.0,11.0,5.0,2.0
+HEAD,0,package chisel3 - trait VecFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,1,package chisel3 - class Vec,0.0,0.0,3.0,11.0,0.0,3.0,9.0,1.0,0.0,6.0,5.0,7.0,45.0,0.0,0.0,0.0,0.0,1.0,8.0,5.0,8.0,5.0,27.0,16.0,8.0
+HEAD,0,package chisel3 - object VecInit,0.0,0.0,0.0,12.0,1.0,8.0,7.0,4.0,3.0,3.0,0.0,17.0,55.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,12.0,17.0,13.0
+HEAD,0,package chisel3 - trait VecLike,0.0,0.0,0.0,15.0,0.0,15.0,7.0,0.0,0.0,0.0,0.0,9.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,16.0
+HEAD,0,package chisel3 - class Record,0.0,0.0,0.0,9.0,0.0,0.0,9.0,1.0,0.0,7.0,6.0,1.0,33.0,3.0,1.0,1.0,2.0,1.0,6.0,4.0,6.0,3.0,27.0,13.0,4.0
+HEAD,0,package chisel3 - trait IgnoreSeqInBundle,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class Bundle,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,2.0
+HEAD,0,package core - trait Lookupable,0.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,1,package core - object Lookupable,1.0,0.0,13.0,14.0,0.0,1.0,9.0,10.0,0.0,9.0,4.0,5.0,66.0,0.0,0.0,0.0,0.0,2.0,5.0,0.0,5.0,0.0,12.0,16.0,11.0
+HEAD,0,package core - object Lookupable - class SimpleLookupable,0.0,0.0,0.0,2.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package core - object Lookupable - method lookupInstance - <$anon: chisel3.experimental.hierarchy.core.Lookupable[chisel3.experimental.hierarchy.core.Instance[B]]>,0.0,0.0,0.0,2.0,0.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package core - object Lookupable - method lookupModule - <$anon: chisel3.experimental.hierarchy.core.Lookupable[B]>,0.0,0.0,0.0,2.0,0.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package core - object Lookupable - method lookupData - <$anon: chisel3.experimental.hierarchy.core.Lookupable[B]>,0.0,0.0,1.0,2.0,0.0,2.0,1.0,2.0,0.0,1.0,1.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package core - object Lookupable - method lookupMem - <$anon: chisel3.experimental.hierarchy.core.Lookupable[B]>,0.0,0.0,0.0,2.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package core - object Lookupable - method lookupIterable - <$anon: chisel3.experimental.hierarchy.core.Lookupable[F[B]]>,0.0,0.0,0.0,2.0,0.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package core - object Lookupable - method lookupOption - <$anon: chisel3.experimental.hierarchy.core.Lookupable[Option[B]]>,0.0,0.0,0.0,2.0,0.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package core - object Lookupable - method lookupEither - <$anon: chisel3.experimental.hierarchy.core.Lookupable[Either[L R]]>,0.0,0.0,0.0,2.0,0.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package core - object Lookupable - method lookupTuple2 - <$anon: chisel3.experimental.hierarchy.core.Lookupable[(X  Y)]>,0.0,0.0,0.0,2.0,0.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package core - object Lookupable - method lookupIsInstantiable - <$anon: chisel3.experimental.hierarchy.core.Lookupable[B]>,0.0,0.0,0.0,2.0,0.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - package simulator - package object simulator - class SimulatedModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package chisel3 - package simulator - package object simulator - class AnySimulatedModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,4.0,4.0,4.0,3.0,4.0,0.0,23.0,4.0,-4.0
+HEAD,0,package chisel3 - package simulator - package object simulator - object AnySimulatedModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - package simulator - package object simulator - class ChiselSimulation,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package simulator - package object simulator - class ChiselWorkspace,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,7.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,6.0,1.0,0.0
+HEAD,1,package internal - object MonoConnect,2.0,0.0,1.0,2.0,0.0,0.0,2.0,0.0,0.0,7.0,1.0,1.0,16.0,0.0,0.0,0.0,0.0,0.0,6.0,5.0,4.0,1.0,16.0,9.0,2.0
+HEAD,0,package internal - object checkConnect,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,1.0,0.0,7.0,3.0,0.0
+HEAD,1,package experimental - package dataview - package object dataview,2.0,0.0,3.0,2.0,0.0,0.0,2.0,1.0,1.0,6.0,1.0,1.0,19.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,7.0,7.0,6.0
+HEAD,0,package experimental - package dataview - package object dataview - class DataViewable,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package experimental - package dataview - package object dataview - class RecordUpcastable,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,1,package chisel3 - class Element,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,3.0,0.0,1.0,8.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,1.0,0.0,6.0,7.0,4.0
+HEAD,0,package internal - class Namespace,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,1.0,1.0,1.0,0.0,0.0,3.0,0.0,3.0,0.0,9.0,4.0,0.0
+HEAD,0,package internal - object Namespace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class IdGen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,1.0,1.0,0.0,1.0,0.0,7.0,2.0,-2.0
+HEAD,1,package internal - trait HasId,0.0,0.0,0.0,4.0,0.0,1.0,4.0,1.0,0.0,8.0,7.0,0.0,25.0,14.0,0.0,0.0,14.0,6.0,10.0,8.0,10.0,0.0,62.0,26.0,-7.0
+HEAD,0,package internal - trait NamedComponent,0.0,0.0,2.0,2.0,0.0,0.0,2.0,0.0,0.0,4.0,3.0,0.0,13.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,2.0,0.0,6.0,5.0,1.0
+HEAD,0,package internal - class DynamicContext,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0
+HEAD,1,package internal - object Builder,1.0,0.0,2.0,9.0,0.0,1.0,9.0,2.0,0.0,12.0,2.0,2.0,40.0,27.0,0.0,0.0,27.0,15.0,29.0,19.0,26.0,4.0,147.0,50.0,-22.0
+HEAD,0,package internal - object Builder - <$anon: ThreadLocal[chisel3.internal.ChiselContext]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object DynamicNamingStack,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package internal - object castToInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,1,package chisel3 - object IO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,1,package chisel3 - object FlatIO,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object SpecifiedDirection,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,1.0,6.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,3.0,2.0
+HEAD,0,package chisel3 - object ActualDirection,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - object cloneSupertype,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,1.0,0.0
+HEAD,0,package chisel3 - object getRecursiveFields,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,1,package chisel3 - object getMatchedFields,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - object chiselTypeOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package chisel3 - object Input,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Output,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Flipped,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,1,package chisel3 - class Data,0.0,0.0,2.0,10.0,0.0,0.0,10.0,0.0,0.0,15.0,2.0,9.0,48.0,11.0,0.0,0.0,11.0,8.0,21.0,17.0,16.0,2.0,86.0,37.0,-1.0
+HEAD,0,package chisel3 - object Data,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Data - <$anon: chisel3.reflect.DataMirror.HasMatchingZipOfChildren[chisel3.Data]>,0.0,0.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0
+HEAD,0,package chisel3 - object Data - <$anon: chisel3.reflect.DataMirror.HasMatchingZipOfChildren[chisel3.Data]> - class VecOptOps,0.0,0.0,0.0,2.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - object Data - <$anon: chisel3.reflect.DataMirror.HasMatchingZipOfChildren[chisel3.Data]> - class RecordOptGet,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - object Data - class DataEquality,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0
+HEAD,0,package chisel3 - trait WireFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - trait WireDefaultImpl,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,4.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,4.0,3.0
+HEAD,0,package chisel3 - object DontCare,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,3.0,2.0,3.0,0.0,8.0,3.0,0.0
+HEAD,1,package internal - object MonoConnect,2.0,0.0,1.0,2.0,0.0,0.0,2.0,0.0,0.0,7.0,1.0,1.0,16.0,0.0,0.0,0.0,0.0,0.0,6.0,5.0,4.0,1.0,16.0,9.0,2.0
+HEAD,0,package internal - object checkConnect,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,1.0,0.0,7.0,3.0,0.0
+HEAD,1,package experimental - package dataview - package object dataview,2.0,0.0,3.0,2.0,0.0,0.0,2.0,1.0,1.0,6.0,1.0,1.0,19.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,7.0,7.0,6.0
+HEAD,0,package experimental - package dataview - package object dataview - class DataViewable,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package experimental - package dataview - package object dataview - class RecordUpcastable,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package naming - trait HasCustomIdentifier,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package naming - object IdentifierProposer,1.0,0.0,1.0,3.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,9.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,6.0,3.0,2.0
+HEAD,1,package experimental - object BoringUtils,0.0,0.0,3.0,4.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,1.0,14.0,0.0,0.0,0.0,0.0,0.0,4.0,1.0,4.0,4.0,13.0,4.0,0.0
+HEAD,0,package experimental - object BoringUtils - method addSource - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object BoringUtils - method addSource - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object BoringUtils - method addSource - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object BoringUtils - method addSink - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object BoringUtils - method addSink - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package reflect - object DataMirror,3.0,0.0,2.0,13.0,0.0,7.0,13.0,4.0,0.0,8.0,1.0,10.0,61.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,18.0,14.0
+HEAD,0,package reflect - object DataMirror - object internal,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package reflect - object DataMirror - <$anon: chisel3.reflect.DataMirror.HasMatchingZipOfChildren[chisel3.connectable.Alignment]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package reflect - object DataMirror - trait HasMatchingZipOfChildren,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package chisel3 - class RawModule,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,3.0,1.0,0.0,10.0,3.0,0.0,0.0,3.0,1.0,5.0,3.0,5.0,2.0,22.0,5.0,-2.0
+HEAD,0,package chisel3 - trait RequireAsyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - trait RequireSyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package internal - package object internal,0.0,0.0,1.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package chisel3 - package internal - package object internal - class LegacyModule,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,3.0,1.0,3.0,1.0,11.0,4.0,-1.0
+HEAD,0,package chisel3 - package internal - package object internal - class LegacyBlackBox,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0
+HEAD,0,package chisel3 - package internal - package object internal - class ViewParentAPI,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,1,package firrtl - object Converter,4.0,0.0,1.0,4.0,0.0,0.0,4.0,0.0,0.0,13.0,1.0,0.0,27.0,1.0,1.0,1.0,0.0,0.0,2.0,0.0,2.0,0.0,7.0,15.0,13.0
+HEAD,1,package plugin - class BundleComponent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package plugin - class BundleComponent - class BundlePhase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,6.0,1.0,-1.0
+HEAD,1,package plugin - class BundleComponent - class MyTypingTransformer,0.0,0.0,1.0,2.0,0.0,0.0,2.0,1.0,0.0,4.0,0.0,0.0,10.0,4.0,1.0,1.0,4.0,0.0,2.0,0.0,2.0,0.0,14.0,6.0,0.0
+HEAD,1,package internal - object MonoConnect,2.0,0.0,1.0,2.0,0.0,0.0,2.0,0.0,0.0,6.0,0.0,1.0,14.0,0.0,0.0,0.0,0.0,0.0,4.0,3.0,2.0,1.0,10.0,7.0,3.0
+HEAD,0,package chisel3 - object Mem,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,1,package chisel3 - class MemBase,0.0,0.0,0.0,4.0,0.0,3.0,4.0,0.0,0.0,1.0,0.0,14.0,26.0,1.0,0.0,0.0,1.0,0.0,10.0,7.0,10.0,0.0,29.0,15.0,5.0
+HEAD,0,package chisel3 - object SyncReadMem,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,3.0,2.0
+HEAD,0,package chisel3 - class SyncReadMem,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,4.0,3.0
+HEAD,0,package chisel3 - package experimental - class ExtModule,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,2.0,1.0,2.0,1.0,9.0,2.0,0.0
+HEAD,1,package chisel3 - class BlackBox,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,2.0,0.0,6.0,1.0,0.0,0.0,1.0,1.0,2.0,1.0,1.0,1.0,8.0,3.0,1.0
+HEAD,0,package chisel3 - class RawModule,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,2.0,1.0,0.0,9.0,3.0,0.0,0.0,3.0,1.0,5.0,3.0,5.0,2.0,22.0,5.0,-2.0
+HEAD,0,package chisel3 - trait RequireAsyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - trait RequireSyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package chisel3 - package internal - package object internal,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,1,package chisel3 - package internal - package object internal - class LegacyModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,0.0,5.0,3.0,1.0
+HEAD,1,package chisel3 - package internal - package object internal - class LegacyBlackBox,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package chisel3 - package internal - package object internal - class ViewParentAPI,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package chisel3 - class Aggregate,0.0,0.0,1.0,5.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,2.0,15.0,2.0,1.0,1.0,1.0,1.0,3.0,3.0,2.0,2.0,16.0,6.0,3.0
+HEAD,0,package chisel3 - trait VecFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package chisel3 - class Vec,0.0,0.0,1.0,10.0,0.0,3.0,8.0,1.0,0.0,6.0,3.0,7.0,39.0,2.0,1.0,1.0,1.0,1.0,8.0,5.0,8.0,4.0,31.0,16.0,8.0
+HEAD,0,package chisel3 - object VecInit,0.0,0.0,0.0,12.0,1.0,8.0,7.0,4.0,3.0,3.0,0.0,17.0,55.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,4.0,4.0,12.0,17.0,13.0
+HEAD,0,package chisel3 - trait VecLike,0.0,0.0,0.0,15.0,0.0,15.0,7.0,0.0,0.0,0.0,0.0,9.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,16.0
+HEAD,0,package chisel3 - class Record,0.0,0.0,0.0,4.0,0.0,0.0,4.0,1.0,0.0,6.0,0.0,0.0,15.0,0.0,0.0,0.0,0.0,1.0,4.0,3.0,3.0,0.0,11.0,9.0,4.0
+HEAD,0,package chisel3 - trait IgnoreSeqInBundle,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package chisel3 - class Bundle,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,2.0,0.0,9.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0,2.0,0.0,11.0,5.0,1.0
+HEAD,0,package internal - class Namespace,2.0,0.0,1.0,2.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,3.0,1.0,8.0,4.0,1.0
+HEAD,0,package internal - object Namespace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class IdGen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,1.0,1.0,0.0,1.0,0.0,7.0,2.0,-2.0
+HEAD,0,package internal - trait InstanceId,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait HasId,0.0,0.0,2.0,8.0,0.0,2.0,8.0,2.0,0.0,8.0,1.0,0.0,31.0,17.0,0.0,0.0,17.0,4.0,13.0,9.0,10.0,2.0,72.0,26.0,-10.0
+HEAD,0,package internal - trait NamedComponent,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,5.0,2.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,5.0,2.0,0.0
+HEAD,1,package internal - object Builder,1.0,0.0,1.0,7.0,0.0,1.0,7.0,2.0,0.0,10.0,1.0,0.0,30.0,23.0,0.0,0.0,23.0,13.0,28.0,18.0,26.0,3.0,134.0,45.0,-24.0
+HEAD,0,package internal - object Builder - <$anon: ThreadLocal[chisel3.internal.ChiselContext]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object DynamicNamingStack,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package internal - object castToInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,1,package plugin - class BundleComponent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package plugin - class BundleComponent - class BundlePhase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,6.0,1.0,-1.0
+HEAD,1,package plugin - class BundleComponent - class MyTypingTransformer,0.0,0.0,0.0,2.0,0.0,0.0,2.0,1.0,0.0,2.0,0.0,0.0,7.0,4.0,1.0,1.0,4.0,0.0,2.0,0.0,2.0,0.0,14.0,4.0,-2.0
+HEAD,0,package chisel3 - class Aggregate,2.0,0.0,1.0,7.0,0.0,0.0,7.0,0.0,0.0,4.0,0.0,2.0,23.0,2.0,1.0,1.0,1.0,1.0,4.0,3.0,3.0,2.0,18.0,8.0,4.0
+HEAD,0,package chisel3 - trait VecFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package chisel3 - class Vec,0.0,0.0,1.0,10.0,0.0,3.0,8.0,1.0,0.0,6.0,3.0,7.0,39.0,2.0,1.0,1.0,1.0,1.0,8.0,5.0,8.0,4.0,31.0,16.0,8.0
+HEAD,0,package chisel3 - object VecInit,0.0,0.0,0.0,3.0,0.0,2.0,2.0,1.0,0.0,1.0,0.0,4.0,13.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,4.0,3.0
+HEAD,0,package chisel3 - trait VecLike,0.0,0.0,0.0,15.0,0.0,15.0,7.0,0.0,0.0,0.0,0.0,9.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,16.0
+HEAD,0,package chisel3 - class Record,0.0,0.0,0.0,4.0,0.0,0.0,4.0,1.0,0.0,6.0,0.0,0.0,15.0,0.0,0.0,0.0,0.0,1.0,4.0,3.0,3.0,0.0,11.0,9.0,4.0
+HEAD,0,package chisel3 - trait IgnoreSeqInBundle,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package chisel3 - class Bundle,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,2.0,0.0,9.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0,2.0,0.0,11.0,5.0,1.0
+HEAD,1,package chisel3 - object SeqUtils,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,4.0,9.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,4.0,3.0
+HEAD,1,package <empty> - package chisel3 - package object chisel3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package <empty> - package chisel3 - package object chisel3 - class fromBigIntToLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package <empty> - package chisel3 - package object chisel3 - class fromStringToLiteral,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package <empty> - package chisel3 - package object chisel3 - class fromIntToBinaryPoint,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - package chisel3 - package object chisel3 - class fromBooleanToLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - package chisel3 - package object chisel3 - class fromIntToWidth,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - package chisel3 - package object chisel3 - class PrintableHelper,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - class Aggregate,2.0,0.0,1.0,7.0,0.0,0.0,7.0,0.0,0.0,4.0,0.0,2.0,23.0,1.0,1.0,1.0,0.0,1.0,4.0,3.0,3.0,2.0,16.0,8.0,4.0
+HEAD,0,package chisel3 - trait VecFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,1,package chisel3 - class Vec,0.0,0.0,1.0,11.0,0.0,3.0,9.0,1.0,0.0,6.0,3.0,7.0,41.0,1.0,1.0,1.0,0.0,1.0,8.0,5.0,8.0,4.0,29.0,16.0,8.0
+HEAD,0,package chisel3 - object VecInit,0.0,0.0,0.0,3.0,0.0,2.0,2.0,1.0,0.0,1.0,0.0,4.0,13.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,4.0,3.0
+HEAD,1,package chisel3 - trait VecLike,0.0,0.0,0.0,15.0,0.0,15.0,8.0,0.0,0.0,0.0,0.0,9.0,47.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,16.0
+HEAD,1,package chisel3 - class Record,0.0,0.0,0.0,7.0,0.0,0.0,7.0,1.0,0.0,6.0,0.0,0.0,21.0,0.0,0.0,0.0,0.0,1.0,4.0,3.0,4.0,1.0,13.0,9.0,4.0
+HEAD,0,package chisel3 - trait IgnoreSeqInBundle,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package chisel3 - class Bundle,0.0,0.0,1.0,2.0,0.0,0.0,2.0,0.0,0.0,4.0,3.0,0.0,12.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0,3.0,1.0,13.0,6.0,2.0
+HEAD,1,package internal - object ExceptionHelpers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package internal - object ExceptionHelpers - class ThrowableHelpers,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,0.0
+HEAD,1,package internal - class ChiselException,1.0,0.0,1.0,3.0,0.0,0.0,3.0,0.0,0.0,1.0,1.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,4.0,3.0
+HEAD,0,package internal - object throwException,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class ErrorLog,0.0,0.0,1.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0,2.0,1.0,13.0,6.0,-2.0
+HEAD,0,package internal - class LogEntry,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package internal - class Error,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class Warning,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class Info,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object requireIsHardware,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package internal - object requireIsChiselType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package internal - object BindingDirection,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package internal - trait Binding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait UnconstrainedBinding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait ConstrainedBinding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package internal - trait ConditionalDeclarable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class ChildBinding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class SampleElementBinding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class MemTypeBinding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - trait Num,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,11.0
+HEAD,1,package chisel3 - trait NumObject,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,6.0,2.0
+HEAD,0,package internal - class Namespace,2.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,3.0,1.0
+HEAD,0,package internal - object Namespace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class IdGen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,1.0,1.0,0.0,1.0,0.0,7.0,2.0,-2.0
+HEAD,0,package internal - trait InstanceId,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait HasId,0.0,0.0,2.0,6.0,0.0,2.0,6.0,2.0,0.0,6.0,1.0,0.0,25.0,10.0,0.0,0.0,10.0,3.0,12.0,9.0,9.0,2.0,55.0,22.0,-6.0
+HEAD,0,package internal - trait NamedComponent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,1.0
+HEAD,1,package internal - object Builder,1.0,0.0,1.0,5.0,0.0,1.0,5.0,2.0,0.0,10.0,1.0,0.0,26.0,21.0,0.0,0.0,21.0,12.0,25.0,17.0,23.0,2.0,121.0,42.0,-21.0
+HEAD,0,package internal - object Builder - <$anon: ThreadLocal[chisel3.internal.ChiselContext]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object DynamicNamingStack,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package internal - object castToInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,1,package aop - object Select,5.0,0.0,0.0,20.0,0.0,3.0,20.0,3.0,0.0,11.0,0.0,6.0,68.0,15.0,1.0,1.0,15.0,0.0,19.0,1.0,17.0,3.0,72.0,25.0,5.0
+HEAD,0,package aop - object Select - trait Serializeable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package aop - object Select - trait Predicate,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package aop - object Select - class When,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package aop - object Select - class WhenNot,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package aop - object Select - class PredicatedConnect,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package aop - object Select - class Stop,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package aop - object Select - class Printf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object SpecifiedDirection,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,3.0,2.0
+HEAD,0,package chisel3 - object ActualDirection,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - package experimental - object DataMirror,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package experimental - object DataMirror - object internal,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object cloneSupertype,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,1.0,0.0
+HEAD,0,package chisel3 - object chiselTypeOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package chisel3 - object Input,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Output,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Flipped,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - class Data,0.0,0.0,1.0,5.0,0.0,0.0,5.0,0.0,0.0,12.0,0.0,8.0,31.0,9.0,0.0,0.0,9.0,5.0,17.0,13.0,12.0,0.0,65.0,25.0,-4.0
+HEAD,0,package chisel3 - trait WireFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - object WireDefault,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,4.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,4.0,3.0
+HEAD,1,package chisel3 - package internal - object InternalDontCare,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,0.0,5.0,2.0,-1.0
+HEAD,0,package chisel3 - object Module,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package chisel3 - class Module,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,5.0,2.0,3.0,3.0,3.0,0.0,21.0,5.0,-5.0
+HEAD,1,package chisel3 - package experimental - object IO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package chisel3 - package internal - object BaseModule,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - package internal - object BaseModule - class ClonePorts,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package internal - object BaseModule - method cloneIORecord - <$anon: chisel3.internal.firrtl.DefInstance>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - class BaseModule,1.0,0.0,2.0,6.0,0.0,0.0,6.0,1.0,0.0,5.0,2.0,0.0,23.0,6.0,0.0,0.0,6.0,0.0,10.0,6.0,8.0,3.0,39.0,16.0,-2.0
+HEAD,0,package naming - trait NamingContextInterface,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package naming - object DummyNamer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,1,package naming - class NamingContext,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,6.0,2.0,0.0,0.0,2.0,1.0,3.0,2.0,2.0,1.0,13.0,3.0,0.0
+HEAD,0,package naming - class NamingStack,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,-1.0
+HEAD,0,package chisel3 - trait ToBoolable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class Bits,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,4.0,0.0,17.0,27.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,10.0,0.0,20.0,25.0,9.0
+HEAD,0,package chisel3 - class UInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,30.0,33.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,31.0,30.0
+HEAD,0,package chisel3 - class SInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,28.0,31.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,29.0,28.0
+HEAD,0,package chisel3 - trait Reset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object Reset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class ResetType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,0.0,6.0,2.0,0.0
+HEAD,0,package chisel3 - object AsyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class AsyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,0.0,6.0,2.0,0.0
+HEAD,0,package chisel3 - class Bool,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,5.0,9.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,8.0,6.0
+HEAD,0,package chisel3 - package experimental - trait HasBinaryPoint,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - package experimental - class FixedPoint,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,0.0,33.0,42.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,0.0,6.0,35.0,33.0
+HEAD,0,package chisel3 - package experimental - object FixedPoint,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - object FixedPoint - object Implicits - class fromDoubleToLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - object FixedPoint - object Implicits - class fromBigDecimalToLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - class Interval,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,44.0,55.0,0.0,0.0,0.0,0.0,0.0,6.0,2.0,5.0,0.0,13.0,46.0,40.0
+HEAD,0,package chisel3 - package experimental - object Interval,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,5.0,3.0
+HEAD,0,package chisel3 - package experimental - object Interval - object Implicits - class fromBigIntToLiteralInterval,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - object Interval - object Implicits - class fromBigDecimalToLiteralInterval,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package injecting - class InjectorAspect,0.0,0.0,0.0,2.0,0.0,0.0,2.0,1.0,0.0,1.0,2.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package util - object MixedVecInit,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object MixedVec,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package util - class MixedVec,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,2.0,1.0
+HEAD,0,package chisel3 - class RawModule,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,2.0,1.0,0.0,9.0,3.0,0.0,0.0,3.0,1.0,5.0,3.0,5.0,2.0,22.0,5.0,-2.0
+HEAD,0,package chisel3 - trait RequireAsyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - trait RequireSyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package internal - package object internal,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package internal - package object internal - class LegacyModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,0.0,5.0,3.0,1.0
+HEAD,0,package chisel3 - package internal - package object internal - class LegacyBlackBox,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package chisel3 - trait ToBoolable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class Bits,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,4.0,0.0,17.0,27.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,10.0,0.0,20.0,25.0,9.0
+HEAD,1,package chisel3 - class UInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,31.0,34.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,32.0,31.0
+HEAD,1,package chisel3 - class SInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,29.0,32.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,30.0,29.0
+HEAD,0,package chisel3 - trait Reset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object Reset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class ResetType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,0.0,6.0,2.0,0.0
+HEAD,0,package chisel3 - object AsyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class AsyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,0.0,6.0,2.0,0.0
+HEAD,0,package chisel3 - class Bool,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,5.0,9.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,8.0,6.0
+HEAD,0,package chisel3 - package experimental - trait HasBinaryPoint,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - package experimental - class FixedPoint,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,0.0,33.0,42.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,0.0,6.0,35.0,33.0
+HEAD,0,package chisel3 - package experimental - object FixedPoint,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - object FixedPoint - object Implicits - class fromDoubleToLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - object FixedPoint - object Implicits - class fromBigDecimalToLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - class Interval,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,44.0,55.0,0.0,0.0,0.0,0.0,0.0,6.0,2.0,5.0,0.0,13.0,46.0,40.0
+HEAD,0,package chisel3 - package experimental - object Interval,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,5.0,3.0
+HEAD,0,package chisel3 - package experimental - object Interval - object Implicits - class fromBigIntToLiteralInterval,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - object Interval - object Implicits - class fromBigDecimalToLiteralInterval,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class PrimOp,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class Arg,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class Node,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package firrtl - class LitArg,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package firrtl - class ILit,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class ULit,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class SLit,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class FPLit,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class IntervalLit,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class ModuleIO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class Slot,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class Index,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object Width,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package firrtl - class Width,0.0,0.0,0.0,6.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,6.0
+HEAD,0,package firrtl - class UnknownWidth,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - class KnownWidth,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - object BinaryPoint,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class BinaryPoint,0.0,0.0,0.0,6.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,6.0
+HEAD,0,package firrtl - object UnknownBinaryPoint,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - class KnownBinaryPoint,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - class MemPortDirection,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - trait RangeType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object IntervalRange,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package firrtl - class IntervalRange,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,12.0
+HEAD,0,package firrtl - class Command,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class Definition,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class Component,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class Namespace,2.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,3.0,1.0
+HEAD,0,package internal - object Namespace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class IdGen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,5.0,1.0,-1.0
+HEAD,0,package internal - trait InstanceId,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package internal - trait HasId,0.0,0.0,2.0,6.0,0.0,2.0,6.0,2.0,0.0,6.0,1.0,0.0,25.0,10.0,0.0,0.0,10.0,3.0,11.0,8.0,8.0,2.0,52.0,21.0,-5.0
+HEAD,0,package internal - trait NamedComponent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,1,package internal - object Builder,1.0,0.0,0.0,3.0,0.0,1.0,3.0,1.0,0.0,9.0,1.0,0.0,19.0,14.0,0.0,0.0,14.0,7.0,24.0,19.0,19.0,1.0,98.0,39.0,-20.0
+HEAD,0,package internal - object Builder - <$anon: ThreadLocal[chisel3.internal.ChiselContext]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object DynamicNamingStack,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package internal - object castToInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package chisel3 - object SpecifiedDirection,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,3.0,2.0
+HEAD,0,package chisel3 - object ActualDirection,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - package experimental - object DataMirror,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package experimental - object DataMirror - object internal,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object cloneSupertype,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,1.0,0.0
+HEAD,0,package chisel3 - object chiselTypeOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package chisel3 - object Input,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Output,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Flipped,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,2,package chisel3 - class Data,0.0,0.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,12.0,0.0,8.0,28.0,9.0,0.0,0.0,9.0,5.0,16.0,12.0,12.0,0.0,63.0,25.0,-3.0
+HEAD,2,package chisel3 - trait WireFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - object WireDefault,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,4.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,4.0,3.0
+HEAD,0,package chisel3 - package internal - object InternalDontCare,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,0.0,5.0,2.0,-1.0
+HEAD,2,package chisel3 - object Module,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package chisel3 - package experimental - object IO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,2,package chisel3 - package internal - object BaseModule,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - package internal - object BaseModule - class ClonePorts,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,2,package chisel3 - package internal - object BaseModule - method cloneIORecord - <$anon: chisel3.internal.firrtl.DefInstance>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,2,package chisel3 - package experimental - class BaseModule,1.0,0.0,2.0,4.0,0.0,0.0,4.0,1.0,0.0,4.0,2.0,0.0,18.0,6.0,0.0,0.0,6.0,0.0,9.0,5.0,7.0,2.0,35.0,14.0,-3.0
+HEAD,0,package chisel3 - object when,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,2,package chisel3 - class WhenContext,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,2.0,1.0
+HEAD,2,package internal - object MonoConnect,1.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,3.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,2.0,1.0,9.0,3.0,0.0
+HEAD,0,package chisel3 - object Mem,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,2,package chisel3 - class MemBase,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,7.0,11.0,0.0,0.0,0.0,0.0,0.0,4.0,2.0,4.0,0.0,10.0,7.0,3.0
+HEAD,0,package chisel3 - object SyncReadMem,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,3.0,2.0
+HEAD,0,package chisel3 - class SyncReadMem,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,2,package chisel3 - object Reg,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - object RegNext,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,2.0,0.0
+HEAD,2,package chisel3 - object RegInit,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package internal - object requireIsHardware,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package internal - object requireIsChiselType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package internal - object BindingDirection,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package internal - trait Binding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait UnconstrainedBinding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait ConstrainedBinding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package internal - class ChildBinding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class SampleElementBinding,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class Namespace,2.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,3.0,1.0
+HEAD,0,package internal - object Namespace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class IdGen,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,5.0,1.0,-1.0
+HEAD,0,package internal - trait InstanceId,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait HasId,0.0,0.0,2.0,6.0,0.0,2.0,6.0,2.0,0.0,6.0,1.0,0.0,25.0,10.0,0.0,0.0,10.0,3.0,11.0,8.0,8.0,2.0,52.0,21.0,-5.0
+HEAD,0,package internal - trait NamedComponent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,2,package internal - object Builder,1.0,0.0,0.0,3.0,0.0,1.0,3.0,1.0,0.0,7.0,1.0,0.0,17.0,10.0,0.0,0.0,10.0,5.0,21.0,17.0,16.0,1.0,80.0,32.0,-17.0
+HEAD,0,package internal - object Builder - <$anon: ThreadLocal[chisel3.internal.ChiselContext]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object DynamicNamingStack,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package internal - object castToInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,2,package chisel3 - class RawModule,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,2.0,1.0,0.0,9.0,3.0,0.0,0.0,3.0,1.0,5.0,3.0,5.0,2.0,22.0,5.0,-2.0
+HEAD,0,package chisel3 - trait RequireAsyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - trait RequireSyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class MultiIOModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,-1.0
+HEAD,0,package chisel3 - package internal - class LegacyModule,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,0.0,0.0,1.0,0.0,3.0,2.0,3.0,1.0,11.0,3.0,-2.0
+HEAD,0,package testers - class BasicTester,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,4.0,3.0,0.0
+HEAD,2,package util - object ImplicitConversions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Mux1H,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object PriorityMux,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object MuxLookup,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,6.0,1.0,0.0
+HEAD,0,package util - object MuxCase,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,6.0,1.0,0.0
+HEAD,0,package experimental - trait InlineInstance - <$anon: chisel3.experimental.ChiselAnnotation with chisel3.experimental.RunFirrtlTransform>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - trait InlineInstance - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - trait FlattenInstance - <$anon: chisel3.experimental.ChiselAnnotation with chisel3.experimental.RunFirrtlTransform>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - trait FlattenInstance - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - class Valid,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Valid,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Pipe,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,3.0,2.0
+HEAD,0,package util - object Cat,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - class ChiselLoadMemoryAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object loadMemoryFromFile,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,-1.0
+HEAD,0,package experimental - class LoadMemoryTransform,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package util - object FillInterleaved,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object PopCount,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object Fill,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,1.0,0.0
+HEAD,0,package util - object Reverse,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,0,package experimental - object BoringUtils,0.0,0.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,2.0,1.0,7.0,4.0,0.0
+HEAD,0,package experimental - object BoringUtils - method addSource - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object BoringUtils - method addSource - <$anon: chisel3.experimental.ChiselAnnotation with chisel3.experimental.RunFirrtlTransform>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object BoringUtils - method addSource - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object BoringUtils - method addSink - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object BoringUtils - method addSink - <$anon: chisel3.experimental.ChiselAnnotation with chisel3.experimental.RunFirrtlTransform>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,2,package util - object BitPat,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,1.0,1.0,1.0,0.0,0.0,2.0,0.0,2.0,1.0,8.0,3.0,0.0
+HEAD,0,package util - class BitPat,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package chisel3 - trait BackendCompilationUtilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object Driver,0.0,0.0,0.0,8.0,0.0,4.0,7.0,0.0,0.0,3.0,0.0,0.0,22.0,2.0,0.0,1.0,2.0,1.0,5.0,2.0,4.0,2.0,19.0,11.0,2.0
+HEAD,0,package util - object ReadyValidIO - class AddMethodsToReadyValid,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,4.0,2.0,-2.0
+HEAD,0,package util - class DecoupledIO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Decoupled,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package util - class IrrevocableIO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Irrevocable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package util - object EnqIO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object DeqIO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Queue,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,2.0,-2.0
+HEAD,0,package util - object MixedVecInit,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object MixedVec,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - class MixedVec,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,2.0,1.0
+HEAD,0,package util - object unless,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,0.0
+HEAD,0,package util - class SwitchContext,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,7.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,1.0,0.0,4.0,3.0,0.0
+HEAD,0,package util - object is,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,3.0,0.0,9.0,3.0,0.0
+HEAD,0,package util - object switch,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,2.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,2.0,1.0
+HEAD,0,package plugin - class ChiselPluginArguments,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package plugin - object ChiselPlugin,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package plugin - class ChiselPlugin,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package experimental - object Trace,1.0,0.0,2.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,1.0,10.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,1.0,7.0,4.0,2.0
+HEAD,0,package experimental - object Trace - method traceName - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object Trace - method traceName - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object Trace - class TraceAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object assert,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,9.0,13.0,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,1.0,13.0,11.0,4.0
+HEAD,0,package chisel3 - object assume,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,9.0,13.0,0.0,0.0,0.0,0.0,0.0,5.0,2.0,5.0,1.0,13.0,11.0,4.0
+HEAD,0,package chisel3 - object cover,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0
+HEAD,0,package chisel3 - object stop,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,3.0,2.0
+HEAD,0,package chisel3 - object VerificationStatement,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,0.0
+HEAD,0,package <empty> - object Version - trait Branch,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - object Version - class SemanticVersion,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package <empty> - object Version - object SemanticVersion,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package <empty> - object Version - object SemanticVersion - class OrderingExtensions,0.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package <empty> - object Version - object SemanticVersion - class OrderingExtensions - method orElseBy - <$anon: Ordering[A]>,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package <empty> - object Version - object Master,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - object Version - trait Repository,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - object Version - class GitHubRepository,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package connectable - trait Alignment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package connectable - class EmptyAlignment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package connectable - class AlignedWithRoot,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package connectable - class FlippedWithRoot,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package connectable - object Alignment,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package connectable - class ConnectableAlignment,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package connectable - object ConnectableAlignment,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package internal - class RuntimeDeprecatedTransform,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package internal - class chiselRuntimeDeprecated,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class CIRCTPassManager,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package passes - object CheckTypes,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package phases - class AddImplicitOutputAnnotationFile,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object printf,0.0,0.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,7.0,12.0,1.0,1.0,1.0,0.0,0.0,5.0,1.0,5.0,0.0,14.0,8.0,3.0
+HEAD,0,package chisel3 - object layer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,2.0,2.0,0.0,10.0,2.0,-1.0
+HEAD,0,package chisel3 - object layer - class Layer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package properties - class Class,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,4.0,2.0,0.0,0.0,2.0,1.0,5.0,4.0,4.0,1.0,19.0,5.0,-4.0
+HEAD,0,package properties - class ClassType - object Type - <$anon: chisel3.properties.ClassTypePropertyType[chisel3.properties.Property[chisel3.properties.ClassType] with ClassType.this.Type]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package properties - object ClassType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package properties - object AnyClassType - <$anon: chisel3.properties.RecursivePropertyType[chisel3.properties.Property[chisel3.properties.ClassType] with chisel3.properties.AnyClassType]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package properties - object Class,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package properties - object Class - class ClassDefinitionOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package properties - object Class - class ClassInstanceOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package firrtl - package passes - class InlineAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package decode - object QMCMinimizer,1.0,0.0,3.0,3.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,12.0,1.0,0.0,0.0,1.0,1.0,2.0,0.0,2.0,2.0,9.0,4.0,2.0
+HEAD,0,package decode - object QMCMinimizer - class Implicant,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,2.0,1.0,1.0,0.0,1.0,0.0,7.0,3.0,-1.0
+HEAD,0,package decode - object QMCMinimizer - method ordering - <$anon: Ordering[chisel3.util.experimental.decode.QMCMinimizer.Implicant]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package choice - package object choice - class Group,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package choice - package object choice - class Case,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package properties - class Path,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package properties - class TargetPath,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package properties - object DeletedPath,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package properties - object Path,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0
+HEAD,0,package properties - object Path - method apply - <$anon: chisel3.properties.TargetPath>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package properties - object Path - method apply - <$anon: chisel3.properties.TargetPath>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package properties - object Path - method apply - <$anon: chisel3.properties.TargetPath>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package properties - object Path - method apply - <$anon: chisel3.properties.TargetPath>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object PlusArgsValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object Warning,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - class Analog,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,1.0,0.0,6.0,3.0,1.0
+HEAD,0,package experimental - object Analog,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object pla,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package <empty> - object FirtoolVersionsTable,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package annotations - trait MemoryInitAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - class MemoryFileInlineAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package plugin - class DeprecateSFCComponent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package plugin - class DeprecateSFCComponent - class DeprecateSFCComponent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,6.0,1.0,-1.0
+HEAD,0,package plugin - class DeprecateSFCComponent - class MyTypingTransformer,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,3.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,4.0,2.0,1.0
+HEAD,0,package plugin - class DeprecateSFCComponent - class MyTypingTransformer - class GlobalCompat - object runReporting,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,-1.0
+HEAD,0,package chisel3 - class EnumType,2.0,0.0,1.0,4.0,0.0,0.0,4.0,0.0,0.0,6.0,0.0,10.0,27.0,1.0,0.0,0.0,1.0,0.0,6.0,4.0,5.0,1.0,18.0,21.0,10.0
+HEAD,0,package chisel3 - class ChiselEnum,0.0,0.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,3.0,14.0,4.0,0.0,0.0,4.0,2.0,3.0,0.0,3.0,0.0,16.0,10.0,3.0
+HEAD,0,package chisel3 - class ChiselEnum - object Type,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object EnumMacros,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,2.0,-1.0
+HEAD,0,package chisel3 - class UnsafeEnum,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object suppressEnumCastWarning,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,5.0,1.0,-1.0
+HEAD,0,package circt - object Implicits - class BooleanImplicits,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package hierarchy - class ModuleClone,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,5.0,4.0,0.0,0.0,4.0,1.0,4.0,3.0,2.0,0.0,18.0,7.0,-4.0
+HEAD,0,package chisel3 - object Const,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package phases - class AddDedupGroupAnnotations,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package stage - trait CLI,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package phases - class WriteOutputAnnotations,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,6.0,1.0,0.0
+HEAD,0,package chisel3 - object getVerilogString,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - object emitVerilog,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package circt - class PanamaCIRCTOM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class PanamaCIRCTOMEvaluator,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package circt - object PanamaCIRCTOMEvaluatorValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class PanamaCIRCTOMEvaluatorValueList,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class PanamaCIRCTOMEvaluatorValueTuple,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class PanamaCIRCTOMEvaluatorValueMap,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class PanamaCIRCTOMEvaluatorValuePath,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class PanamaCIRCTOMObject,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - package logger - package object logger - object LoggerOptionsView,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package decode - object EspressoMinimizer,0.0,0.0,1.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package options - class Stage,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package options - class Stage - method transform - <$anon: firrtl.options.Phase>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package options - class StageMain,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,-1.0
+HEAD,0,package util - object BinaryToGray,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object GrayToBinary,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package random - object XOR,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package random - object XNOR,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package random - trait LFSR,0.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package random - object LFSR,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class PanamaCIRCT,0.0,0.0,1.0,7.0,0.0,4.0,6.0,1.0,0.0,9.0,0.0,0.0,28.0,0.0,0.0,0.0,0.0,0.0,11.0,2.0,5.0,0.0,18.0,16.0,2.0
+HEAD,0,package circt - class PanamaCIRCT - method newStringCallback - <$anon: <error>>,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package circt - trait ForeignType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirAttribute,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirAttribute,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirNamedAttribute,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirNamedAttribute,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirBlock,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirBlock,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirRegion,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirRegion,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirIdentifier,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirIdentifier,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirLocation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirLocation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirOperation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirOperation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirOperationState,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirOperationState,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirStringRef,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package circt - object MlirStringRef,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirLogicalResult,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirLogicalResult,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirStringCallback,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirStringCallback,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirPassManager,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirPassManager,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirOpPassManager,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirOpPassManager,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class MlirPass,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object MlirPass,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class CirctFirtoolFirtoolOptions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object CirctFirtoolFirtoolOptions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class OMEvaluator,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object OMEvaluator,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class OMEvaluatorValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object OMEvaluatorValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class FIRRTLConvention,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class FIRRTLNameKind,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class FIRRTLDirection,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class firrtlAttrGetRUW,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class FIRRTLMemDir,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class CirctFirtoolPreserveAggregateMode,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class CirctFirtoolPreserveValuesMode,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class CirctFirtoolBuildMode,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class CirctFirtoolRandomKind,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class CirctFirtoolCompanionMode,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object instantiableMacro,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package internal - class instantiable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package passes - package wiring - class SourceAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package passes - package wiring - class SinkAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package aop - class Aspect,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,5.0,1.0,-1.0
+HEAD,0,package aop - object Aspect,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package plugin - class IdentifierComponent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package plugin - class IdentifierComponent - class ChiselComponentPhase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,6.0,1.0,-1.0
+HEAD,0,package plugin - class IdentifierComponent - class MyTypingTransformer,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,9.0,3.0,1.0,1.0,3.0,0.0,1.0,0.0,1.0,0.0,10.0,3.0,0.0
+HEAD,0,package chisel3 - class ModuleAspect,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - package conversions - package object conversions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,10.0
+HEAD,0,package internal - object BuilderContextCache,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class BuilderContextCache,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package util - trait HasExtModuleResource,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package util - trait HasExtModuleResource - method addResource - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - trait HasExtModuleInline,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package util - trait HasExtModuleInline - method setInline - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - trait HasExtModulePath,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package util - trait HasExtModulePath - method addPath - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package hierarchy - class InstanceClone,0.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,1.0,0.0,5.0,4.0,1.0
+HEAD,0,package logger - class LoggerOptions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package phases - class MaybeAspectPhase,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package internal - trait WriteableCircuitAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,1.0,0.0,5.0,2.0,-2.0
+HEAD,0,package properties - class DynamicObject,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,2.0,0.0,0.0,2.0,1.0,4.0,2.0,4.0,1.0,16.0,5.0,-3.0
+HEAD,0,package properties - object DynamicObject,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package properties - class StaticObject,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object Utils,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package hierarchy - trait InstantiableClone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - class FirrtlOptions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package testers - object TesterDriver,0.0,0.0,0.0,2.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package testers - object TesterDriver - trait Backend,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package testers - object TesterDriver - object VerilatorBackend,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,2.0,-1.0
+HEAD,0,package testers - object TesterDriver - class AddImplicitTesterDirectory,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - object RenameMap,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - trait RenameMap,4.0,0.0,3.0,20.0,0.0,0.0,20.0,0.0,0.0,12.0,0.0,6.0,65.0,0.0,0.0,0.0,0.0,0.0,6.0,3.0,3.0,2.0,14.0,21.0,14.0
+HEAD,0,package firrtl - package renamemap - package object renamemap - object MutableRenameMap,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,2.0,-2.0
+HEAD,0,package firrtl - package renamemap - package object renamemap - class MutableRenameMap,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,14.0,14.0,14.0,0.0,42.0,14.0,-11.0
+HEAD,0,package phases - class MaybeInjectingPhase,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package logger - object LogLevel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package logger - trait LazyLogging,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package logger - class LoggerState,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,5.0,1.0,-1.0
+HEAD,0,package logger - object Logger,0.0,0.0,2.0,4.0,0.0,1.0,3.0,1.0,0.0,4.0,0.0,3.0,18.0,10.0,0.0,0.0,10.0,7.0,17.0,13.0,17.0,2.0,76.0,18.0,-9.0
+HEAD,0,package logger - object Logger - class OutputCaptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,-1.0
+HEAD,0,package logger - class Logger,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0,5.0,0.0,15.0,5.0,-5.0
+HEAD,0,package firrtl - class EmittedComponent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - trait EmittedAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - trait EmittedCircuitAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - class InfoModeAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package phases - class AddDefaults,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,6.0,1.0,0.0
+HEAD,0,package options - class StageOptions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package dataview - class DataView,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package dataview - class DataView - method andThen - <$anon: chisel3.experimental.dataview.DataView[T V2]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dataview - object DataView,0.0,0.0,0.0,16.0,2.0,4.0,16.0,2.0,1.0,13.0,0.0,3.0,57.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,16.0
+HEAD,0,package dataview - object DataView - class InvertibleDataView,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0
+HEAD,0,package dataview - object PartialDataView,0.0,0.0,0.0,4.0,0.0,4.0,4.0,0.0,1.0,1.0,1.0,4.0,19.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0
+HEAD,0,package <empty> - object Contributors,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package phases - class Convert,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package phases - class GetIncludes,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,1.0,0.0,3.0,2.0,-1.0
+HEAD,0,package svsim - object CommonCompilationSettings - object VerilogPreprocessorDefine,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package svsim - object CommonCompilationSettings - class VerilogPreprocessorDefine,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package svsim - trait Backend,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package ir - class Version,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package ir - object Serializer,3.0,0.0,2.0,6.0,0.0,0.0,6.0,0.0,0.0,18.0,0.0,24.0,59.0,0.0,0.0,0.0,0.0,0.0,24.0,20.0,15.0,3.0,62.0,28.0,4.0
+HEAD,0,package ir - object Serializer - method lazily - <$anon: Iterable[String]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package ir - object Serializer - class PseudoStatement,0.0,0.0,0.0,10.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0,10.0,10.0,5.0
+HEAD,0,package ir - object Serializer - class FlatStmtsIterator,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,0.0,9.0,2.0,-1.0
+HEAD,0,package ir - object Serializer - class StmtsSerializer,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,7.0,1.0,0.0
+HEAD,0,package util - object ListLookup,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object Lookup,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package phases - class Emitter,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - package stage - package object stage - object ChiselOptionsView,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package inspecting - class InspectorAspect,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package annotations - trait TargetToken,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package annotations - object TargetToken - class Instance,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - class OfModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - class Ref,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - class Index,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - class Field,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - object Clock,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - object Init,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - object Reset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - class fromStringToTargetToken,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - class fromIntToTargetToken,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - class fromDefModuleToTargetToken,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object TargetToken - class fromDefInstanceToTargetToken,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - class Counter,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,1.0,0.0,5.0,3.0,-1.0
+HEAD,0,package util - object Counter,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package decode - class TruthTable,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package decode - object TruthTable,0.0,0.0,2.0,6.0,0.0,0.0,6.0,0.0,0.0,5.0,0.0,0.0,19.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,6.0,5.0
+HEAD,0,package decode - trait DecodePattern,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package decode - trait DecodeField,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package decode - trait BoolDecodeField,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package decode - class DecodeBundle,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package decode - class DecodeTable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - package plugin - package object plugin,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,2.0,7.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,1.0,5.0,3.0,1.0
+HEAD,0,package util - trait Enum,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - trait ChiselAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - trait ChiselMultiAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object annotate,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,4.0,2.0,-2.0
+HEAD,0,package experimental - object doNotDedup,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package experimental - object doNotDedup - method apply - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object dedupGroup,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package experimental - object dedupGroup - method apply - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class PanamaCIRCTPassManager,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - class IntrinsicModule,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,2.0,1.0,1.0,0.0,7.0,2.0,-1.0
+HEAD,0,package sourceinfo - object SourceInfoFileResolver,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package core - class Instance,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,2.0,0.0,1.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package core - object Instance,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,6.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,0,package core - object Instance - class InstanceBaseModuleExtensions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,3.0,2.0
+HEAD,0,package core - object Instance - method do_apply - class EmptyExtModule,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,0,package chisel3 - trait SIntFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class Disable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object Disable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package chisel3 - object withDisable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package docs - class VerilogMdocModifier,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package <empty> - object FirtoolVersion,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package options - object StageUtils,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,3.0,0.0,9.0,3.0,-3.0
+HEAD,0,package options - trait DoNotTerminateOnExit,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package options - trait ExceptOnError,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package options - trait DuplicateHandling,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0
+HEAD,0,package std - object BarrelShifter,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package circt - object SizeOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package probe - trait ProbeValueBase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package probe - object ProbeValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package probe - object RWProbeValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package experimental - package object experimental,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - package object experimental - object CloneModuleAsRecord,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package experimental - package object experimental - object requireIsHardware,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package chisel3 - package experimental - package object experimental - object requireIsAnnotatable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,-1.0
+HEAD,0,package chisel3 - package experimental - package object experimental - object requireIsChiselType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package chisel3 - package experimental - package object experimental - object BundleLiterals - class AddBundleLiteralConstructor,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package experimental - package object experimental - object VecLiterals - class AddVecLiteralConstructor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package experimental - package object experimental - object VecLiterals - class AddObjectLiteralConstructor,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package experimental - package object experimental - class HWTuple2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - package object experimental - class HWTuple3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - package object experimental - class HWTuple4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - package object experimental - class HWTuple5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - package object experimental - class HWTuple6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - package object experimental - class HWTuple7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - package object experimental - class HWTuple8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - package object experimental - class HWTuple9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package experimental - package object experimental - class HWTuple10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package decode - object decoder,0.0,0.0,2.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,3.0,1.0
+HEAD,0,package decode - object decoder - method apply - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package options - trait CustomFileEmission,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package options - trait BufferedCustomFileEmission,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package options - object ProgramArgsAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package phases - object Helpers,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,0,package phases - object Helpers - class LogLevelHelpers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package phases - object Exceptions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package phases - class CIRCT,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,0,package experimental - trait OpaqueType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package verilator - object Backend,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,1.0,0.0
+HEAD,0,package verilator - class Backend,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package plugin - class ChiselComponent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package plugin - class ChiselComponent - class ChiselComponentPhase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,6.0,1.0,-1.0
+HEAD,0,package plugin - class ChiselComponent - class MyTypingTransformer,1.0,0.0,3.0,5.0,1.0,0.0,5.0,1.0,0.0,4.0,0.0,0.0,20.0,3.0,1.0,1.0,2.0,0.0,1.0,0.0,1.0,0.0,9.0,6.0,2.0
+HEAD,0,package transforms - class MustDeduplicateAnnotation,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package internal - class RangeTransform,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,0,package graph - object DiGraph,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,1.0,5.0,2.0,0.0
+HEAD,0,package graph - class DiGraph,0.0,0.0,3.0,14.0,0.0,1.0,14.0,1.0,0.0,10.0,0.0,1.0,44.0,2.0,2.0,2.0,1.0,1.0,11.0,0.0,11.0,3.0,33.0,16.0,3.0
+HEAD,0,package graph - class MutableDiGraph,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,2.0,1.0,0.0,6.0,3.0,-3.0
+HEAD,0,package svsim - class Simulation,0.0,0.0,0.0,2.0,0.0,2.0,2.0,1.0,0.0,1.0,0.0,1.0,9.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,2.0,1.0
+HEAD,0,package svsim - object Simulation - class Controller,0.0,0.0,1.0,6.0,0.0,2.0,5.0,2.0,0.0,3.0,0.0,0.0,19.0,2.0,0.0,0.0,2.0,2.0,9.0,3.0,8.0,1.0,27.0,10.0,0.0
+HEAD,0,package svsim - object Simulation - class Port,0.0,0.0,0.0,7.0,0.0,3.0,7.0,0.0,0.0,0.0,0.0,1.0,18.0,0.0,0.0,0.0,0.0,0.0,7.0,2.0,7.0,0.0,16.0,7.0,0.0
+HEAD,0,package simulator - object Simulator - trait BackendProcessor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,0.0
+HEAD,0,package simulator - object Simulator - class BackendInvocationDigest,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package simulator - object Simulator - class WorkspaceCompiler,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,0.0
+HEAD,0,package simulator - trait Simulator,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,1.0,0.0,4.0,2.0,-1.0
+HEAD,0,package simulator - trait MultiBackendSimulator,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,2.0,0.0
+HEAD,0,package simulator - trait SingleBackendSimulator,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,2.0,0.0
+HEAD,0,package transforms - class BlackBoxTargetDirAnno,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package transforms - class BlackBoxInlineAnno,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package transforms - class BlackBoxPathAnno,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package transforms - class BlackBoxResourceFileNameAnno,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package transforms - object BlackBoxSourceHelper,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,2.0,1.0,6.0,3.0,0.0
+HEAD,0,package firrtl - package annotations - object UnserializableAnnotationException,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package firrtl - package annotations - object AnnotationUtils,1.0,0.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,6.0,0.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,6.0
+HEAD,0,package chisel3 - object withClockAndReset,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,2.0,1.0
+HEAD,0,package chisel3 - object withClock,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,2.0,1.0
+HEAD,0,package chisel3 - object withReset,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,2.0,1.0
+HEAD,0,package chisel3 - object withoutIO,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - object getAnnotations,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - trait FixedIOBaseModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object scanLeftOr,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object scanRightOr,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package options - trait DependencyManager,0.0,0.0,2.0,5.0,0.0,1.0,5.0,2.0,1.0,5.0,8.0,1.0,30.0,1.0,1.0,1.0,0.0,0.0,3.0,0.0,3.0,0.0,9.0,9.0,6.0
+HEAD,0,package options - class PhaseManager,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - class SparseVec,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package util - class SparseVec - object Detail,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object SparseVec - object Lookup - trait Decoder,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object SparseVec - object Lookup - object Binary,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object SparseVec - object Lookup - object OneHot,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object SparseVec - object DefaultValueBehavior - trait Type,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object SparseVec - object DefaultValueBehavior - object DynamicIndexEquivalent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object SparseVec - object DefaultValueBehavior - object Indeterminate,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object SparseVec - object DefaultValueBehavior - class UserSpecified,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package passes - package memlib - object PassConfigUtil,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package passes - package memlib - object ReplSeqMemAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class CIRCTConverter,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.0,32.0,0.0,0.0,64.0,32.0,-32.0
+HEAD,0,package firrtl - object FileUtils,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package circt - package stage - package object stage - object CIRCTOptionsView,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package connectable - class Connectable,0.0,0.0,0.0,15.0,0.0,8.0,12.0,5.0,0.0,1.0,0.0,4.0,45.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,15.0
+HEAD,0,package chisel3 - package connectable - object Connectable,0.0,0.0,0.0,2.0,0.0,1.0,2.0,0.0,0.0,1.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - package connectable - object Connectable - class ConnectableOpExtension,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,13.0,14.0,0.0,0.0,0.0,0.0,0.0,13.0,13.0,13.0,0.0,39.0,13.0,0.0
+HEAD,0,package chisel3 - object dontTouch,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - object dontTouch - method apply - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - trait Annotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - trait NoTargetAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - trait SingleTargetAnnotation,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package stage - object WarningsAsErrorsAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - class WarningConfigurationFileAnnotation,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package stage - class ChiselGeneratorAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - object ChiselGeneratorAnnotation,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package stage - object CircuitSerializationAnnotation - trait Format,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - object CircuitSerializationAnnotation - object FirrtlFileFormat,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - class CircuitSerializationAnnotation,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,1.0,7.0,4.0,1.0
+HEAD,0,package hierarchy - class DefinitionClone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,4.0,3.0,-1.0
+HEAD,0,package firrtl - package transforms - class FlattenAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package phases - class Checks,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package core - trait IsClone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package core - class Definition,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,2.0,1.0
+HEAD,0,package core - object Definition,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,2.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,0,package core - object Definition - class DefinitionBaseModuleExtensions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sourceinfo - trait SourceInfoTransformMacro,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sourceinfo - class UIntTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sourceinfo - class ProbeTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package sourceinfo - class InstTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package sourceinfo - class InstChoiceTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package sourceinfo - class DefinitionTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package sourceinfo - class DefinitionWrapTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package sourceinfo - class InstanceTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package sourceinfo - class MemTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package sourceinfo - class MuxTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package sourceinfo - class MuxLookupTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package sourceinfo - class VecTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,9.0
+HEAD,0,package sourceinfo - class AutoSourceTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package sourceinfo - class SourceInfoTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0
+HEAD,0,package sourceinfo - class SourceInfoWhiteboxTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sourceinfo - class IntLiteralApplyTransform,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - object Mux,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package experimental - trait SourceInfo,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - trait NoSourceInfo,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - class SourceLine,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - object SourceInfo,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package probe - trait ProbeBase,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package probe - object Probe,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package probe - object RWProbe,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package connectable - package object connectable - class ConnectableVecOperators,0.0,0.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,4.0,0.0,5.0,19.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0,5.0,5.0,20.0,5.0,0.0
+HEAD,0,package chisel3 - package connectable - package object connectable - class ConnectableDontCare,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package chisel3 - trait BoolFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package decode - class DecodeTableAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package core - object IsInstantiable - class IsInstantiableExtensions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object prefix,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,1.0,0.0,3.0,2.0,0.0
+HEAD,0,package experimental - object noPrefix,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package experimental - object skipPrefix,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package passes - object createMask,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package passes - object MemPortUtils,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package circt - object PlusArgsTest,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package svsim - class Workspace,0.0,0.0,1.0,4.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,1.0,12.0,4.0,0.0,0.0,4.0,2.0,6.0,5.0,6.0,3.0,30.0,6.0,-2.0
+HEAD,0,package svsim - class LineWriter,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,1.0,7.0,2.0,-1.0
+HEAD,0,package chisel3 - class Printable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object Printable,0.0,0.0,2.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,8.0,1.0,1.0,1.0,0.0,0.0,2.0,1.0,2.0,1.0,9.0,2.0,0.0
+HEAD,0,package chisel3 - class Printables,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - class PString,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class FirrtlFormat,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object FirrtlFormat,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - class Name,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class FullName,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object Percent,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object OHToUInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object PriorityEncoder,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object UIntToOH,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object PriorityEncoderOH,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package experimental - object EnumAnnotations - class EnumComponentAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object EnumAnnotations - class EnumComponentChiselAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object EnumAnnotations - class EnumVecAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object EnumAnnotations - class EnumVecChiselAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object EnumAnnotations - class EnumDefChiselAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package phases - class Checks,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package ltl - object Delay,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package ltl - trait Sequence,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package ltl - object Sequence,1.0,0.0,1.0,3.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,9.0,3.0,3.0,3.0,0.0,0.0,5.0,0.0,5.0,3.0,22.0,5.0,-1.0
+HEAD,0,package ltl - trait Property,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package ltl - object Property,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,4.0,2.0,2.0,2.0,0.0,0.0,2.0,0.0,2.0,2.0,12.0,2.0,0.0
+HEAD,0,package ltl - class AssertPropertyLike,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0,3.0,0.0,11.0,4.0,-3.0
+HEAD,0,package ltl - object AssertProperty,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package ltl - object AssumeProperty,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package ltl - object CoverProperty,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package naming - object identifyMacro,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,1.0,0.0
+HEAD,0,package naming - class fixTraitIdentifier,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class Region,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class Op,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class FirTypeLazy,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,0,package circt - object FirTypeLazy,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object Reference - class Value,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class WhenContext,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package circt - class FirContext,0.0,0.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,8.0,7.0,0.0,0.0,7.0,3.0,7.0,6.0,6.0,0.0,36.0,11.0,-7.0
+HEAD,0,package circt - class PanamaCIRCTConverter,0.0,0.0,2.0,7.0,0.0,0.0,7.0,2.0,0.0,5.0,1.0,0.0,24.0,2.0,2.0,0.0,0.0,0.0,32.0,32.0,14.0,0.0,82.0,32.0,-21.0
+HEAD,0,package circt - class PanamaCIRCTConverter - object util,4.0,0.0,3.0,6.0,0.0,0.0,6.0,0.0,0.0,11.0,2.0,0.0,32.0,1.0,1.0,1.0,0.0,0.0,4.0,2.0,3.0,1.0,13.0,12.0,7.0
+HEAD,0,package circt - class PanamaCIRCTConverter - object util - class OpBuilder,0.0,0.0,0.0,6.0,0.0,1.0,6.0,1.0,0.0,1.0,0.0,0.0,15.0,10.0,0.0,0.0,10.0,9.0,11.0,0.0,11.0,0.0,51.0,14.0,-5.0
+HEAD,0,package circt - class PanamaCIRCTConverter - <$anon: geny.Writable>,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0
+HEAD,0,package circt - class PanamaCIRCTConverter - <$anon: geny.Writable>,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0
+HEAD,0,package circt - class PanamaCIRCTConverter - <$anon: geny.Writable>,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0
+HEAD,0,package circt - object PanamaCIRCTConverter,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,3.0,0.0,33.0,40.0,0.0,0.0,0.0,0.0,0.0,34.0,33.0,31.0,2.0,100.0,34.0,-1.0
+HEAD,0,package circt - object Utils,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package circt - class BaseIntrinsic,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package circt - object LTLIntrinsicInstanceMethodsInternalWorkaround - class UnaryLTLIntrinsicInstanceMethods,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package circt - object LTLIntrinsicInstanceMethodsInternalWorkaround - class BinaryLTLIntrinsicInstanceMethods,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package circt - object LTLIntrinsicInstanceMethodsInternalWorkaround - class LTLClockIntrinsicInstanceMethods,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package circt - object LTLIntrinsicInstanceMethodsInternalWorkaround - class LTLDisableIntrinsicInstanceMethods,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package circt - object LTLIntrinsicInstanceMethodsInternalWorkaround - class VerifAssertLikeIntrinsicInstanceMethods,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package internal - package object internal,1.0,0.0,1.0,4.0,0.0,1.0,4.0,1.0,0.0,3.0,0.0,5.0,20.0,0.0,0.0,0.0,0.0,0.0,6.0,4.0,6.0,0.0,16.0,8.0,2.0
+HEAD,0,package chisel3 - package internal - package object internal - class ViewParentAPI,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package chisel3 - package internal - package object internal - class ListSyntax,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package internal - package object internal - object Delayed,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package phases - class AddDefaults,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,6.0,1.0,0.0
+HEAD,0,package phases - class AspectPhase,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,0,package firrtl - package options - package object options - object StageOptionsView,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - object attach,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,1.0,0.0,5.0,2.0,0.0
+HEAD,0,package interface - trait ConformsTo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package interface - trait Interface,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package interface - trait Interface - trait Entity,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package interface - trait Interface - object Wrapper - class BlackBox,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package interface - trait Interface - object Wrapper - class Module,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package interface - trait Interface - object Wrapper - class Stub,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package simulator - object EphemeralSimulator,0.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0
+HEAD,0,package annotations - class MemoryLoadFileType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package annotations - object MemoryLoadFileType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package annotations - class LoadMemoryAnnotation,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package naming - class DebugTransforms,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,2.0,6.0,2.0,0.0
+HEAD,0,package naming - class NamingTransforms,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package naming - class NamingTransforms - trait ValNameTransformer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package naming - class NamingTransforms - class ClassBodyTransformer,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package naming - class NamingTransforms - class MethodTransformer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package naming - class dump,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package naming - class treedump,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - class ConventionAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object convention,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,0.0,6.0,2.0,-1.0
+HEAD,0,package circt - object convention - method apply - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - object Clock,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class Clock,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,3.0,4.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,0.0,6.0,3.0,1.0
+HEAD,0,package internal - class CIRCTOM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class CIRCTOMEvaluator,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class CIRCTOMObject,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package aop - class AspectLibrary,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package random - class GaloisLFSR,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package random - object GaloisLFSR,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - object Width,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - class Width,0.0,0.0,0.0,7.0,0.0,1.0,6.0,0.0,0.0,0.0,0.0,0.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,7.0
+HEAD,0,package chisel3 - class UnknownWidth,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - class KnownWidth,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package probe - package object probe,1.0,0.0,0.0,6.0,0.0,0.0,6.0,0.0,0.0,3.0,0.0,7.0,23.0,0.0,0.0,0.0,0.0,2.0,9.0,7.0,9.0,3.0,30.0,9.0,0.0
+HEAD,0,package <empty> - package firrtl - package object firrtl,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - class SRAMInterface,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package util - object SRAM,0.0,0.0,0.0,5.0,0.0,4.0,5.0,0.0,0.0,1.0,0.0,8.0,23.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,9.0,8.0
+HEAD,0,package decode - class Minimizer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - class ChiselOptions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package stage - package object stage - object FirrtlOptionsView,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package connectable - object ColonLessGreaterEq,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package connectable - object Connection,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,5.0,12.0,1.0,1.0,1.0,0.0,0.0,5.0,5.0,5.0,1.0,19.0,5.0,0.0
+HEAD,0,package util - object ArbiterCtrl,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - class LockingArbiterLike,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - class LockingRRArbiter,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - class LockingArbiter,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - class Arbiter,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dataview - trait DataProduct,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - trait LowPriorityDataProduct - <$anon: chisel3.experimental.dataview.DataProduct[chisel3.Data]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dataview - object DataProduct,0.0,0.0,12.0,4.0,0.0,1.0,3.0,1.0,0.0,12.0,0.0,0.0,33.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,13.0
+HEAD,0,package dataview - object DataProduct - method apply - <$anon: chisel3.experimental.dataview.DataProduct[A]>,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - <$anon: chisel3.experimental.dataview.DataProduct[chisel3.experimental.BaseModule]>,1.0,0.0,0.0,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package dataview - object DataProduct - method seqDataProduct - <$anon: chisel3.experimental.dataview.DataProduct[Seq[A]]>,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - method iterableDataProduct - <$anon: chisel3.experimental.dataview.DataProduct[F[A]]>,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - method tuple2DataProduct - <$anon: chisel3.experimental.dataview.DataProduct[(A  B)]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - method tuple3DataProduct - <$anon: chisel3.experimental.dataview.DataProduct[(A  B  C)]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - method tuple4DataProduct - <$anon: chisel3.experimental.dataview.DataProduct[(A  B  C  D)]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - method tuple5DataProduct - <$anon: chisel3.experimental.dataview.DataProduct[(A  B  C  D  E)]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - method tuple6DataProduct - <$anon: chisel3.experimental.dataview.DataProduct[(A  B  C  D  E  F)]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - method tuple7DataProduct - <$anon: chisel3.experimental.dataview.DataProduct[(A  B  C  D  E  F  G)]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - method tuple8DataProduct - <$anon: chisel3.experimental.dataview.DataProduct[(A  B  C  D  E  F  G  H)]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - method tuple9DataProduct - <$anon: chisel3.experimental.dataview.DataProduct[(A  B  C  D  E  F  G  H  I)]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package dataview - object DataProduct - method tuple10DataProduct - <$anon: chisel3.experimental.dataview.DataProduct[(A  B  C  D  E  F  G  H  I  J)]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package vcs - object Backend,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package vcs - object Backend - object CompilationSettings - class TraceSettings,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,3.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0
+HEAD,0,package vcs - class Backend,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object BackendCompilationUtilities,0.0,0.0,0.0,5.0,0.0,1.0,4.0,1.0,0.0,0.0,1.0,1.0,13.0,1.0,1.0,1.0,0.0,0.0,5.0,1.0,5.0,3.0,17.0,6.0,1.0
+HEAD,0,package circt - class Intrinsic,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package phases - class Checks,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package panama - object Convert,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package util - object BlackBoxHelpers - class BlackBoxInlineAnnoHelpers,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package util - trait HasBlackBoxResource,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package util - trait HasBlackBoxResource - method addResource - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - trait HasBlackBoxInline,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package util - trait HasBlackBoxInline - method setInline - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - trait HasBlackBoxPath,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0
+HEAD,0,package util - trait HasBlackBoxPath - method addPath - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object log2Up,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package util - object log2Ceil,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package util - object log2Down,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object log2Floor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object isPow2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object unsignedBitLength,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package util - object signedBitLength,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package phases - object loggerToScribe,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package phases - object loggerToScribe - method apply - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,-1.0
+HEAD,0,package sourceinfo - object SourceInfoMacro,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - object PreserveAggregate,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package stage - object CIRCTTargetAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package stage - class EmittedMLIR,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - object FirtoolBinaryPath,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - object SplitVerilog,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - object DumpFir,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package choice - object ModuleChoice,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,2.0,6.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,2.0,1.0
+HEAD,0,package hierarchy - object Instantiate,1.0,0.0,0.0,2.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package hierarchy - object Instantiate - class DataBox,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package hierarchy - object Instantiate - object internal,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,5.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,1.0,0.0
+HEAD,0,package firrtl - object MInfer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object MRead,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object MWrite,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object MReadWrite,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - class CDefMemory,0.0,0.0,0.0,10.0,0.0,10.0,0.0,6.0,0.0,0.0,0.0,0.0,26.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0,3.0,0.0,13.0,10.0,5.0
+HEAD,0,package firrtl - class CDefMPort,0.0,0.0,0.0,10.0,0.0,10.0,2.0,6.0,0.0,0.0,0.0,0.0,28.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0,4.0,0.0,14.0,10.0,5.0
+HEAD,0,package chisel3 - trait UIntFactory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package benchmark - package util - package object util,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package plugin - trait ChiselOuterUtils - trait ChiselInnerUtils,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,1.0
+HEAD,0,package circt - object Mux2Cell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package circt - object Mux4Cell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package random - class PRNG,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package random - object PRNG,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package hot - package util - package object util,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0
+HEAD,0,package phases - object Checks,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package firrtl - package ir - class FirrtlNode,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - trait UseSerializer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object NoInfo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class FileInfo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object FileInfo,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package firrtl - package ir - class StringLit,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - package ir - object StringLit,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - package ir - class PrimOp,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0
+HEAD,0,package firrtl - package ir - class Expression,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class UIntLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object UIntLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class SIntLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object SIntLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class IntegerPropertyLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class DoublePropertyLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class StringPropertyLiteral,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class PropPrimOp,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class PropExpr,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - package ir - object DefInstance,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object Block,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class Stop,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object Stop,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class Print,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object Print,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object LayerConvention - object Bind,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class Verification,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object Verification,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class Width,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0
+HEAD,0,package firrtl - package ir - object IntWidth,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,1.0,-1.0
+HEAD,0,package firrtl - package ir - class IntWidth,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package firrtl - package ir - object Default,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object Flip,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object GroundType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object Input,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - object Output,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package ir - class Param,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package phases - class Checks,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package injecting - class InjectStatement,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package simulator - trait PeekPokeAPI - object FailedExpectationException,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package simulator - trait PeekPokeAPI - class testableClock,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,0.0,6.0,2.0,-2.0
+HEAD,0,package simulator - trait PeekPokeAPI - trait SimulationData,0.0,0.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,12.0,0.0,0.0,0.0,0.0,0.0,12.0,12.0,12.0,0.0,36.0,12.0,-4.0
+HEAD,0,package simulator - trait PeekPokeAPI - class testableSInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package simulator - trait PeekPokeAPI - class testableUInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package simulator - trait PeekPokeAPI - class testableBool,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package simulator - trait PeekPokeAPI - class testableData,1.0,0.0,0.0,2.0,0.0,2.0,2.0,1.0,0.0,1.0,0.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0,5.0,1.0,16.0,5.0,-3.0
+HEAD,0,package hierarchy - object LibraryHooks,0.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,2.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package random - class FibonacciLFSR,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package random - object FibonacciLFSR,0.0,0.0,0.0,2.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package firrtl - package annotations - trait HasSerializationHints,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - object JsonProtocol,0.0,0.0,1.0,3.0,0.0,0.0,3.0,0.0,0.0,5.0,0.0,1.0,13.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,6.0,5.0
+HEAD,0,package phases - class Elaborate,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package stage - class ChiselStage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - class ChiselStage - <$anon: firrtl.options.Shell with circt.stage.CLI>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stage - object ChiselStage,0.0,0.0,0.0,7.0,0.0,0.0,7.0,0.0,0.0,1.0,0.0,0.0,15.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,7.0,6.0
+HEAD,0,package options - class ShellOption,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,-1.0
+HEAD,0,package options - trait HasShellOptions,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0
+HEAD,0,package options - trait RegisteredLibrary,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package options - class BareShell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,1.0,0.0,4.0,2.0,-2.0
+HEAD,0,package options - class Shell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,0.0
+HEAD,0,package core - trait Hierarchy,1.0,0.0,0.0,3.0,0.0,1.0,2.0,0.0,0.0,2.0,1.0,1.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,6.0
+HEAD,0,package core - object Hierarchy - class HierarchyBaseModuleExtensions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package firrtl - package transforms - class DontTouchAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - trait Target,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,6.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,5.0,2.0,1.0
+HEAD,0,package firrtl - package annotations - object Target,1.0,0.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,6.0,0.0,1.0,18.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,7.0,6.0
+HEAD,0,package firrtl - package annotations - class GenericTarget,0.0,0.0,0.0,6.0,0.0,0.0,6.0,0.0,0.0,6.0,0.0,0.0,18.0,1.0,1.0,1.0,0.0,0.0,3.0,1.0,3.0,1.0,11.0,10.0,6.0
+HEAD,0,package firrtl - package annotations - trait CompleteTarget,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - trait IsMember,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - package annotations - trait IsModule,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - trait IsComponent,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,3.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package firrtl - package annotations - class CircuitTarget,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - class ModuleTarget,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - class ReferenceTarget,3.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,4.0,0.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,5.0,3.0
+HEAD,0,package firrtl - package annotations - class InstanceTarget,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,3.0,-1.0
+HEAD,0,package firrtl - package annotations - trait Named,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - class CircuitName,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - class ModuleName,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package annotations - class ComponentName,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - object PrimOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package firrtl - object PrimOps - object Add,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Sub,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Mul,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Div,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Rem,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Lt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Leq,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Gt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Geq,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Eq,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Neq,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Pad,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Shl,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Shr,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Dshl,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Dshr,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Cvt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Neg,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Not,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object And,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Or,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Xor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Andr,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Orr,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Xorr,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Cat,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Bits,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Head,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object Tail,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object AsUInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object AsSInt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object AsClock,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object PrimOps - object AsAsyncReset,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object RecordAlias,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package experimental - trait HasTypeAlias,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package injecting - class InjectingPhase,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package firrtl - class AnnotationSeq,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - object AnnotationSeq,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object RegEnable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,4.0,2.0,0.0
+HEAD,0,package util - object ShiftRegister,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,6.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,6.0,5.0
+HEAD,0,package util - object ShiftRegisters,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0
+HEAD,0,package circt - object ClockGate,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object SerializableModuleGenerator,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - class SerializableModuleGenerator,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package <empty> - object Releases,0.0,0.0,1.0,3.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,2.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,5.0
+HEAD,0,package phases - class AddDefaults,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package stage - class CIRCTOptions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package options - trait OptionsView,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package options - object Viewer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - trait HasAutoTypename,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package phases - class AddSerializationAnnotations,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Log2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package options - object Dependency,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,-1.0
+HEAD,0,package options - class Dependency,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package options - trait TransformLike,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package options - trait IdentityLike,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,1.0,0.0,4.0,2.0,-2.0
+HEAD,0,package options - trait DependencyAPI,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package options - trait Translator,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circt - object IsX,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object simpleClassName,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package phases - class AddImplicitOutputFile,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package experimental - object ChiselSubtypeOf,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,1.0,0.0
+HEAD,0,package experimental - object forceName,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,0.0,6.0,2.0,0.0
+HEAD,0,package experimental - object forceName - method apply - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - object forceName - method apply - <$anon: chisel3.experimental.ChiselAnnotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package experimental - class ForceNameAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package phases - class AddImplicitOutputFile,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package properties - trait PropertyType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - trait SimplePropertyType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - class SeqPropertyType,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - package properties - trait LowPriorityPropertyTypeInstances,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - class ClassTypePropertyType,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - object PropertyType,0.0,0.0,6.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,6.0
+HEAD,0,package chisel3 - package properties - object PropertyType - method makeSimple - <$anon: chisel3.properties.SimplePropertyType[T]>,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package properties - object PropertyType - method classTypePropertyType - <$anon: chisel3.properties.ClassTypePropertyType[T]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - object PropertyType - method modulePathTypeInstance - <$anon: chisel3.properties.RecursivePropertyType[M]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - object PropertyType - method dataPathTypeInstance - <$anon: chisel3.properties.RecursivePropertyType[D]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - object PropertyType - method memPathTypeInstance - <$anon: chisel3.properties.RecursivePropertyType[M]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - object PropertyType - method propertyTypeInstance - <$anon: chisel3.properties.PropertyType[chisel3.properties.Property[T]]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - trait Property,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,6.0,8.0,0.0,0.0,0.0,0.0,2.0,5.0,3.0,5.0,0.0,15.0,9.0,2.0
+HEAD,0,package chisel3 - package properties - trait Property - object ClassType,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+HEAD,0,package chisel3 - package properties - trait Property - object ClassType - method propertyType - <$anon: chisel3.properties.ClassTypePropertyType[chisel3.properties.Property[Property.this.ClassType] with Property.this.ClassType]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - object ClassTypeProvider,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package chisel3 - package properties - trait PropertyArithmeticOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package chisel3 - package properties - object PropertyArithmeticOps,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0
+HEAD,0,package chisel3 - package properties - object PropertyArithmeticOps - <$anon: chisel3.properties.PropertyArithmeticOps[chisel3.properties.Property[Int]]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package chisel3 - package properties - object PropertyArithmeticOps - <$anon: chisel3.properties.PropertyArithmeticOps[chisel3.properties.Property[Long]]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package chisel3 - package properties - object PropertyArithmeticOps - <$anon: chisel3.properties.PropertyArithmeticOps[chisel3.properties.Property[BigInt]]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0
+HEAD,0,package chisel3 - package properties - object Property,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0
+HEAD,0,package chisel3 - package properties - object Property - class ClassTypePropertyOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package transforms - class NoDedupAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package firrtl - package transforms - class DedupGroupAnnotation,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,1815 @@
+commit,faults,path,SwitchCount,MaxStretch,MaxStretchNormalized,MinStretch,MinStretchNormalized,AvgStretch,AvgStretchNormalized
+HEAD,1,package server - class EmberServerBuilder,0.0,243.0,1.0,243.0,1.0,243.0,1.0
+HEAD,0,package server - class EmberServerBuilder - method build - <$anon: org.http4s.server.Ip4sServer>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package server - object EmberServerBuilder,0.0,72.0,1.0,72.0,1.0,72.0,1.0
+HEAD,1,package server - object EmberServerBuilder - object Defaults,0.0,43.0,1.0,43.0,1.0,43.0,1.0
+HEAD,1,package internal - object ServerHelpers,2.0,346.0,0.6718446601941748,5.0,0.009708737864077669,173.66666666666666,0.3372168284789644
+HEAD,1,package internal - object ServerHelpers,2.0,343.0,0.669921875,5.0,0.009765625,172.66666666666666,0.3372395833333333
+HEAD,1,package http4s - package multipart - object MultipartDecoder,0.0,126.0,1.0,126.0,1.0,126.0,1.0
+HEAD,0,package http4s - class Credentials,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object Credentials,2.0,16.0,0.45714285714285713,13.0,0.37142857142857144,14.333333333333334,0.40952380952380957
+HEAD,0,package http4s - object Credentials - class Token,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object Credentials - class AuthParams,2.0,13.0,0.6842105263157895,6.0,0.3157894736842105,9.0,0.47368421052631576
+HEAD,0,package http4s - object Credentials - object AuthParams,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class BasicCredentials,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,1,package http4s - object BasicCredentials,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package http4s - class Credentials,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object Credentials,2.0,16.0,0.45714285714285713,13.0,0.37142857142857144,14.333333333333334,0.40952380952380957
+HEAD,0,package http4s - object Credentials - class Token,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object Credentials - class AuthParams,2.0,13.0,0.6842105263157895,6.0,0.3157894736842105,9.0,0.47368421052631576
+HEAD,0,package http4s - object Credentials - object AuthParams,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class BasicCredentials,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,1,package http4s - object BasicCredentials,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,1,package http4s - package multipart - object MultipartDecoder,0.0,126.0,1.0,126.0,1.0,126.0,1.0
+HEAD,1,package internal - object ClientHelpers,2.0,145.0,0.5823293172690763,14.0,0.05622489959839357,88.0,0.3534136546184739
+HEAD,0,package internal - object ClientHelpers - method request - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object ClientHelpers - object RetryLogic,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package internal - object ClientHelpers - class MissingHost,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object ClientHelpers - class MissingPort,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object ClientHelpers - class MissingTlsContext,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,1,package internal - object ClientHelpers,2.0,137.0,0.5591836734693878,14.0,0.05714285714285714,86.66666666666667,0.35374149659863946
+HEAD,0,package internal - object ClientHelpers - method request - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object ClientHelpers - object RetryLogic,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package h2 - class H2Client,2.0,165.0,0.6547619047619048,23.0,0.09126984126984126,92.0,0.36507936507936506
+HEAD,1,package h2 - object H2Client,0.0,104.0,1.0,104.0,1.0,104.0,1.0
+HEAD,0,package h2 - object H2Client - trait SocketType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Client - object Http2,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Client - object Http1,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Client - class RequestKey,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,1,package h2 - object H2Client - object RequestKey,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package h2 - object H2Client - class InvalidSocketType,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package h2 - object H2Client - class MissingHost,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Client - class MissingPort,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package internal - object ClientHelpers,2.0,137.0,0.5684647302904564,14.0,0.058091286307053944,85.33333333333333,0.3540802213001383
+HEAD,0,package internal - object ClientHelpers - method request - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object ClientHelpers - object RetryLogic,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,1,package h2 - class H2Stream,2.0,330.0,0.8638743455497382,8.0,0.020942408376963352,130.33333333333334,0.3411867364746946
+HEAD,0,package h2 - object H2Stream,0.0,85.0,1.0,85.0,1.0,85.0,1.0
+HEAD,0,package h2 - object H2Stream - class State,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package h2 - object H2Stream - trait StreamState,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState,0.0,49.0,1.0,49.0,1.0,49.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object Idle,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object ReservedLocal,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object ReservedRemote,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object Open,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object HalfClosedRemote,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object HalfClosedLocal,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object Closed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package h2 - class H2Connection,2.0,354.0,0.6820809248554913,11.0,0.02119460500963391,177.0,0.34104046242774566
+HEAD,0,package h2 - object H2Connection,0.0,44.0,1.0,44.0,1.0,44.0,1.0
+HEAD,0,package h2 - object H2Connection - class State,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package h2 - object H2Connection - class KillWithoutMessage,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package h2 - object H2Connection - trait ConnectionType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Connection - object ConnectionType,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package h2 - object H2Connection - object ConnectionType - object Server,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Connection - object ConnectionType - object Client,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package h2 - object PseudoHeaders,0.0,155.0,1.0,155.0,1.0,155.0,1.0
+HEAD,1,package h2 - class H2Stream,2.0,351.0,0.8709677419354839,8.0,0.019851116625310174,137.33333333333334,0.34077750206782464
+HEAD,1,package h2 - object H2Stream,0.0,85.0,1.0,85.0,1.0,85.0,1.0
+HEAD,1,package h2 - object H2Stream - class State,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package h2 - object H2Stream - trait StreamState,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState,0.0,49.0,1.0,49.0,1.0,49.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object Idle,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object ReservedLocal,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object ReservedRemote,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object Open,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object HalfClosedRemote,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object HalfClosedLocal,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Stream - object StreamState - object Closed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package h2 - class H2Connection,2.0,354.0,0.6820809248554913,11.0,0.02119460500963391,177.0,0.34104046242774566
+HEAD,0,package h2 - object H2Connection,0.0,44.0,1.0,44.0,1.0,44.0,1.0
+HEAD,0,package h2 - object H2Connection - class State,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package h2 - object H2Connection - class KillWithoutMessage,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package h2 - object H2Connection - trait ConnectionType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Connection - object ConnectionType,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package h2 - object H2Connection - object ConnectionType - object Server,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Connection - object ConnectionType - object Client,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package h2 - object H2Server,2.0,227.0,0.7800687285223368,7.0,0.024054982817869417,99.66666666666667,0.3424971363115693
+HEAD,0,package http4s - package client - trait Client,0.0,223.0,1.0,223.0,1.0,223.0,1.0
+HEAD,0,package http4s - package client - trait Client - method liftMonadCancel - <$anon: <error>>,0.0,34.0,1.0,34.0,1.0,34.0,1.0
+HEAD,0,package http4s - package client - trait Client - method liftMonadCancel - <$anon: <error>> - method uncancelable - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package http4s - package client - object Client,0.0,59.0,1.0,59.0,1.0,59.0,1.0
+HEAD,0,package http4s - package client - object Client - method apply - <$anon: org.http4s.client.DefaultClient[F]>,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package client - class UnexpectedStatus,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package client - trait Client,0.0,223.0,1.0,223.0,1.0,223.0,1.0
+HEAD,0,package http4s - package client - trait Client - method liftMonadCancel - <$anon: <error>>,0.0,34.0,1.0,34.0,1.0,34.0,1.0
+HEAD,0,package http4s - package client - trait Client - method liftMonadCancel - <$anon: <error>> - method uncancelable - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package http4s - package client - object Client,0.0,59.0,1.0,59.0,1.0,59.0,1.0
+HEAD,0,package http4s - package client - object Client - method apply - <$anon: org.http4s.client.DefaultClient[F]>,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package client - class UnexpectedStatus,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package laws - package discipline - object arbitrary,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - package discipline - object ArbitraryInstances,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances,0.0,975.0,1.0,975.0,1.0,975.0,1.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances - class ParseResultSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances - method http4sTestingSemigroupForGen - <$anon: <error>>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances - method http4sTestingArbitraryForEntityDecoder - <$anon: org.http4s.EntityDecoder[F A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,2,package http4s - package laws - package discipline - trait ArbitraryInstancesBinCompat0,0.0,136.0,1.0,136.0,1.0,136.0,1.0
+HEAD,1,package client - class EmberConnection,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,1,package client - object EmberConnection,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,1,package internal - object ClientHelpers,2.0,126.0,0.5384615384615384,14.0,0.05982905982905983,83.0,0.3547008547008547
+HEAD,0,package internal - object ClientHelpers - method request - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object ClientHelpers - object RetryLogic,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,1,package core - object Parser,20.0,164.0,0.26366559485530544,2.0,0.003215434083601286,31.904761904761905,0.05129382942887766
+HEAD,1,package core - object Parser - object MessageP,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package core - object Parser - class HeaderP,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package core - object Parser - object HeaderP,2.0,83.0,0.6693548387096774,12.0,0.0967741935483871,44.0,0.3548387096774194
+HEAD,0,package core - object Parser - object HeaderP - class ParserState,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package core - object Parser - object HeaderP - object ParserState,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package core - object Parser - object HeaderP - class ParseHeadersError,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package core - object Parser - object HeaderP - class IncompleteHttpMessage,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package core - object Parser - object Request,10.0,65.0,0.37142857142857144,2.0,0.011428571428571429,17.727272727272727,0.10129870129870129
+HEAD,0,package core - object Parser - object Request - class ReqPrelude,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package core - object Parser - object Request - object ReqPrelude,10.0,40.0,0.33613445378151263,2.0,0.01680672268907563,12.636363636363637,0.10618792971734148
+HEAD,0,package core - object Parser - object Request - object ReqPrelude - class ParserState,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package core - object Parser - object Request - object ReqPrelude - object ParserState,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package core - object Parser - object Request - object ReqPrelude - class ParsePreludeError,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package core - object Parser - object Response,8.0,98.0,0.5632183908045977,3.0,0.017241379310344827,21.555555555555557,0.12388250319284803
+HEAD,0,package core - object Parser - object Response - object RespPrelude,8.0,35.0,0.3181818181818182,3.0,0.02727272727272727,14.444444444444445,0.13131313131313133
+HEAD,0,package core - object Parser - object Response - object RespPrelude - class RespPrelude,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package core - object Parser - object Response - object RespPrelude - class ParserState,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package core - object Parser - object Response - object RespPrelude - object ParserState,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package core - object Parser - object Response - object RespPrelude - class RespPreludeError,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package core - object Parser - object Body,0.0,86.0,1.0,86.0,1.0,86.0,1.0
+HEAD,0,package core - object Parser - object Body - class BodyAlreadyConsumedError,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,1,package http4s - package core - object Util,0.0,99.0,1.0,99.0,1.0,99.0,1.0
+HEAD,1,package client - class EmberClientBuilder,0.0,344.0,1.0,344.0,1.0,344.0,1.0
+HEAD,0,package client - object EmberClientBuilder,0.0,49.0,1.0,49.0,1.0,49.0,1.0
+HEAD,0,package client - object EmberClientBuilder - object Defaults,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - package laws - package discipline - object arbitrary,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - package discipline - object ArbitraryInstances,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances,0.0,975.0,1.0,975.0,1.0,975.0,1.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances - class ParseResultSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances - method http4sTestingSemigroupForGen - <$anon: <error>>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances - method http4sTestingArbitraryForEntityDecoder - <$anon: org.http4s.EntityDecoder[F A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,2,package http4s - package laws - package discipline - trait ArbitraryInstancesBinCompat0,0.0,136.0,1.0,136.0,1.0,136.0,1.0
+HEAD,1,package internal - object WebSocketHelpers,6.0,90.0,0.3643724696356275,9.0,0.03643724696356275,42.285714285714285,0.17119722382880279
+HEAD,0,package internal - object WebSocketHelpers - class Close,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object Open,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object PeerClosed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object EndpointClosed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object BothClosed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - class ClientHandshakeError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object VersionNotFound,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - class UnsupportedVersion,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object UpgradeRequired,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object KeyNotFound,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - class EndOfStreamError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object BrokenPipeError,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait EntityDecoder,0.0,94.0,1.0,94.0,1.0,94.0,1.0
+HEAD,0,package http4s - trait EntityDecoder - method map - <$anon: org.http4s.EntityDecoder[F T2]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - trait EntityDecoder - method flatMapR - <$anon: org.http4s.EntityDecoder[F T2]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - trait EntityDecoder - method transform - <$anon: org.http4s.EntityDecoder[F T2]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - trait EntityDecoder - method transformWith - <$anon: org.http4s.EntityDecoder[F T2]>,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,1,package http4s - object EntityDecoder,0.0,222.0,1.0,222.0,1.0,222.0,1.0
+HEAD,0,package http4s - object EntityDecoder - method semigroupKForEntityDecoder - <$anon: <error>>,0.0,24.0,1.0,24.0,1.0,24.0,1.0
+HEAD,0,package http4s - object EntityDecoder - method semigroupKForEntityDecoder - <$anon: <error>> - method combineK - <$anon: org.http4s.EntityDecoder[F T]>,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package http4s - object EntityDecoder - method decodeBy - <$anon: org.http4s.EntityDecoder[F T]>,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package http4s - object EntityDecoder - method error - <$anon: org.http4s.EntityDecoder[F T]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package http4s - package server - package staticcontent - class ResourceServiceBuilder,0.0,87.0,1.0,87.0,1.0,87.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - class ResourceServiceBuilder - method toRoutes - object BadTraversal,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - object ResourceServiceBuilder,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - object ResourceService,0.0,65.0,1.0,65.0,1.0,65.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object ResourceService - class Config,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object ResourceService - method apply - object BadTraversal,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package http4s - package server - package staticcontent - class ResourceServiceBuilder,0.0,87.0,1.0,87.0,1.0,87.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - class ResourceServiceBuilder - method toRoutes - object BadTraversal,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - object ResourceServiceBuilder,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - object ResourceService,0.0,65.0,1.0,65.0,1.0,65.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object ResourceService - class Config,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object ResourceService - method apply - object BadTraversal,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class Shutdown,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package internal - object Shutdown,0.0,71.0,1.0,71.0,1.0,71.0,1.0
+HEAD,0,package internal - object Shutdown - method timedShutdown - class State,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object Shutdown - method timedShutdown - <$anon: org.http4s.ember.server.internal.Shutdown[F]>,0.0,41.0,1.0,41.0,1.0,41.0,1.0
+HEAD,1,package internal - object Shutdown - method immediateShutdown - <$anon: org.http4s.ember.server.internal.Shutdown[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package core - object Encoder,3.0,65.0,0.48507462686567165,10.0,0.07462686567164178,40.0,0.29850746268656714
+HEAD,1,package core - object Parser,21.0,125.0,0.25303643724696356,2.0,0.004048582995951417,25.363636363636363,0.051343393448656606
+HEAD,1,package core - object Parser - object MessageP,0.0,24.0,1.0,24.0,1.0,24.0,1.0
+HEAD,0,package core - object Parser - class HeaderP,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,1,package core - object Parser - object HeaderP,2.0,74.0,0.8222222222222222,12.0,0.13333333333333333,33.0,0.36666666666666664
+HEAD,0,package core - object Parser - object HeaderP - class ParseHeadersError,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package core - object Parser - object HeaderP - class IncompleteHttpMessage,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,1,package core - object Parser - object Request,10.0,58.0,0.42962962962962964,2.0,0.014814814814814815,14.090909090909092,0.10437710437710439
+HEAD,0,package core - object Parser - object Request - class ReqPrelude,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package core - object Parser - object Request - object ReqPrelude,10.0,30.0,0.3488372093023256,2.0,0.023255813953488372,9.636363636363637,0.11205073995771671
+HEAD,0,package core - object Parser - object Request - object ReqPrelude - class ParsePreludeError,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,1,package core - object Parser - object Response,8.0,66.0,0.4925373134328358,3.0,0.022388059701492536,17.22222222222222,0.1285240464344942
+HEAD,1,package core - object Parser - object Response - object RespPrelude,8.0,26.0,0.3333333333333333,3.0,0.038461538461538464,11.0,0.14102564102564102
+HEAD,0,package core - object Parser - object Response - object RespPrelude - class RespPrelude,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package core - object Parser - object Response - object RespPrelude - class RespPreludeError,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package core - object Parser - object Body,0.0,86.0,1.0,86.0,1.0,86.0,1.0
+HEAD,0,package core - object Parser - object Body - class BodyAlreadyConsumedError,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,1,package http4s - package core - object ChunkedEncoding,0.0,126.0,1.0,126.0,1.0,126.0,1.0
+HEAD,0,package http4s - package core - object ChunkedEncoding - class Trailers,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package http4s - package client - package middleware - object RequestLogger,0.0,103.0,1.0,103.0,1.0,103.0,1.0
+HEAD,1,package internal - object WebSocketHelpers,4.0,140.0,0.6060606060606061,9.0,0.03896103896103896,51.8,0.22424242424242424
+HEAD,0,package internal - object WebSocketHelpers - class Close,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object Open,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object PeerClosed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object EndpointClosed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object BothClosed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - class ClientHandshakeError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object VersionNotFound,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - class UnsupportedVersion,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object UpgradeRequired,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object KeyNotFound,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - class EndOfStreamError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object BrokenPipeError,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class Uri,3.0,107.0,0.7588652482269503,14.0,0.09929078014184398,41.5,0.29432624113475175
+HEAD,1,package http4s - object Uri,16.0,322.0,0.2712721145745577,6.0,0.005054759898904802,81.94117647058823,0.06903216214876852
+HEAD,0,package http4s - object Uri - class Scheme,1.0,16.0,0.8421052631578947,9.0,0.47368421052631576,12.5,0.6578947368421053
+HEAD,0,package http4s - object Uri - object Scheme,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package http4s - object Uri - object Scheme - <$anon: org.http4s.HttpCodec[org.http4s.Uri.Scheme]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - class Authority,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - object Uri - object Authority,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package http4s - object Uri - object Authority - <$anon: <error> with <error> with <error>>,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,1,package http4s - object Uri - class Path,2.0,86.0,0.7889908256880734,21.0,0.1926605504587156,46.0,0.42201834862385323
+HEAD,0,package http4s - object Uri - object Path,0.0,138.0,1.0,138.0,1.0,138.0,1.0
+HEAD,0,package http4s - object Uri - object Path - class Segment,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - object Uri - object Path - object Segment,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package http4s - object Uri - object Path - object Segment - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - object Path - trait SegmentEncoder,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - object Uri - object Path - object SegmentEncoder,0.0,35.0,1.0,35.0,1.0,35.0,1.0
+HEAD,0,package http4s - object Uri - object Path - object SegmentEncoder - <$anon: <error>>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object Uri - object Path - <$anon: <error> with <error>>,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - object Uri - class UserInfo,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object Uri - object UserInfo,1.0,23.0,0.575,22.0,0.55,22.5,0.5625
+HEAD,0,package http4s - object Uri - object UserInfo - <$anon: org.http4s.HttpCodec[org.http4s.Uri.UserInfo] with <error> with <error> with <error>>,1.0,21.0,0.7777777777777778,11.0,0.4074074074074074,16.0,0.5925925925925926
+HEAD,0,package http4s - object Uri - trait Host,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - object Uri - object Host,0.0,66.0,1.0,66.0,1.0,66.0,1.0
+HEAD,0,package http4s - object Uri - object Host - <$anon: <error> with <error> with <error>>,0.0,37.0,1.0,37.0,1.0,37.0,1.0
+HEAD,0,package http4s - object Uri - class Ipv4Address,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - object Uri - object Ipv4Address,0.0,43.0,1.0,43.0,1.0,43.0,1.0
+HEAD,0,package http4s - object Uri - object Ipv4Address - <$anon: org.http4s.HttpCodec[org.http4s.Uri.Ipv4Address] with <error> with <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - class Ipv6Address,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package http4s - object Uri - object Ipv6Address,0.0,55.0,1.0,55.0,1.0,55.0,1.0
+HEAD,0,package http4s - object Uri - object Ipv6Address - <$anon: org.http4s.HttpCodec[org.http4s.Uri.Ipv6Address] with <error> with <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - class RegName,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object Uri - object RegName,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - object RegName - <$anon: <error> with <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - <$anon: <error> with <error> with <error>>,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - object Uri - object Parser,0.0,281.0,1.0,281.0,1.0,281.0,1.0
+HEAD,0,package http4s - package laws - package discipline - object arbitrary,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - package discipline - object ArbitraryInstances,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package http4s - package laws - package discipline - trait ArbitraryInstances,0.0,961.0,1.0,961.0,1.0,961.0,1.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances - class ParseResultSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances - method http4sTestingSemigroupForGen - <$anon: <error>>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstances - method http4sTestingArbitraryForEntityDecoder - <$anon: org.http4s.EntityDecoder[F A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - package discipline - trait ArbitraryInstancesBinCompat0,0.0,127.0,1.0,127.0,1.0,127.0,1.0
+HEAD,0,package http4s - class Uri,3.0,107.0,0.7588652482269503,14.0,0.09929078014184398,41.5,0.29432624113475175
+HEAD,1,package http4s - object Uri,16.0,322.0,0.27218934911242604,6.0,0.00507185122569738,81.70588235294117,0.06906667992640843
+HEAD,0,package http4s - object Uri - class Scheme,1.0,16.0,0.8421052631578947,9.0,0.47368421052631576,12.5,0.6578947368421053
+HEAD,0,package http4s - object Uri - object Scheme,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package http4s - object Uri - object Scheme - <$anon: org.http4s.HttpCodec[org.http4s.Uri.Scheme]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - class Authority,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - object Uri - object Authority,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package http4s - object Uri - object Authority - <$anon: <error> with <error> with <error>>,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,1,package http4s - object Uri - class Path,2.0,82.0,0.780952380952381,21.0,0.2,44.666666666666664,0.4253968253968254
+HEAD,0,package http4s - object Uri - object Path,0.0,138.0,1.0,138.0,1.0,138.0,1.0
+HEAD,0,package http4s - object Uri - object Path - class Segment,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - object Uri - object Path - object Segment,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package http4s - object Uri - object Path - object Segment - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - object Path - trait SegmentEncoder,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - object Uri - object Path - object SegmentEncoder,0.0,35.0,1.0,35.0,1.0,35.0,1.0
+HEAD,0,package http4s - object Uri - object Path - object SegmentEncoder - <$anon: <error>>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object Uri - object Path - <$anon: <error> with <error>>,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - object Uri - class UserInfo,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object Uri - object UserInfo,1.0,23.0,0.575,22.0,0.55,22.5,0.5625
+HEAD,0,package http4s - object Uri - object UserInfo - <$anon: org.http4s.HttpCodec[org.http4s.Uri.UserInfo] with <error> with <error> with <error>>,1.0,21.0,0.7777777777777778,11.0,0.4074074074074074,16.0,0.5925925925925926
+HEAD,0,package http4s - object Uri - trait Host,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - object Uri - object Host,0.0,66.0,1.0,66.0,1.0,66.0,1.0
+HEAD,0,package http4s - object Uri - object Host - <$anon: <error> with <error> with <error>>,0.0,37.0,1.0,37.0,1.0,37.0,1.0
+HEAD,0,package http4s - object Uri - class Ipv4Address,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - object Uri - object Ipv4Address,0.0,43.0,1.0,43.0,1.0,43.0,1.0
+HEAD,0,package http4s - object Uri - object Ipv4Address - <$anon: org.http4s.HttpCodec[org.http4s.Uri.Ipv4Address] with <error> with <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - class Ipv6Address,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package http4s - object Uri - object Ipv6Address,0.0,55.0,1.0,55.0,1.0,55.0,1.0
+HEAD,0,package http4s - object Uri - object Ipv6Address - <$anon: org.http4s.HttpCodec[org.http4s.Uri.Ipv6Address] with <error> with <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - class RegName,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object Uri - object RegName,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - object RegName - <$anon: <error> with <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Uri - <$anon: <error> with <error> with <error>>,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - object Uri - object Parser,0.0,281.0,1.0,281.0,1.0,281.0,1.0
+HEAD,1,package core - object Encoder,3.0,64.0,0.49612403100775193,10.0,0.07751937984496124,38.75,0.3003875968992248
+HEAD,1,package http4s - package client - class DefaultClient,0.0,211.0,1.0,211.0,1.0,211.0,1.0
+HEAD,1,package client - class EmberClient,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,1,package http4s - object StaticFile,0.0,311.0,1.0,311.0,1.0,311.0,1.0
+HEAD,0,package http4s - object StaticFile - method notModified - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package internal - object WebSocketHelpers,2.0,182.0,0.7459016393442623,4.0,0.01639344262295082,83.0,0.3401639344262295
+HEAD,0,package internal - object WebSocketHelpers - class Close,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object Open,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object PeerClosed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object EndpointClosed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object BothClosed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - class ClientHandshakeError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object VersionNotFound,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - class UnsupportedVersion,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object UpgradeRequired,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object KeyNotFound,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - class EndOfStreamError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object WebSocketHelpers - object BrokenPipeError,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package build - object MimeLoaderPlugin,0.0,24.0,1.0,24.0,1.0,24.0,1.0
+HEAD,0,package build - object MimeLoaderPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package build - object MimeLoader,4.0,105.0,0.7777777777777778,6.0,0.044444444444444446,32.6,0.2414814814814815
+HEAD,0,package build - class MimeDescr,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package build - class Mime,0.0,112.0,1.0,112.0,1.0,112.0,1.0
+HEAD,0,package build - object Mime,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class MediaRange,1.0,38.0,0.8837209302325582,16.0,0.37209302325581395,27.0,0.627906976744186
+HEAD,0,package http4s - object MediaRange,5.0,56.0,0.49122807017543857,5.0,0.043859649122807015,23.166666666666668,0.20321637426900585
+HEAD,0,package http4s - object MediaRange - <$anon: org.http4s.HttpCodec[org.http4s.MediaRange]>,1.0,11.0,0.8461538461538461,7.0,0.5384615384615384,9.0,0.6923076923076923
+HEAD,0,package http4s - class MediaType,1.0,35.0,0.6730769230769231,27.0,0.5192307692307693,31.0,0.5961538461538461
+HEAD,1,package http4s - object MediaType,2.0,79.0,0.5266666666666666,34.0,0.22666666666666666,61.666666666666664,0.4111111111111111
+HEAD,0,package http4s - object MediaType - <$anon: org.http4s.HttpCodec[org.http4s.MediaType]>,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,1,package http4s - trait MimeDB,0.0,7779.0,1.0,7779.0,1.0,7779.0,1.0
+HEAD,1,package http4s - trait MimeDB - object application_parts,0.0,6180.0,1.0,6180.0,1.0,6180.0,1.0
+HEAD,1,package http4s - trait MimeDB - object application_parts - trait application_0,0.0,1566.0,1.0,1566.0,1.0,1566.0,1.0
+HEAD,1,package http4s - trait MimeDB - object application_parts - trait application_1,0.0,1876.0,1.0,1876.0,1.0,1876.0,1.0
+HEAD,1,package http4s - trait MimeDB - object application_parts - trait application_2,0.0,2201.0,1.0,2201.0,1.0,2201.0,1.0
+HEAD,1,package http4s - trait MimeDB - object application_parts - trait application_3,0.0,535.0,1.0,535.0,1.0,535.0,1.0
+HEAD,1,package http4s - trait MimeDB - object application,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,1,package http4s - trait MimeDB - object audio,0.0,444.0,1.0,444.0,1.0,444.0,1.0
+HEAD,1,package http4s - trait MimeDB - object chemical,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,1,package http4s - trait MimeDB - object font,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,1,package http4s - trait MimeDB - object image,0.0,271.0,1.0,271.0,1.0,271.0,1.0
+HEAD,1,package http4s - trait MimeDB - object message,0.0,66.0,1.0,66.0,1.0,66.0,1.0
+HEAD,1,package http4s - trait MimeDB - object model,0.0,96.0,1.0,96.0,1.0,96.0,1.0
+HEAD,1,package http4s - trait MimeDB - object multipart,0.0,46.0,1.0,46.0,1.0,46.0,1.0
+HEAD,1,package http4s - trait MimeDB - object text,0.0,352.0,1.0,352.0,1.0,352.0,1.0
+HEAD,1,package http4s - trait MimeDB - object video,0.0,269.0,1.0,269.0,1.0,269.0,1.0
+HEAD,1,package http4s - trait MimeDB - object x_conference,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,1,package http4s - trait MimeDB - object x_shader,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,1,package server - object ContextRouter,0.0,94.0,1.0,94.0,1.0,94.0,1.0
+HEAD,0,package server - object ContextRouter - object Segment,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package server - object ContextRouter - object Segment - method functor - <$anon: <error>>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package server - object ContextRouter - object Segment - method contravariant - <$anon: <error>>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package server - object ContextRouter - object Segment - class Partial,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package server - object ContextRouter - class Segment,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package server - object ContextRouter - object Routable,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package server - object ContextRouter - object Routable - class Static,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package server - object ContextRouter - object Routable - class Dynamic,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package server - object ContextRouter - trait Routable,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package sbt - object Http4sPlugin,0.0,322.0,1.0,322.0,1.0,322.0,1.0
+HEAD,1,package sbt - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sPlugin - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin - object V,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package client - class EmberClientBuilder,0.0,304.0,1.0,304.0,1.0,304.0,1.0
+HEAD,0,package client - object EmberClientBuilder,0.0,44.0,1.0,44.0,1.0,44.0,1.0
+HEAD,0,package client - object EmberClientBuilder - object Defaults,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,1,package client - class EmberClientBuilder,0.0,304.0,1.0,304.0,1.0,304.0,1.0
+HEAD,0,package client - object EmberClientBuilder,0.0,44.0,1.0,44.0,1.0,44.0,1.0
+HEAD,0,package client - object EmberClientBuilder - object Defaults,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,1,package websocket - class WSRequest,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,1,package websocket - object WSRequest,0.0,34.0,1.0,34.0,1.0,34.0,1.0
+HEAD,0,package websocket - object WSRequest - class WSRequestImpl,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package websocket - object WSRequest - <$anon: <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package websocket - trait WSFrame,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package websocket - trait WSControlFrame,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package websocket - trait WSDataFrame,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package websocket - object WSFrame,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,1,package websocket - object WSFrame - class Close,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package websocket - object WSFrame - class Ping,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package websocket - object WSFrame - class Pong,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package websocket - object WSFrame - class Text,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package websocket - object WSFrame - class Binary,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package websocket - trait WSConnection,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package websocket - trait WSConnection - method mapK - <$anon: org.http4s.client.websocket.WSConnection[G]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,1,package websocket - trait WSConnectionHighLevel,0.0,37.0,1.0,37.0,1.0,37.0,1.0
+HEAD,0,package websocket - trait WSConnectionHighLevel - method mapK - <$anon: org.http4s.client.websocket.WSConnectionHighLevel[G]>,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package websocket - trait WSConnectionHighLevel - method mapK - <$anon: org.http4s.client.websocket.WSConnectionHighLevel[G]> - method closeFrame - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package websocket - trait WSClientHighLevel,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package websocket - trait WSClientHighLevel - method mapK - <$anon: org.http4s.client.websocket.WSClientHighLevel[G]>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,1,package websocket - trait WSClient,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package websocket - trait WSClient - method mapK - <$anon: org.http4s.client.websocket.WSClient[G]>,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,1,package websocket - object WSClient,0.0,51.0,1.0,51.0,1.0,51.0,1.0
+HEAD,0,package websocket - object WSClient - method apply - <$anon: org.http4s.client.websocket.WSClient[F]>,0.0,46.0,1.0,46.0,1.0,46.0,1.0
+HEAD,0,package websocket - object WSClient - method apply - <$anon: org.http4s.client.websocket.WSClient[F]> - method connectHighLevel - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package http4s - package client - package middleware - object Retry,0.0,70.0,1.0,70.0,1.0,70.0,1.0
+HEAD,0,package http4s - package client - package middleware - object RetryPolicy,0.0,78.0,1.0,78.0,1.0,78.0,1.0
+HEAD,1,package http4s - package client - package middleware - object FollowRedirect,0.0,120.0,1.0,120.0,1.0,120.0,1.0
+HEAD,1,package ember - object EmberServerSimpleExample,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,1,package ember - object EmberServerSimpleExample - method service - <$anon: org.http4s.dsl.Http4sDsl[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin,0.0,390.0,1.0,390.0,1.0,390.0,1.0
+HEAD,0,package sbt - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sPlugin - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin - object V,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin,0.0,434.0,1.0,434.0,1.0,434.0,1.0
+HEAD,0,package sbt - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sPlugin - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin - object V,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin,0.0,393.0,1.0,393.0,1.0,393.0,1.0
+HEAD,0,package sbt - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sPlugin - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin - object V,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin,0.0,384.0,1.0,384.0,1.0,384.0,1.0
+HEAD,0,package sbt - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sPlugin - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin - object V,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin,0.0,420.0,1.0,420.0,1.0,420.0,1.0
+HEAD,0,package sbt - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sPlugin - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sPlugin - object V,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin,0.0,425.0,1.0,425.0,1.0,425.0,1.0
+HEAD,0,package sbt - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sPlugin - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin - object V,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package http4s - class ExampleService,0.0,175.0,1.0,175.0,1.0,175.0,1.0
+HEAD,0,package http4s - object ExampleService,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,1,package sbt - object Http4sPlugin,0.0,382.0,1.0,382.0,1.0,382.0,1.0
+HEAD,0,package sbt - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sPlugin - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin - object V,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin,0.0,404.0,1.0,404.0,1.0,404.0,1.0
+HEAD,0,package sbt - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sPlugin - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package sbt - object Http4sPlugin - object V,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package build - object Http4sPlugin,2.0,235.0,0.7035928143712575,22.0,0.0658682634730539,116.33333333333333,0.34830339321357284
+HEAD,0,package build - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package build - object Http4sPlugin - class StepSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package build - object Http4sPlugin - class StateFCommand,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package build - object Http4sPlugin,2.0,240.0,0.6956521739130435,22.0,0.06376811594202898,120.0,0.34782608695652173
+HEAD,0,package build - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package build - object Http4sPlugin - class StepSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package build - object Http4sPlugin - class StateFCommand,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package build - object Http4sPlugin,2.0,240.0,0.6956521739130435,22.0,0.06376811594202898,120.0,0.34782608695652173
+HEAD,0,package build - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package build - object Http4sPlugin - class StepSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package build - object Http4sPlugin - class StateFCommand,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package http4s - class ExampleService,0.0,180.0,1.0,180.0,1.0,180.0,1.0
+HEAD,1,package http4s - package jawn - trait JawnInstances,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,1,package blaze - object Example,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,1,package http4s - package circe - trait CirceInstances,0.0,99.0,1.0,99.0,1.0,99.0,1.0
+HEAD,0,package http4s - package circe - trait CirceInstances - class MessageSyntax,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package circe - object CirceInstances,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package http4s - package circe - object CirceInstances - method withPrinter - <$anon: org.http4s.circe.CirceInstances>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,1,package build - object Http4sPlugin,2.0,225.0,0.7188498402555911,21.0,0.0670926517571885,109.0,0.34824281150159747
+HEAD,0,package build - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package build - object Http4sPlugin - class StepSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package build - object Http4sPlugin - class StateFCommand,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - trait Path,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - object Path,0.0,24.0,1.0,24.0,1.0,24.0,1.0
+HEAD,0,package impl - object :?,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - object ~,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package impl - class /,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package impl - object ->,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - class MethodConcat,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - object Root,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package impl - object /:,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package impl - class NumericPathVar,1.0,6.0,0.8571428571428571,2.0,0.2857142857142857,4.0,0.5714285714285714
+HEAD,0,package impl - object IntVar,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - object LongVar,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - object +&,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - class QueryParamDecoderMatcher,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package impl - class QueryParamMatcher,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package impl - class OptionalQueryParamDecoderMatcher,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,1,package impl - class OptionalMultiQueryParamDecoderMatcher,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package impl - class OptionalQueryParamMatcher,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package impl - class ValidatingQueryParamDecoderMatcher,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package impl - class OptionalValidatingQueryParamDecoderMatcher,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,1,package http4s - class ExampleService,0.0,189.0,1.0,189.0,1.0,189.0,1.0
+HEAD,1,package build - object Http4sPlugin,0.0,135.0,1.0,135.0,1.0,135.0,1.0
+HEAD,0,package build - object Http4sPlugin - object autoImport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package build - object Http4sPlugin,0.0,108.0,1.0,108.0,1.0,108.0,1.0
+HEAD,0,package build - object Http4sPlugin - object autoImport,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,1,package http4s - object ExampleService,2.0,90.0,0.7086614173228346,34.0,0.2677165354330709,54.0,0.4251968503937008
+HEAD,1,package http4s - object ExampleService,2.0,90.0,0.7086614173228346,34.0,0.2677165354330709,54.0,0.4251968503937008
+HEAD,1,package http4s - object ExampleService,2.0,90.0,0.7086614173228346,34.0,0.2677165354330709,54.0,0.4251968503937008
+HEAD,1,package http4s - object ExampleService,2.0,90.0,0.7086614173228346,34.0,0.2677165354330709,54.0,0.4251968503937008
+HEAD,0,package http4s - package headers - object X-B3-ParentSpanId,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object X-B3-ParentSpanId - <$anon: org.http4s.util.Renderable>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class X-B3-ParentSpanId,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package authentication - class Nonce,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package authentication - object Nonce,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object User-Agent,2.0,39.0,0.6964285714285714,13.0,0.23214285714285715,23.333333333333332,0.41666666666666663
+HEAD,0,package http4s - package headers - object User-Agent - <$anon: org.http4s.util.Renderable>,1.0,7.0,0.6363636363636364,5.0,0.45454545454545453,6.0,0.5454545454545454
+HEAD,0,package http4s - package headers - object User-Agent - method convert - <$anon: org.http4s.util.Renderer[org.http4s.headers.User-Agent]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class User-Agent,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package parser - object ZipkinHeader,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package scaffold - object HandlersToNettyAdapter,1.0,8.0,0.6666666666666666,8.0,0.6666666666666666,8.0,0.6666666666666666
+HEAD,0,package scaffold - class HandlersToNettyAdapter,6.0,21.0,0.3442622950819672,5.0,0.08196721311475409,12.285714285714286,0.20140515222482436
+HEAD,0,package scaffold - trait Handler,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package scaffold - object HandlerHelpers,0.0,44.0,1.0,44.0,1.0,44.0,1.0
+HEAD,0,package h2 - class HpackPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Accept-Language,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package http4s - package headers - class Accept-Language,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package multipart - class Boundary,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package multipart - object Boundary,1.0,21.0,1.0,10.0,0.47619047619047616,15.5,0.7380952380952381
+HEAD,0,package http4s - trait Http4sLawSuite,2.0,7.0,0.6363636363636364,2.0,0.18181818181818182,4.666666666666667,0.42424242424242425
+HEAD,0,package http4s - package headers - object Range,4.0,49.0,0.620253164556962,7.0,0.08860759493670886,25.2,0.3189873417721519
+HEAD,0,package http4s - package headers - object Range - object SubRange,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Range - class SubRange,1.0,11.0,0.9166666666666666,8.0,0.6666666666666666,9.5,0.7916666666666666
+HEAD,0,package http4s - package headers - object Range - <$anon: org.http4s.util.Renderable>,1.0,5.0,0.7142857142857143,3.0,0.42857142857142855,4.0,0.5714285714285714
+HEAD,0,package http4s - package headers - class Range,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package middleware - object ConcurrentRequests,0.0,90.0,1.0,90.0,1.0,90.0,1.0
+HEAD,0,package http4s - package headers - object SourceMap,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package http4s - package headers - class SourceMap,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package circe - package object circe,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object LiteralSyntaxMacros,0.0,56.0,1.0,56.0,1.0,56.0,1.0
+HEAD,0,package http4s - object LiteralSyntaxMacros - object uri,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object LiteralSyntaxMacros - object path,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - object LiteralSyntaxMacros - object scheme,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object LiteralSyntaxMacros - object mediaType,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object LiteralSyntaxMacros - object qValue,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - package nodejs - trait ClientRequest,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package nodejs - object ClientRequest,2.0,31.0,0.6888888888888889,2.0,0.044444444444444446,16.0,0.35555555555555557
+HEAD,0,package http4s - package nodejs - object ClientRequest - class ClientRequestOps,2.0,29.0,0.7631578947368421,2.0,0.05263157894736842,13.666666666666666,0.35964912280701755
+HEAD,0,package http4s - package headers - object X-B3-SpanId,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object X-B3-SpanId - <$anon: org.http4s.util.Renderable>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class X-B3-SpanId,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object WWW-Authenticate,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package http4s - package headers - class WWW-Authenticate,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth,2.0,213.0,0.8255813953488372,5.0,0.01937984496124031,88.0,0.34108527131782945
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - trait AuthStore,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - object PlainTextAuthStore,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - class PlainTextAuthStore,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - object Md5HashedAuthStore,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - class Md5HashedAuthStore,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - trait AuthReply,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - class OK,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - object StaleNonce,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - object BadNC,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - object WrongResponse,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - object BadParameters,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - object UserUnknown,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - object NoCredentials,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestAuth - object NoAuthorizationHeader,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object If-Modified-Since,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - package headers - class If-Modified-Since,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Accept-Patch,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - package headers - class Accept-Patch,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package websocket - package object websocket,1.0,29.0,0.6590909090909091,24.0,0.5454545454545454,26.5,0.6022727272727273
+HEAD,0,package http4s - package util - package object util,0.0,31.0,1.0,31.0,1.0,31.0,1.0
+HEAD,0,package http4s - class ContextResponse,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - object ContextResponse,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class RequestCookie,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - object RequestCookie,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package internal - object Logger,0.0,67.0,1.0,67.0,1.0,67.0,1.0
+HEAD,0,package http4s - class Protocol,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object Protocol,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - package object staticcontent,0.0,33.0,1.0,33.0,1.0,33.0,1.0
+HEAD,0,package core - trait UtilPlatform,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - package bench - class SchemeBench,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class Sec-WebSocket-Key,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package headers - object Sec-WebSocket-Key,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package http4s - package server - package middleware - object AutoSlash,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package middleware - object Date,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - package client - package dsl - trait Http4sClientDsl,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package http4s - package client - package dsl - object Http4sClientDsl,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package client - package dsl - object Http4sClientDsl - method apply - <$anon: org.http4s.client.dsl.Http4sClientDsl[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package client - package dsl - class MethodOps,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - package client - package testkit - package scaffold - class ServerScaffold,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package client - package testkit - package scaffold - object ServerScaffold,3.0,40.0,0.5970149253731343,5.0,0.07462686567164178,19.75,0.2947761194029851
+HEAD,0,package http4s - package client - package testkit - package scaffold - object ServerScaffold - trait Server,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - package client - package testkit - package scaffold - object ServerScaffold - trait Address,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package internal - trait InternalPlatform,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package discipline - trait LawAdapter,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package discipline - object LawAdapter,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package websocket - package object websocket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package websocket - package object websocket - object Keys,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Content-Range,0.0,57.0,1.0,57.0,1.0,57.0,1.0
+HEAD,0,package http4s - package headers - object Content-Range - <$anon: org.http4s.util.Renderable>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package headers - class Content-Range,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Transfer-Encoding,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package http4s - package headers - class Transfer-Encoding,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package http4s - package laws - trait EntityCodecLaws,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package http4s - package laws - object EntityCodecLaws,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package http4s - package laws - object EntityCodecLaws - method apply - <$anon: org.http4s.laws.EntityCodecLaws[F A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object HttpApp,0.0,47.0,1.0,47.0,1.0,47.0,1.0
+HEAD,0,package http4s - package headers - object Set-Cookie,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package http4s - package headers - class Set-Cookie,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package dsl - trait RequestDsl,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dsl - trait RequestDslBinCompat,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - class H2TLSPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circe - trait CirceEntityEncoder,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package circe - object CirceEntityEncoder,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class ServerSoftware,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - object ServerSoftware,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - object H2Keys,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait MessageFailure,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class ParseFailure,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package http4s - object ParseFailure,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object ParseResult,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package http4s - trait DecodeFailure,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object DecodeFailure,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait MessageBodyFailure,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class MalformedMessageBodyFailure,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - class InvalidMessageBodyFailure,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - class UnsupportedMediaTypeFailure,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - class MediaTypeMissing,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - class MediaTypeMismatch,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package headers - object Accept-Post,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - package headers - class Accept-Post,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package dsl - object &,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object ETag,0.0,25.0,1.0,25.0,1.0,25.0,1.0
+HEAD,0,package http4s - package headers - class ETag,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object StreamForking,2.0,47.0,0.7230769230769231,6.0,0.09230769230769231,24.0,0.36923076923076925
+HEAD,0,package http4s - package parsing - object Rfc3986,0.0,121.0,1.0,121.0,1.0,121.0,1.0
+HEAD,0,package http4s - package server - package middleware - object DefaultHead,0.0,34.0,1.0,34.0,1.0,34.0,1.0
+HEAD,0,package ember - object EmberClientH2Example,0.0,65.0,1.0,65.0,1.0,65.0,1.0
+HEAD,0,package ember - object EmberClientH2Example - object ClientTest,0.0,57.0,1.0,57.0,1.0,57.0,1.0
+HEAD,0,package http4s - package server - package middleware - object ResponseLogger,0.0,106.0,1.0,106.0,1.0,106.0,1.0
+HEAD,0,package http4s - trait UriPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object UriPlatform,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package http4s - object UriPlatform - class Macros,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - package server - package middleware - class CORSConfig,3.0,68.0,0.8395061728395061,2.0,0.024691358024691357,23.25,0.28703703703703703
+HEAD,0,package http4s - package server - package middleware - object CORSConfig,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORS,2.0,94.0,0.6482758620689655,19.0,0.1310344827586207,55.0,0.3793103448275862
+HEAD,0,package http4s - package server - package middleware - class CORSPolicy,4.0,285.0,0.667447306791569,8.0,0.01873536299765808,88.6,0.20749414519906323
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy,0.0,61.0,1.0,61.0,1.0,61.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object CommonHeaders,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - trait AllowOrigin,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowOrigin,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowOrigin - object All,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowOrigin - class Match,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - trait AllowCredentials,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowCredentials,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowCredentials - object Allow,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowCredentials - object Deny,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - trait ExposeHeaders,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object ExposeHeaders,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object ExposeHeaders - object All,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object ExposeHeaders - class In,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object ExposeHeaders - object None,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - trait AllowMethods,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowMethods,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowMethods - object All,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowMethods - class In,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - trait AllowHeaders,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowHeaders,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowHeaders - object All,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowHeaders - class In,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowHeaders - object Reflect,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object AllowHeaders - class Static,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - trait MaxAge,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object MaxAge,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object MaxAge - class Some,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object MaxAge - object Default,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CORSPolicy - object MaxAge - object DisableCaching,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - class ChunkWriter,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class UrlForm,0.0,58.0,1.0,58.0,1.0,58.0,1.0
+HEAD,0,package http4s - object UrlForm,5.0,76.0,0.8260869565217391,2.0,0.021739130434782608,17.166666666666668,0.18659420289855075
+HEAD,0,package http4s - object UrlForm - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Access-Control-Allow-Methods,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package http4s - package headers - class Access-Control-Allow-Methods,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package client - trait EmberClientBuilderPlatform,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package client - trait EmberClientBuilderCompanionPlatform,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - package syntax - trait LiteralsSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package syntax - class LiteralsOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object X-B3-Flags,2.0,36.0,0.5901639344262295,15.0,0.2459016393442623,27.333333333333332,0.44808743169398907
+HEAD,0,package http4s - package headers - object X-B3-Flags - trait Flag,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package headers - object X-B3-Flags - object Flag,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package http4s - package headers - object X-B3-Flags - object Flag - object Debug,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package headers - object X-B3-Flags - object Flag - object SamplingSet,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package headers - object X-B3-Flags - object Flag - object Sampled,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package headers - object X-B3-Flags - <$anon: org.http4s.util.Renderable>,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - package headers - class X-B3-Flags,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package client - class NodeJSClientBuilder,8.0,19.0,0.4523809523809524,2.0,0.047619047619047616,7.222222222222222,0.17195767195767195
+HEAD,0,package http4s - package client - class NodeJSClientBuilder - method create - <none>,6.0,8.0,0.5714285714285714,2.0,0.14285714285714285,4.0,0.2857142857142857
+HEAD,0,package http4s - package client - object NodeJSClientBuilder,1.0,36.0,0.9473684210526315,21.0,0.5526315789473685,28.5,0.75
+HEAD,0,package http4s - package client - object NodeJSClientBuilder - method apply - <$anon: org.http4s.client.NodeJSClientBuilder[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package client - object NodeJSClientBuilder - trait RequestOptions,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - package client - object NodeJSClientBuilder - class AbortController,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package client - object NodeJSClientBuilder - trait AbortSignal,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package scaffold - object RoutesToNettyAdapter,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package scaffold - object RoutesToHandlerAdapter,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package scaffold - class RoutesToHandlerAdapter,4.0,72.0,0.7128712871287128,2.0,0.019801980198019802,24.6,0.2435643564356436
+HEAD,0,package http4s - package headers - object Access-Control-Allow-Credentials,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - package headers - class Access-Control-Allow-Credentials,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package headers - object Authorization,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package http4s - package headers - class Authorization,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package server - class Ip4sServer,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class LinkValue,1.0,18.0,0.9473684210526315,11.0,0.5789473684210527,14.5,0.7631578947368421
+HEAD,0,package http4s - package client - trait Connection,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object CurlConverter,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,0,package http4s - class InvalidResponseException,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package syntax - trait StringSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package syntax - class StringOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package websocket - class WebSocketBuilder,0.0,67.0,1.0,67.0,1.0,67.0,1.0
+HEAD,0,package http4s - package websocket - object WebSocketBuilder,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - package headers - object Location,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package http4s - package headers - class Location,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Date,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package headers - class Date,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package impl - trait Methods,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class InvalidBodyException,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Keys,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package server - trait SSLClientAuthMode,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package server - object SSLClientAuthMode,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package server - object SSLClientAuthMode - object NotRequested,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package server - object SSLClientAuthMode - object Requested,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package server - object SSLClientAuthMode - object Required,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fix - object Fs2SyncCompilerTest,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package middleware - trait CookieJar,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package middleware - object CookieJar,0.0,174.0,1.0,174.0,1.0,174.0,1.0
+HEAD,0,package middleware - object CookieJar - method jarIn - <$anon: org.http4s.client.middleware.CookieJar.CookieJarRefImpl[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package middleware - object CookieJar - class CookieJarRefImpl,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package middleware - object CookieJar - class CookieKey,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package middleware - object CookieJar - class CookieValue,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package middleware - object CookieJar - object CookieValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package middleware - object RequestLogger,0.0,113.0,1.0,113.0,1.0,113.0,1.0
+HEAD,0,package dsl - trait Http4sDsl2,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dsl - trait Http4sDsl,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dsl - object Http4sDsl,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dsl - object Http4sDsl - method apply - <$anon: org.http4s.dsl.Http4sDslBinCompat[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dsl - object Http4sDsl - class MethodOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dsl - object Http4sDsl - class MethodConcatOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dsl - trait Http4sDslBinCompat,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package client - package middleware - object GZip,0.0,76.0,1.0,76.0,1.0,76.0,1.0
+HEAD,0,package http4s - package client - package middleware - object GZip - object EmptyBodyException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package middleware - object JsonDebugErrorHandler,0.0,142.0,1.0,142.0,1.0,142.0,1.0
+HEAD,0,package middleware - object JsonDebugErrorHandler - class JsonErrorHandlerResponse,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package middleware - object JsonDebugErrorHandler - object JsonErrorHandlerResponse,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - package client - package oauth1 - package object oauth1,2.0,156.0,0.609375,14.0,0.0546875,89.33333333333333,0.3489583333333333
+HEAD,0,package http4s - package server - package middleware - package authentication - object BasicAuth,0.0,45.0,1.0,45.0,1.0,45.0,1.0
+HEAD,0,package http4s - package headers - object Upgrade,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package http4s - package headers - class Upgrade,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package middleware - object Metrics,0.0,160.0,1.0,160.0,1.0,160.0,1.0
+HEAD,0,package middleware - object Metrics - class MetricsEntry,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - package headers - object Server,2.0,37.0,0.8222222222222222,9.0,0.2,19.666666666666668,0.43703703703703706
+HEAD,0,package http4s - package headers - object Server - <$anon: org.http4s.util.Renderable>,1.0,6.0,0.6,5.0,0.5,5.5,0.55
+HEAD,0,package http4s - package headers - class Server,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package core - object Defaults,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package syntax - trait HeaderSyntax,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package http4s - package syntax - class HeaderOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package syntax - class SelectOpsOne,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package syntax - class SelectOpsMultiple,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package headers - object Allow,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - package headers - class Allow,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - class ResponseCookie,2.0,43.0,0.7678571428571429,18.0,0.32142857142857145,30.333333333333332,0.5416666666666666
+HEAD,0,package http4s - object ResponseCookie,0.0,134.0,1.0,134.0,1.0,134.0,1.0
+HEAD,0,package fix - class UseLiteralsSyntax,0.0,46.0,1.0,46.0,1.0,46.0,1.0
+HEAD,0,package http4s - package server - package middleware - object ResponseTiming,0.0,33.0,1.0,33.0,1.0,33.0,1.0
+HEAD,0,package http4s - package headers - object Host,1.0,19.0,0.7307692307692307,12.0,0.46153846153846156,15.5,0.5961538461538461
+HEAD,0,package http4s - package headers - object Host - <$anon: org.http4s.util.Renderable>,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - package headers - class Host,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object ssl,0.0,54.0,1.0,54.0,1.0,54.0,1.0
+HEAD,0,package http4s - object ssl - method redirectApp - <$anon: org.http4s.dsl.Http4sDsl[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Platform,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - package server - package middleware - class CSRF,0.0,185.0,1.0,185.0,1.0,185.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CSRF,0.0,284.0,1.0,284.0,1.0,284.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CSRF - class CSRFBuilder,0.0,70.0,1.0,70.0,1.0,70.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CSRF - class CookieSettings,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package server - package middleware - object CSRF - object CSRFCheckFailed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package server - package middleware - object ErrorAction,0.0,66.0,1.0,66.0,1.0,66.0,1.0
+HEAD,0,package server - package middleware - object ErrorAction - object httpApp,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package server - package middleware - object ErrorAction - object httpRoutes,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package internal - object tls,0.0,85.0,1.0,85.0,1.0,85.0,1.0
+HEAD,0,package h2 - class HpackPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package client - trait EmberClientBuilderPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package client - trait EmberClientBuilderCompanionPlatform,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - package headers - class Content-Length,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package headers - object Content-Length,0.0,25.0,1.0,25.0,1.0,25.0,1.0
+HEAD,0,package http4s - package middleware - object StaticHeaders,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package middleware - object BodyCache,0.0,26.0,1.0,26.0,1.0,26.0,1.0
+HEAD,0,package http4s - package websocket - class ReservedOpcodeException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package websocket - class UnknownOpcodeException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package testing - object ErrorReporting,2.0,56.0,0.6588235294117647,28.0,0.32941176470588235,39.666666666666664,0.4666666666666666
+HEAD,0,package http4s - package client - package testkit - class ClientRouteTestBattery,2.0,91.0,0.5083798882681564,7.0,0.03910614525139665,62.333333333333336,0.34823091247672255
+HEAD,0,package http4s - package client - package testkit - class ClientRouteTestBattery - class ParseResultSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object UriCoding,4.0,18.0,0.5142857142857142,1.0,0.02857142857142857,10.0,0.2857142857142857
+HEAD,0,package oauth1 - trait ProtocolParameter,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter,0.0,84.0,1.0,84.0,1.0,84.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - class Consumer,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - class Token,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - class Realm,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - class Custom,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - class SignatureMethod,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - class Timestamp,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - object Timestamp,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - class Nonce,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - object Nonce,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - class Version,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - class Callback,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - class Verifier,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package oauth1 - object ProtocolParameter - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package oauth1 - object ProtocolParameter - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package oauth1 - object ProtocolParameter - <$anon: <error>>,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package headers - class Origin,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Origin,2.0,61.0,0.8472222222222222,4.0,0.05555555555555555,25.666666666666668,0.3564814814814815
+HEAD,0,package http4s - package headers - object Origin - object Null,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Origin - class HostList,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Origin - class Host,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - package headers - object Origin - <$anon: org.http4s.util.Renderable>,2.0,8.0,0.5714285714285714,4.0,0.2857142857142857,6.333333333333333,0.4523809523809524
+HEAD,0,package http4s - package headers - object Accept,0.0,40.0,1.0,40.0,1.0,40.0,1.0
+HEAD,0,package http4s - package headers - class MediaRangeAndQValue,1.0,7.0,0.875,6.0,0.75,6.5,0.8125
+HEAD,0,package http4s - package headers - object MediaRangeAndQValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class Accept,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Referer,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package http4s - package headers - class Referer,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package client - package object client,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package client - package object client - object defaults,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait ClientTypes,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object WaitQueueTimeoutException,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package websocket - object WebSocketHandshake,1.0,107.0,0.8991596638655462,24.0,0.20168067226890757,65.5,0.5504201680672269
+HEAD,0,package websocket - object WebSocketHandshake - class ClientHandshaker,1.0,30.0,0.8333333333333334,18.0,0.5,24.0,0.6666666666666666
+HEAD,0,package http4s - package multipart - object MultipartParser,6.0,375.0,0.45072115384615385,55.0,0.06610576923076923,137.85714285714286,0.1656936813186813
+HEAD,0,package http4s - package multipart - object MultipartParser - trait Event,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package multipart - object MultipartParser - class PartStart,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package multipart - object MultipartParser - class PartChunk,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package multipart - object MultipartParser - object PartEnd,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package multipart - object MultipartParser - method parseToPartsSupervisedFile - class Acc,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package middleware - object BracketRequestResponse,0.0,215.0,1.0,215.0,1.0,215.0,1.0
+HEAD,0,package headers - class X-Forwarded-Proto,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object X-Forwarded-Proto,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - class RequestPrelude,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package http4s - object RequestPrelude,0.0,60.0,1.0,60.0,1.0,60.0,1.0
+HEAD,0,package http4s - object RequestPrelude - class RequestPreludeImpl,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package http4s - object RequestPrelude - <$anon: <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package org - package http4s - package object http4s,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package org - package http4s - package object http4s - class Fs2IoPathCompanionOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package org - package http4s - package object http4s - class Fs2IoPathOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package org - package http4s - package object http4s - class Ip4sIpv4AddressCompanionOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package org - package http4s - package object http4s - class Ip4sIpv4AddressOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package org - package http4s - package object http4s - class Ip4sIpv6AddressCompanionOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package org - package http4s - package object http4s - class Ip4sIpv6AddressOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package org - package http4s - package object http4s - class Ip4sIpAddressOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object CollectionCompat,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package laws - trait HttpCodecLaws,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - object HttpCodecLaws,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package laws - object HttpCodecLaws - method apply - <$anon: org.http4s.laws.HttpCodecLaws[A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package scaffold - trait TestServer,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package scaffold - class NettyTestServer,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package scaffold - object NettyTestServer,0.0,63.0,1.0,63.0,1.0,63.0,1.0
+HEAD,0,package scaffold - object NettyTestServer - method apply - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package scaffold - object NettyTestServer - method apply - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class QValue,0.0,46.0,1.0,46.0,1.0,46.0,1.0
+HEAD,0,package http4s - object QValue,0.0,98.0,1.0,98.0,1.0,98.0,1.0
+HEAD,0,package http4s - object QValue - <$anon: <error> with <error> with <error> with org.http4s.HttpCodec[org.http4s.QValue] with <error>>,0.0,35.0,1.0,35.0,1.0,35.0,1.0
+HEAD,0,package http4s - trait HasQValue,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Keep-Alive,9.0,86.0,0.581081081081081,1.0,0.006756756756756757,18.4,0.12432432432432432
+HEAD,0,package http4s - package headers - object Keep-Alive - trait Parameter,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Keep-Alive - class Timeout,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Keep-Alive - class Max,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Keep-Alive - class Extension,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Keep-Alive - method impl - <$anon: org.http4s.headers.Keep-Alive>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Keep-Alive - <$anon: org.http4s.util.Renderable>,5.0,17.0,0.6296296296296297,1.0,0.037037037037037035,5.833333333333333,0.21604938271604937
+HEAD,0,package http4s - package headers - object Keep-Alive - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class Keep-Alive,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - package server - package middleware - object Logger,0.0,76.0,1.0,76.0,1.0,76.0,1.0
+HEAD,0,package middleware - object MaxActiveRequests,0.0,101.0,1.0,101.0,1.0,101.0,1.0
+HEAD,0,package testing - object fs2Arbitraries,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package ember - package core - package object core,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class QueryParameterKey,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object QueryParameterKey,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - class QueryParameterValue,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object QueryParameterValue,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - trait QueryParam,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object QueryParam,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object QueryParam - method fromKey - <$anon: org.http4s.QueryParam[T]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait QueryParamKeyLike,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object QueryParamKeyLike,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - object QueryParamKeyLike - <$anon: org.http4s.QueryParamKeyLike[String]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait QueryParamCodec,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object QueryParamCodec,0.0,94.0,1.0,94.0,1.0,94.0,1.0
+HEAD,0,package http4s - object QueryParamCodec - method from - <$anon: org.http4s.QueryParamCodec[A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait QueryParamEncoder,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - trait QueryParamEncoder - method contramap - <$anon: org.http4s.QueryParamEncoder[U]>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object QueryParamEncoder,0.0,95.0,1.0,95.0,1.0,95.0,1.0
+HEAD,0,package http4s - object QueryParamEncoder - <$anon: <error>>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object QueryParamEncoder - <$anon: org.http4s.QueryParamEncoder[String]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait QueryParamDecoder,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package http4s - trait QueryParamDecoder - method map - <$anon: org.http4s.QueryParamDecoder[U]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait QueryParamDecoder - method orElse - <$anon: org.http4s.QueryParamDecoder[U]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait QueryParamDecoder - method emapValidatedNel - <$anon: org.http4s.QueryParamDecoder[U]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object QueryParamDecoder,2.0,114.0,0.7169811320754716,3.0,0.018867924528301886,54.333333333333336,0.3417190775681342
+HEAD,0,package http4s - object QueryParamDecoder - method fromUnsafeCast - <$anon: org.http4s.QueryParamDecoder[T]>,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - object QueryParamDecoder - <$anon: <error>>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object QueryParamDecoder - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object QueryParamDecoder - method fail - <$anon: org.http4s.QueryParamDecoder[A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object QueryParamDecoder - <$anon: org.http4s.QueryParamDecoder[Char]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object QueryParamDecoder - <$anon: org.http4s.QueryParamDecoder[String]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object QueryParamDecoder - <$anon: org.http4s.QueryParamDecoder[org.http4s.Uri]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - trait X-Content-Type-Options,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object X-Content-Type-Options,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package http4s - package headers - object X-Content-Type-Options - object nosniff,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fix - object LiteralsSyntaxWithExistingImplicitsImportTests,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package headers - object Forwarded,0.0,349.0,1.0,349.0,1.0,349.0,1.0
+HEAD,0,package headers - object Forwarded - class Node,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Forwarded - object Node,0.0,121.0,1.0,121.0,1.0,121.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - trait Name,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - object Name,0.0,40.0,1.0,40.0,1.0,40.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - object Name - class Ipv4,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - object Name - class Ipv6,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - object Name - object Unknown,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - trait Port,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - object Port,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - object Port - class Numeric,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - class Obfuscated,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - object Obfuscated,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package headers - object Forwarded - object Node - object Obfuscated - method apply - <$anon: org.http4s.headers.Forwarded.Node.Obfuscated>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package headers - object Forwarded - class Host,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Forwarded - object Host,0.0,59.0,1.0,59.0,1.0,59.0,1.0
+HEAD,0,package headers - object Forwarded - object Host - method apply - <$anon: org.http4s.headers.Forwarded.Host>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package headers - object Forwarded - trait Element,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package headers - object Forwarded - object Element,0.0,26.0,1.0,26.0,1.0,26.0,1.0
+HEAD,0,package headers - object Forwarded - object Element - class C,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package headers - object Forwarded - object Failures,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package headers - object Forwarded - trait Pair,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package headers - object Forwarded - object Pair,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package headers - object Forwarded - object Pair - method apply - <$anon: Pair>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package headers - class Forwarded,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object ChunkAggregator,4.0,27.0,0.5869565217391305,3.0,0.06521739130434782,11.4,0.24782608695652175
+HEAD,0,package bench - class ChunkWriterBench,0.0,31.0,1.0,31.0,1.0,31.0,1.0
+HEAD,0,package http4s - package dsl - package impl - trait ResponseGenerator,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object ResponseGenerator,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - trait EmptyResponseGenerator,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - package dsl - package impl - trait EntityResponseGenerator,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package http4s - package dsl - package impl - trait LocationResponseGenerator,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - package dsl - package impl - trait WwwAuthenticateResponseGenerator,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package http4s - package dsl - package impl - trait AllowResponseGenerator,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - package dsl - package impl - trait ProxyAuthenticateResponseGenerator,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package middleware - class HistoryEntry,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package middleware - object HistoryEntry,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package middleware - class HistoryBuilder,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package middleware - object HistoryBuilder,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package h2 - trait Hpack,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - object Hpack,7.0,26.0,0.3880597014925373,5.0,0.07462686567164178,14.0,0.208955223880597
+HEAD,0,package h2 - object Hpack - class Impl,1.0,11.0,0.9166666666666666,2.0,0.16666666666666666,6.5,0.5416666666666666
+HEAD,0,package h2 - object Hpack - method decodeHeaders - <$anon: org.http4s.ember.core.h2.Hpack.HeaderListener>,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package h2 - object Hpack - class ByteVectorOutputStream,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package ember - object EmberClientSimpleExample,0.0,59.0,1.0,59.0,1.0,59.0,1.0
+HEAD,0,package http4s - package headers - object Age,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package http4s - package headers - class Age,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - package headers - object Access-Control-Expose-Headers,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package http4s - package headers - class Access-Control-Expose-Headers,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - trait QValuePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object QValuePlatform,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - object QValuePlatform - class Macros,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package h2 - object Preface,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait Http4sSuite,0.0,33.0,1.0,33.0,1.0,33.0,1.0
+HEAD,0,package http4s - trait Http4sSuite - class ParseResultSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - trait Auth,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - trait Auth - object as,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package middleware - package authentication - package object authentication,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package http4s - package multipart - class Part,0.0,62.0,1.0,62.0,1.0,62.0,1.0
+HEAD,0,package http4s - package multipart - object Part,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,0,package http4s - class Challenge,2.0,9.0,0.5294117647058824,6.0,0.35294117647058826,8.0,0.47058823529411764
+HEAD,0,package http4s - package server - package middleware - object Timeout,0.0,67.0,1.0,67.0,1.0,67.0,1.0
+HEAD,0,package http4s - package headers - class Cross-Origin-Resource-Policy,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package headers - object Cross-Origin-Resource-Policy,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package http4s - package headers - object Cross-Origin-Resource-Policy - object SameSite,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Cross-Origin-Resource-Policy - object SameOrigin,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Cross-Origin-Resource-Policy - object CrossOrigin,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - package fix - package object fix,2.0,14.0,0.6363636363636364,9.0,0.4090909090909091,11.666666666666666,0.5303030303030303
+HEAD,0,package <empty> - package fix - package object fix - class TreeOps,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object AuthedRoutes,0.0,38.0,1.0,38.0,1.0,38.0,1.0
+HEAD,0,package middleware - object Caching,0.0,169.0,1.0,169.0,1.0,169.0,1.0
+HEAD,0,package middleware - object Caching - method no-store-response - <$anon: org.http4s.server.middleware.Caching.PartiallyAppliedNoStoreCache[G]>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package middleware - object Caching - object Helpers,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package middleware - object Caching - method cacheResponse - <$anon: org.http4s.server.middleware.Caching.PartiallyAppliedCache[G]>,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package middleware - object Caching - trait PartiallyAppliedCache,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package middleware - object Caching - trait PartiallyAppliedNoStoreCache,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package <empty> - object Foo,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - class Bar,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - class Baz,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - trait Animal,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - class Dog,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - class Plant,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - trait Tree,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - package pkg - class Foo,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package testkit - package scaffold - package object scaffold,0.0,35.0,1.0,35.0,1.0,35.0,1.0
+HEAD,0,package testkit - package scaffold - package object scaffold - class NettyChannelFutureSyntax,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package testkit - package scaffold - package object scaffold - class NettyFutureSyntax,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - object AuthScheme,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - trait FileServiceConfigCompanionCompat,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package http4s - package headers - object Cookie,0.0,42.0,1.0,42.0,1.0,42.0,1.0
+HEAD,0,package http4s - package headers - object Cookie - <$anon: org.http4s.util.Renderable>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class Cookie,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package parsing - trait AuthRules,0.0,39.0,1.0,39.0,1.0,39.0,1.0
+HEAD,0,package parsing - object AuthRules,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - class Fs2Linters,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package fix - class NoFs2SyncCompiler,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package middleware - object Metrics,0.0,135.0,1.0,135.0,1.0,135.0,1.0
+HEAD,0,package http4s - package headers - trait Access-Control-Max-Age,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Access-Control-Max-Age,0.0,56.0,1.0,56.0,1.0,56.0,1.0
+HEAD,0,package http4s - package headers - object Access-Control-Max-Age - object NoCaching,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Access-Control-Max-Age - class Cache,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package headers - object Access-Control-Max-Age - object Cache,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package middleware - trait GZipPlatform,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package http4s - package headers - object Deprecation,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package headers - class Deprecation,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - trait HttpCodec,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - object HttpCodec,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - trait MediaTypePlaform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object MediaTypePlaform,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package http4s - object MediaTypePlaform - class Macros,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - object RequestCookieJar,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class RequestCookieJar,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,0,package http4s - package headers - class Content-Transfer-Encoding,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package headers - object Content-Transfer-Encoding,0.0,30.0,1.0,30.0,1.0,30.0,1.0
+HEAD,0,package http4s - package headers - object Content-Transfer-Encoding - object 7bit,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Content-Transfer-Encoding - object 8bit,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Content-Transfer-Encoding - object Binary,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Content-Transfer-Encoding - object QuotedPrintable,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Content-Transfer-Encoding - object Base64,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Content-Transfer-Encoding - object IetfToken,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Content-Transfer-Encoding - object XToken,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Accept-Charset,0.0,39.0,1.0,39.0,1.0,39.0,1.0
+HEAD,0,package http4s - package headers - class Accept-Charset,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package headers - object Content-Language,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package http4s - package headers - class Content-Language,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package bench - class QueryParamBench,3.0,6.0,0.6666666666666666,1.0,0.1111111111111111,4.25,0.4722222222222222
+HEAD,0,package internal - trait InternalPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait Media,0.0,44.0,1.0,44.0,1.0,44.0,1.0
+HEAD,0,package http4s - object Media,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Media - method apply - <$anon: org.http4s.Media[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package client - package dsl - object io,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package middleware - object EntityLimiter,0.0,33.0,1.0,33.0,1.0,33.0,1.0
+HEAD,0,package http4s - package server - package middleware - object EntityLimiter - class EntityTooLarge,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - class Server,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package h2 - object H2TLS,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package http4s - package client - package middleware - object Logger,0.0,50.0,1.0,50.0,1.0,50.0,1.0
+HEAD,0,package http4s - class ResponsePrelude,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package http4s - object ResponsePrelude,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,0,package http4s - object ResponsePrelude - class ResponsePreludeImpl,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package http4s - object ResponsePrelude - <$anon: <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package multipart - class Multipart,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package http4s - package multipart - object Multipart,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait ServerHelpersPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package server - class Ip4sServer,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package parsing - object Rfc7235,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package authentication - object NonceKeeperF,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package authentication - class NonceKeeperF,2.0,65.0,0.8666666666666667,9.0,0.12,28.333333333333332,0.37777777777777777
+HEAD,0,package http4s - trait Http4sSuitePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait BackendBuilder,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait SSLContextOption,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object SSLContextOption,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package internal - object SSLContextOption - object NoSSL,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object SSLContextOption - object TryDefaultSSLContext,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object SSLContextOption - class Provided,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - trait EntityEncoder,0.0,34.0,1.0,34.0,1.0,34.0,1.0
+HEAD,0,package http4s - trait EntityEncoder - method contramap - <$anon: org.http4s.EntityEncoder[F B]>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - trait EntityEncoder - method withContentType - <$anon: org.http4s.EntityEncoder[F A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object EntityEncoder,0.0,171.0,1.0,171.0,1.0,171.0,1.0
+HEAD,0,package http4s - object EntityEncoder - method encodeBy - <$anon: org.http4s.EntityEncoder[F A]>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object EntityEncoder - method emptyEncoder - <$anon: org.http4s.EntityEncoder[F A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object EntityEncoder - method streamEncoder - <$anon: org.http4s.EntityEncoder[F <error>]>,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package http4s - object EntityEncoder - method entityEncoderContravariant - <$anon: <error>>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package core - object Shared,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - trait CacheStrategy,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package server - trait EmberServerBuilderCompanionPlatform,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package util - object UrlCodingUtils,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package server - package middleware - object PushSupport,0.0,95.0,1.0,95.0,1.0,95.0,1.0
+HEAD,0,package http4s - package server - package middleware - object PushSupport - class PushOps,0.0,24.0,1.0,24.0,1.0,24.0,1.0
+HEAD,0,package http4s - package server - package middleware - object PushSupport - class PushLocation,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object PushSupport - class PushResponse,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object PushSupport - object Keys,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - class H2Error,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package h2 - object H2Error,0.0,106.0,1.0,106.0,1.0,106.0,1.0
+HEAD,0,package h2 - object H2Error - object NoError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object ProtocolError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object InternalError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object FlowControlError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object SettingsTimeout,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object StreamClosed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object FrameSizeError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object RefusedStream,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object Cancel,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object CompressionError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object ConnectError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object EnhanceYourCalm,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object InadequateSecurity,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Error - object Http_1_1_Required,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - trait QValuePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class Entity,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Entity,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package http4s - object Entity - method http4sMonoidForEntity - <$anon: <error>>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object FileService,0.0,359.0,1.0,359.0,1.0,359.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object FileService - class Config,0.0,136.0,1.0,136.0,1.0,136.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object FileService - object Config,0.0,65.0,1.0,65.0,1.0,65.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object FileService - method apply - object BadTraversal,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait Header,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Header,2.0,138.0,0.6052631578947368,4.0,0.017543859649122806,77.66666666666667,0.3406432748538012
+HEAD,0,package http4s - object Header - class Raw,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package http4s - object Header - object Raw,0.0,24.0,1.0,24.0,1.0,24.0,1.0
+HEAD,0,package http4s - object Header - object Raw - <$anon: <error> with <error> with <error> with org.http4s.util.Renderer[org.http4s.Header.Raw]>,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package http4s - object Header - trait Type,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Header - class Single,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Header - class Recurring,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Header - method create - <$anon: org.http4s.Header[A T]>,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - object Header - method createRendered - <$anon: org.http4s.Header[A T]>,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - object Header - trait ToRaw,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object Header - object ToRaw,2.0,48.0,0.9411764705882353,4.0,0.0784313725490196,18.666666666666668,0.36601307189542487
+HEAD,0,package http4s - object Header - object ToRaw - trait Primitive,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Header - object ToRaw - method identityToRaw - <$anon: org.http4s.Header.ToRaw with org.http4s.Header.ToRaw.Primitive>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Header - object ToRaw - method rawToRaw - <$anon: org.http4s.Header.ToRaw with org.http4s.Header.ToRaw.Primitive>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Header - object ToRaw - method keyValuesToRaw - <$anon: org.http4s.Header.ToRaw with org.http4s.Header.ToRaw.Primitive>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Header - object ToRaw - method headersToRaw - <$anon: org.http4s.Header.ToRaw>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Header - object ToRaw - method modelledHeadersToRaw - <$anon: org.http4s.Header.ToRaw with org.http4s.Header.ToRaw.Primitive>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Header - object ToRaw - method foldablesToRaw - <$anon: org.http4s.Header.ToRaw>,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - object Header - object ToRaw - method scalaCollectionSeqToRaw - <$anon: org.http4s.Header.ToRaw>,1.0,5.0,0.7142857142857143,3.0,0.42857142857142855,4.0,0.5714285714285714
+HEAD,0,package http4s - object Header - trait Select,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package http4s - object Header - trait LowPrio,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package http4s - object Header - trait LowPrio - method recurringHeadersNoMerge - <$anon: org.http4s.Header.Select[A]>,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package http4s - object Header - object Select,0.0,43.0,1.0,43.0,1.0,43.0,1.0
+HEAD,0,package http4s - object Header - object Select - method singleHeaders - <$anon: org.http4s.Header.Select[A]>,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package http4s - object Header - object Select - method recurringHeadersWithMerge - <$anon: org.http4s.Header.Select[A]>,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package circe - object CirceEntityCodec,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sSitePlugin,0.0,189.0,1.0,189.0,1.0,189.0,1.0
+HEAD,0,package sbt - object Http4sSitePlugin - object landingPage,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package sbt - object Http4sSitePlugin - object versions,0.0,25.0,1.0,25.0,1.0,25.0,1.0
+HEAD,0,package sbt - object Http4sSitePlugin - object redirects,0.0,69.0,1.0,69.0,1.0,69.0,1.0
+HEAD,0,package sbt - object Http4sSitePlugin - object redirects - method theme - <$anon: <error>>,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - class WebjarServiceBuilder,0.0,83.0,1.0,83.0,1.0,83.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - class WebjarServiceBuilder - method toRoutes - object BadTraversal,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - class WebjarServiceBuilder - method asScalaIterator - <$anon: Iterator[A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - object WebjarServiceBuilder,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object WebjarServiceBuilder - class WebjarAsset,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object WebjarService,0.0,95.0,1.0,95.0,1.0,95.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object WebjarService - class Config,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object WebjarService - class WebjarAsset,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object WebjarService - method apply - object BadTraversal,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class ContentCoding,1.0,20.0,0.6451612903225806,18.0,0.5806451612903226,19.0,0.6129032258064516
+HEAD,0,package http4s - object ContentCoding,0.0,59.0,1.0,59.0,1.0,59.0,1.0
+HEAD,0,package http4s - object ContentCoding - <$anon: org.http4s.HttpCodec[org.http4s.ContentCoding]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package parsing - object Rfc2234,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object Trampoline,6.0,24.0,0.4,4.0,0.06666666666666667,10.857142857142858,0.18095238095238095
+HEAD,0,package internal - object Trampoline - class ThreadLocalTrampoline,4.0,22.0,0.5116279069767442,4.0,0.09302325581395349,10.8,0.25116279069767444
+HEAD,0,package http4s - package syntax - trait AllSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class Query,13.0,33.0,0.24444444444444444,2.0,0.014814814814814815,14.5,0.10740740740740741
+HEAD,0,package http4s - object Query,0.0,78.0,1.0,78.0,1.0,78.0,1.0
+HEAD,0,package http4s - object Query - <$anon: <error> with <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - class H2TLSPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class Sec-WebSocket-Accept,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package headers - object Sec-WebSocket-Accept,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package websocket - package middleware - object Reconnect,0.0,58.0,1.0,58.0,1.0,58.0,1.0
+HEAD,0,package websocket - package middleware - object Reconnect - method apply - <$anon: org.http4s.client.websocket.WSConnectionHighLevel[F]>,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package websocket - package middleware - object Reconnect - method apply - <$anon: org.http4s.client.websocket.WSConnectionHighLevel[F]> - method closeFrame - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Trailer,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package http4s - package headers - class Trailer,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Platform,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package server - object ContextMiddleware,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package headers - object If-Unmodified-Since,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - package headers - class If-Unmodified-Since,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fix - object LiteralsSyntaxWithExistingSyntaxImportTests,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package headers - class Access-Control-Request-Method,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Access-Control-Request-Method,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package input - class QueryParamInput,1.0,13.0,1.0,1.0,0.07692307692307693,7.0,0.5384615384615384
+HEAD,0,package parsing - object Rfc7230,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package authentication - class NonceF,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package authentication - object NonceF,1.0,29.0,0.8285714285714286,15.0,0.42857142857142855,22.0,0.6285714285714286
+HEAD,0,package core - trait UtilPlatform,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - package headers - class Max-Forwards,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Max-Forwards,1.0,15.0,0.8823529411764706,12.0,0.7058823529411765,13.5,0.7941176470588235
+HEAD,0,package http4s - package headers - object Max-Forwards - class MaxForwardsImpl,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Sunset,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package headers - class Sunset,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - class ServerSentEvent,3.0,12.0,0.5217391304347826,3.0,0.13043478260869565,9.0,0.391304347826087
+HEAD,0,package http4s - object ServerSentEvent,0.0,96.0,1.0,96.0,1.0,96.0,1.0
+HEAD,0,package http4s - object ServerSentEvent - class EventId,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object ServerSentEvent - object EventId,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object ServerSentEvent - method decoder - class LineBuffer,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - package websocket - class WebSocketContext,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package http4s - class Http4sVersion,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package authentication - object NonceKeeper,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package authentication - object NonceKeeper - class Reply,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package authentication - object NonceKeeper - object StaleReply,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package authentication - object NonceKeeper - object OKReply,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package authentication - object NonceKeeper - object BadNCReply,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package authentication - class NonceKeeper,4.0,34.0,0.5230769230769231,5.0,0.07692307692307693,16.0,0.24615384615384617
+HEAD,0,package http4s - package jawn - package object jawn,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class Headers,10.0,52.0,0.2988505747126437,1.0,0.005747126436781609,21.636363636363637,0.12434691745036573
+HEAD,0,package http4s - object Headers,0.0,42.0,1.0,42.0,1.0,42.0,1.0
+HEAD,0,package http4s - object Headers - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - object LiteralsSyntaxTests,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package laws - package discipline - trait EntityEncoderTests,0.0,34.0,1.0,34.0,1.0,34.0,1.0
+HEAD,0,package http4s - package laws - package discipline - object EntityEncoderTests,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package laws - package discipline - object EntityEncoderTests - method apply - <$anon: org.http4s.laws.discipline.EntityEncoderTests[F A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - trait SizedSeq,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq0,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - object SizedSeq0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object SizedSeq0 - <$anon: org.http4s.util.SizedSeq0[Nothing]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - class SizedSeq1,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq2,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq3,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq4,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq5,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq6,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq7,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq8,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq9,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq10,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq11,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq12,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq13,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq14,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq15,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq16,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq17,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq18,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq19,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq20,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq21,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - class SizedSeq22,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package websocket - class WebSocketBuilder2,0.0,173.0,1.0,173.0,1.0,173.0,1.0
+HEAD,0,package http4s - package websocket - object WebSocketBuilder2,0.0,47.0,1.0,47.0,1.0,47.0,1.0
+HEAD,0,package http4s - package websocket - object WebSocketBuilder2 - method impl - <$anon: org.http4s.server.websocket.WebSocketBuilder2[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait Message,0.0,232.0,1.0,232.0,1.0,232.0,1.0
+HEAD,0,package http4s - object Message,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package http4s - object Message - class EntityStreamException,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Message - object EntityStreamException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Message - object Keys,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class Request,0.0,265.0,1.0,265.0,1.0,265.0,1.0
+HEAD,0,package http4s - object Request,0.0,60.0,1.0,60.0,1.0,60.0,1.0
+HEAD,0,package http4s - object Request - class Connection,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - object Request - object Keys,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class Response,0.0,104.0,1.0,104.0,1.0,104.0,1.0
+HEAD,0,package http4s - object Response,0.0,47.0,1.0,47.0,1.0,47.0,1.0
+HEAD,0,package http4s - package syntax - trait KleisliSyntax,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package http4s - package syntax - class KleisliResponseOps,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package syntax - class KleisliHttpRoutesOps,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package syntax - class KleisliHttpAppOps,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package syntax - class KleisliAuthedRoutesOps,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - class TransferCoding,1.0,18.0,0.8571428571428571,9.0,0.42857142857142855,13.5,0.6428571428571429
+HEAD,0,package http4s - object TransferCoding,1.0,40.0,0.9523809523809523,34.0,0.8095238095238095,37.0,0.8809523809523809
+HEAD,0,package http4s - object TransferCoding - class TransferCodingImpl,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object TransferCoding - <$anon: org.http4s.HttpCodec[org.http4s.TransferCoding]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object RangeUnit,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class RangeUnit,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - class HttpVersion,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package http4s - object HttpVersion,0.0,164.0,1.0,164.0,1.0,164.0,1.0
+HEAD,0,package http4s - object HttpVersion - <$anon: <error> with <error> with <error> with <error>>,0.0,30.0,1.0,30.0,1.0,30.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - class MemoryCache,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object MemoryCache,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - package object headers,0.0,56.0,1.0,56.0,1.0,56.0,1.0
+HEAD,0,package middleware - object DestinationAttribute,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package parsing - class Cookies,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package parsing - object Rfc6265,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package parsing - object RelaxedCookies,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class EntityTag,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object EntityTag,0.0,33.0,1.0,33.0,1.0,33.0,1.0
+HEAD,0,package http4s - object EntityTag - trait Weakness,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object EntityTag - object Weak,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object EntityTag - object Strong,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object HSTS,0.0,67.0,1.0,67.0,1.0,67.0,1.0
+HEAD,0,package http4s - package server - package middleware - object HSTS - object httpRoutes,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - package server - package middleware - object HSTS - object httpApp,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package client - class JavaNetClientBuilder,4.0,84.0,0.5121951219512195,1.0,0.006097560975609756,33.8,0.20609756097560974
+HEAD,0,package http4s - package client - class JavaNetClientBuilder - method copy - <$anon: org.http4s.client.JavaNetClientBuilder[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package client - object JavaNetClientBuilder,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - package client - object JavaNetClientBuilder - method apply - <$anon: org.http4s.client.JavaNetClientBuilder[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package client - package testkit - object WSTestClient,2.0,102.0,0.6891891891891891,15.0,0.10135135135135136,54.666666666666664,0.36936936936936937
+HEAD,0,package http4s - package client - package testkit - object WSTestClient - class WSConnectionImpl,1.0,18.0,0.9473684210526315,2.0,0.10526315789473684,10.0,0.5263157894736842
+HEAD,0,package http4s - package client - package testkit - object WSTestClient - class WsFrameOps,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package http4s - package client - package testkit - object WSTestClient - class WebSocketFrameOps,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - package client - package testkit - object WSTestClient - class WebSocketClientInitException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class DNT,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object DNT,0.0,25.0,1.0,25.0,1.0,25.0,1.0
+HEAD,0,package http4s - package headers - object DNT - object AllowTracking,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object DNT - object DisallowTracking,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object DNT - object NoPreference,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package testing - object NullOutStream,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - class Method,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - object Method,0.0,111.0,1.0,111.0,1.0,111.0,1.0
+HEAD,0,package http4s - object Method - <$anon: <error> with <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class CharsetRange,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package http4s - object CharsetRange,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package http4s - object CharsetRange - class *,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - object CharsetRange - object *,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object CharsetRange - class Atom,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - object CharsetRange - object Atom,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package websocket - class WebSocketFrame,1.0,19.0,0.7916666666666666,15.0,0.625,17.0,0.7083333333333334
+HEAD,0,package websocket - object WebSocketFrame,4.0,83.0,0.8137254901960784,5.0,0.049019607843137254,23.6,0.23137254901960785
+HEAD,0,package websocket - object WebSocketFrame - class ControlFrame,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package websocket - object WebSocketFrame - class Text,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package websocket - object WebSocketFrame - class BinaryText,1.0,3.0,1.0,2.0,0.6666666666666666,2.5,0.8333333333333334
+HEAD,0,package websocket - object WebSocketFrame - class StringText,1.0,3.0,1.0,2.0,0.6666666666666666,2.5,0.8333333333333334
+HEAD,0,package websocket - object WebSocketFrame - object Text,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package websocket - object WebSocketFrame - class Binary,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package websocket - object WebSocketFrame - class Continuation,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package websocket - object WebSocketFrame - class Ping,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package websocket - object WebSocketFrame - class Pong,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package websocket - object WebSocketFrame - class Close,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package websocket - object WebSocketFrame - class InvalidCloseDataException,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package websocket - object WebSocketFrame - class InvalidCloseCodeException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package websocket - object WebSocketFrame - class ReasonTooLongException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package websocket - object WebSocketFrame - object Close,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package core - trait EmberException,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package core - object EmberException,0.0,42.0,1.0,42.0,1.0,42.0,1.0
+HEAD,0,package core - object EmberException - class Timeout,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package core - object EmberException - class IncompleteClientRequest,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package core - object EmberException - class ParseError,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package core - object EmberException - class ChunkedEncodingError,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package core - object EmberException - class EmptyStream,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package core - object EmberException - class ReachedEndOfStream,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package core - object EmberException - class MessageTooLong,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package core - object EmberException - class ReadTimeout,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package core - object EmberException - class RequestHeadersTimeout,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package server - trait EmberServerBuilderCompanionPlatform,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - package multipart - package object multipart,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait MediaTypePlaform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package bench - class NioCharsetBench,1.0,43.0,0.8775510204081632,16.0,0.32653061224489793,29.5,0.6020408163265306
+HEAD,0,package middleware - object UnixSocket,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package headers - object Accept-Encoding,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package http4s - package headers - class Accept-Encoding,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package server - package object server,0.0,179.0,1.0,179.0,1.0,179.0,1.0
+HEAD,0,package http4s - package server - package object server - object defaults,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package object server - object ServerRequestKeys,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package object server - object AuthMiddleware,0.0,42.0,1.0,42.0,1.0,42.0,1.0
+HEAD,0,package http4s - package client - package middleware - package object middleware,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Content-Disposition,2.0,80.0,0.8421052631578947,16.0,0.16842105263157894,37.666666666666664,0.3964912280701754
+HEAD,0,package http4s - package headers - object Content-Disposition - trait ValueChar,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Content-Disposition - class AsciiChar,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Content-Disposition - class EncodedChar,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Content-Disposition - <$anon: org.http4s.util.Renderable>,2.0,20.0,0.625,13.0,0.40625,16.666666666666668,0.5208333333333334
+HEAD,0,package http4s - package headers - class Content-Disposition,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package metrics - trait MetricsOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package metrics - trait MetricsOps - method mapK - <$anon: org.http4s.metrics.MetricsOps[G]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package metrics - object MetricsOps,0.0,55.0,1.0,55.0,1.0,55.0,1.0
+HEAD,0,package metrics - trait TerminationType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package metrics - object TerminationType,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package metrics - object TerminationType - class Abnormal,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package metrics - object TerminationType - object Canceled,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package metrics - object TerminationType - class Error,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package metrics - object TerminationType - object Timeout,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package metrics - trait CustomMetricsOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package metrics - trait CustomMetricsOps - method mapK - <$anon: org.http4s.metrics.CustomMetricsOps[G SL]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package metrics - object CustomMetricsOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package metrics - object CustomMetricsOps - method fromMetricsOps - <$anon: org.http4s.metrics.CustomMetricsOps[F org.http4s.util.SizedSeq0[String]]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Retry-After,1.0,40.0,0.9523809523809523,16.0,0.38095238095238093,28.0,0.6666666666666666
+HEAD,0,package http4s - package headers - object Retry-After - class RetryAfterImpl,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - class Retry-After,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - class HeaderCompanion,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package internal - object CollectionCompat,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package headers - object Strict-Transport-Security,1.0,70.0,0.8974358974358975,23.0,0.2948717948717949,46.5,0.5961538461538461
+HEAD,0,package http4s - package headers - object Strict-Transport-Security - class StrictTransportSecurityImpl,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Strict-Transport-Security - trait StsAttribute,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Strict-Transport-Security - object IncludeSubDomains,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Strict-Transport-Security - object Preload,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Strict-Transport-Security - <$anon: org.http4s.util.Renderable>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package headers - class Strict-Transport-Security,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - package multipart - class MultipartEncoder,0.0,65.0,1.0,65.0,1.0,65.0,1.0
+HEAD,0,package middleware - object Throttle,2.0,125.0,0.8620689655172413,21.0,0.14482758620689656,57.0,0.3931034482758621
+HEAD,0,package middleware - object Throttle - class TokenAvailability,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package middleware - object Throttle - object TokenAvailable,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package middleware - object Throttle - class TokenUnavailable,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package middleware - object Throttle - trait TokenBucket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package middleware - object Throttle - object TokenBucket,1.0,49.0,0.9607843137254902,13.0,0.2549019607843137,31.0,0.6078431372549019
+HEAD,0,package middleware - object Throttle - object TokenBucket - class Translated,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package middleware - object Throttle - object TokenBucket - method local - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package headers - object Link,0.0,74.0,1.0,74.0,1.0,74.0,1.0
+HEAD,0,package headers - object Link - trait LinkParam,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Link - class Rel,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Link - class Rev,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Link - class Title,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - object Link - class Type,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package headers - class Link,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package nodejs - trait ServerResponse,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package nodejs - object ServerResponse,2.0,17.0,0.5862068965517241,3.0,0.10344827586206896,11.0,0.3793103448275862
+HEAD,0,package http4s - package nodejs - object ServerResponse - class ServerResponseOps,2.0,12.0,0.5454545454545454,3.0,0.13636363636363635,8.666666666666666,0.3939393939393939
+HEAD,0,package http4s - package server - package middleware - object RequestId,0.0,75.0,1.0,75.0,1.0,75.0,1.0
+HEAD,0,package http4s - package server - package middleware - object RequestId - object httpApp,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package server - package middleware - object RequestId - object httpRoutes,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package parsing - object Rfc1034,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package websocket - trait WebSocket,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package websocket - class WebSocketSeparatePipe,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package websocket - class WebSocketCombinedPipe,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package headers - trait ForwardedRenderers,0.0,73.0,1.0,73.0,1.0,73.0,1.0
+HEAD,0,package headers - trait ForwardedRenderers - <$anon: org.http4s.util.Renderer[org.http4s.headers.Forwarded.Node.Name]>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package headers - trait ForwardedRenderers - <$anon: org.http4s.util.Renderer[org.http4s.headers.Forwarded.Node.Port]>,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package headers - trait ForwardedRenderers - <$anon: org.http4s.util.Renderer[org.http4s.headers.Forwarded.Node]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package headers - trait ForwardedRenderers - <$anon: org.http4s.util.Renderer[org.http4s.headers.Forwarded.Host]>,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package laws - package discipline - trait HttpCodecTests,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package http4s - package laws - package discipline - object HttpCodecTests,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package laws - package discipline - object HttpCodecTests - method apply - <$anon: org.http4s.laws.discipline.HttpCodecTests[A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - class NoopCacheStrategy,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - package server - package staticcontent - object NoopCacheStrategy,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package oauth1 - class Consumer,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package oauth1 - class Token,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package testing - object AutoCloseableResource,3.0,18.0,0.5454545454545454,6.0,0.18181818181818182,10.5,0.3181818181818182
+HEAD,0,package build - object CentralRequirementsPlugin,0.0,74.0,1.0,74.0,1.0,74.0,1.0
+HEAD,0,package internal - class CharPredicate,0.0,85.0,1.0,85.0,1.0,85.0,1.0
+HEAD,0,package internal - object CharPredicate,6.0,110.0,0.4280155642023346,5.0,0.019455252918287938,41.714285714285715,0.1623123957754308
+HEAD,0,package internal - object CharPredicate - class ApplyMagnet,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object CharPredicate - object ApplyMagnet,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package internal - object CharPredicate - class MaskBased,3.0,57.0,0.7307692307692307,5.0,0.0641025641025641,23.0,0.2948717948717949
+HEAD,0,package internal - object CharPredicate - object MaskBased,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object CharPredicate - class RangeBased,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package internal - object CharPredicate - class ArrayBased,2.0,37.0,0.9024390243902439,5.0,0.12195121951219512,16.666666666666668,0.40650406504065045
+HEAD,0,package internal - object CharPredicate - class General,0.0,39.0,1.0,39.0,1.0,39.0,1.0
+HEAD,0,package internal - object CharPredicate - object General,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object AuthedRequest,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package headers - object Sec-WebSocket-Version,0.0,30.0,1.0,30.0,1.0,30.0,1.0
+HEAD,0,package http4s - package headers - class Sec-WebSocket-Version,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package server - package middleware - object UrlFormLifter,0.0,47.0,1.0,47.0,1.0,47.0,1.0
+HEAD,0,package headers - object Idempotency-Key,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package headers - class Idempotency-Key,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object DecodeResult,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - package testroutes - object GetRoutes,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package http4s - object implicits,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package multipart - trait Multiparts,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package multipart - object Multiparts,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package multipart - object Multiparts - method fromRandom - <$anon: org.http4s.multipart.Multiparts[F]>,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package parsing - object Rfc4648,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package parsing - object Rfc4648 - object Base64,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package bench - class EmberParserBench,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package bench - object EmberParserBench,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package bench - object EmberParserBench - class BenchState,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - package server - trait ServerBuilder,0.0,54.0,1.0,54.0,1.0,54.0,1.0
+HEAD,0,package http4s - package server - object SSLKeyStoreSupport,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package server - object SSLKeyStoreSupport - class StoreInfo,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package oauth1 - object SignatureAlgorithm,0.0,33.0,1.0,33.0,1.0,33.0,1.0
+HEAD,0,package oauth1 - object SignatureAlgorithm - object Names,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package oauth1 - trait SignatureAlgorithm,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package oauth1 - object HmacSha1,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package oauth1 - object HmacSha256,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package oauth1 - object HmacSha512,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - trait ProductIdOrComment,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object ProductIdOrComment,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class ProductId,1.0,10.0,0.9090909090909091,7.0,0.6363636363636364,8.5,0.7727272727272727
+HEAD,0,package http4s - object ProductId,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - class ProductComment,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - object ProductComment,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - trait ServerHelpersPlatform,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package http4s - package server - package middleware - object HttpsRedirect,0.0,26.0,1.0,26.0,1.0,26.0,1.0
+HEAD,0,package http4s - package headers - object X-B3-Sampled,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - package headers - class X-B3-Sampled,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - object Foo,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - class Bar,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - class Baz,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - trait Animal,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - class Dog,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - class Plant,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package <empty> - trait Tree,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package <empty> - package pkg - class Foo,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package util - trait Renderer,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderer,0.0,73.0,1.0,73.0,1.0,73.0,1.0
+HEAD,0,package util - object Renderer - <$anon: org.http4s.util.Renderer[java.time.Instant]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderer - <$anon: org.http4s.util.Renderer[String]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderer - <$anon: org.http4s.util.Renderer[scala.concurrent.duration.FiniteDuration]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderer - <$anon: org.http4s.util.Renderer[Long]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderer - method eitherRenderer - <$anon: org.http4s.util.Renderer[Either[A B]]>,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package util - object Renderer - <$anon: org.http4s.util.Renderer[<error>]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderer - method nelRenderer - <$anon: org.http4s.util.Renderer[<error>]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderer - method listRenderer - <$anon: org.http4s.util.Renderer[List[T]]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderer - method setRenderer - <$anon: org.http4s.util.Renderer[Set[T]]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderer - method headerSelectRenderer - <$anon: org.http4s.util.Renderer[A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - trait Renderable,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderable,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Renderable - <$anon: org.http4s.util.Renderer[org.http4s.util.Renderable]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - object Writer,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package util - trait Writer,12.0,23.0,0.18110236220472442,9.0,0.07086614173228346,16.615384615384617,0.1308298001211387
+HEAD,0,package util - trait Writer - method sanitize - <$anon: org.http4s.util.Writer>,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package util - class StringWriter,2.0,22.0,0.5945945945945946,17.0,0.4594594594594595,19.0,0.5135135135135135
+HEAD,0,package util - class StringWriter - method sanitize - <$anon: org.http4s.util.Writer>,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package util - object StringWriter,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package util - class HeaderLengthCountingWriter,1.0,11.0,0.7857142857142857,8.0,0.5714285714285714,9.5,0.6785714285714286
+HEAD,0,package core - trait UtilPlatform,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - trait FormDataDecoder,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - object FormDataDecoder,0.0,155.0,1.0,155.0,1.0,155.0,1.0
+HEAD,0,package http4s - object FormDataDecoder - method apply - <$anon: org.http4s.FormDataDecoder[A]>,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object FormDataDecoder - method apply - <$anon: org.http4s.FormDataDecoder[Either[String A]]>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object FormDataDecoder - class FormDataDecoderSyntax,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - object FormDataDecoder - <$anon: <error>>,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package http4s - package server - package middleware - package authentication - object DigestUtil,0.0,109.0,1.0,109.0,1.0,109.0,1.0
+HEAD,0,package http4s - package server - package middleware - object HttpMethodOverrider,0.0,124.0,1.0,124.0,1.0,124.0,1.0
+HEAD,0,package http4s - package server - package middleware - object HttpMethodOverrider - class HttpMethodOverriderConfig,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package middleware - object HttpMethodOverrider - object HttpMethodOverriderConfig,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package middleware - object HttpMethodOverrider - trait OverrideStrategy,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object HttpMethodOverrider - class HeaderOverrideStrategy,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package http4s - package server - package middleware - object HttpMethodOverrider - class QueryOverrideStrategy,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package http4s - package server - package middleware - object HttpMethodOverrider - class FormOverrideStrategy,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package headers - object Last-Modified,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package headers - class Last-Modified,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package websocket - object Rfc6455,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object HttpRoutes,0.0,75.0,1.0,75.0,1.0,75.0,1.0
+HEAD,0,package impl - trait Auth,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package impl - trait Auth - object as,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Access-Control-Allow-Headers,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package http4s - package headers - class Access-Control-Allow-Headers,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package testing - trait DispatcherIOFixture,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package staticcontent - trait FileServiceConfigCompanionCompat,0.0,24.0,1.0,24.0,1.0,24.0,1.0
+HEAD,0,package circe - trait JsonDecoder,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package circe - object JsonDecoder,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package circe - object JsonDecoder - method impl - <$anon: org.http4s.circe.JsonDecoder[F]>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package headers - object Expires,0.0,26.0,1.0,26.0,1.0,26.0,1.0
+HEAD,0,package http4s - package headers - class Expires,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package server - package middleware - object ErrorHandling,0.0,69.0,1.0,69.0,1.0,69.0,1.0
+HEAD,0,package server - package middleware - object ErrorHandling - object Custom,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package server - package middleware - object ErrorHandling - object Recover,0.0,38.0,1.0,38.0,1.0,38.0,1.0
+HEAD,0,package http4s - package syntax - trait LiteralsSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package syntax - object LiteralsSyntax,0.0,41.0,1.0,41.0,1.0,41.0,1.0
+HEAD,0,package http4s - package syntax - object LiteralsSyntax - object UriLiteral,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package syntax - object LiteralsSyntax - object UriSchemeLiteral,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package syntax - object LiteralsSyntax - object UriPathLiteral,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package syntax - object LiteralsSyntax - object MediaTypeLiteral,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package syntax - object LiteralsSyntax - object QValueLiteral,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - trait Http4sSuitePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - class Server,0.0,25.0,1.0,25.0,1.0,25.0,1.0
+HEAD,0,package http4s - package headers - object Content-Encoding,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package http4s - package headers - class Content-Encoding,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object VirtualHost,0.0,68.0,1.0,68.0,1.0,68.0,1.0
+HEAD,0,package http4s - package server - package middleware - object VirtualHost - class HostService,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package parser - object AdditionalRules,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package middleware - object HeaderEcho,0.0,26.0,1.0,26.0,1.0,26.0,1.0
+HEAD,0,package http4s - class Charset,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - trait CharsetCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Charset,4.0,32.0,0.7272727272727273,2.0,0.045454545454545456,11.4,0.2590909090909091
+HEAD,0,package http4s - object Charset - <$anon: <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class UriTemplate,0.0,68.0,1.0,68.0,1.0,68.0,1.0
+HEAD,0,package http4s - object UriTemplate,40.0,114.0,0.24568965517241378,2.0,0.004310344827586207,14.634146341463415,0.03153910849453322
+HEAD,0,package http4s - object UriTemplate - trait PathDef,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object UriTemplate - class PathElm,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object UriTemplate - trait QueryDef,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object UriTemplate - trait QueryExp,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object UriTemplate - class ParamElm,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object UriTemplate - object ParamElm,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object UriTemplate - class ParamVarExp,2.0,3.0,1.0,1.0,0.3333333333333333,2.0,0.6666666666666666
+HEAD,0,package http4s - object UriTemplate - object ParamVarExp,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object UriTemplate - class ParamReservedExp,2.0,3.0,1.0,1.0,0.3333333333333333,2.0,0.6666666666666666
+HEAD,0,package http4s - object UriTemplate - object ParamReservedExp,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object UriTemplate - trait ExpansionType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object UriTemplate - trait FragmentDef,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object UriTemplate - class FragmentElm,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object UriTemplate - class SimpleFragmentExp,1.0,3.0,0.75,3.0,0.75,3.0,0.75
+HEAD,0,package http4s - object UriTemplate - class VarExp,2.0,3.0,0.75,1.0,0.25,2.3333333333333335,0.5833333333333334
+HEAD,0,package http4s - object UriTemplate - object VarExp,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object UriTemplate - class ReservedExp,2.0,3.0,0.75,1.0,0.25,2.3333333333333335,0.5833333333333334
+HEAD,0,package http4s - object UriTemplate - object ReservedExp,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object UriTemplate - class MultiFragmentExp,2.0,3.0,0.75,1.0,0.25,2.3333333333333335,0.5833333333333334
+HEAD,0,package http4s - object UriTemplate - object MultiFragmentExp,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object UriTemplate - class PathExp,2.0,3.0,0.75,1.0,0.25,2.3333333333333335,0.5833333333333334
+HEAD,0,package http4s - object UriTemplate - object PathExp,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object UriTemplate - class ParamExp,2.0,4.0,0.5714285714285714,3.0,0.42857142857142855,3.6666666666666665,0.5238095238095238
+HEAD,0,package http4s - object UriTemplate - object ParamExp,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object UriTemplate - class ParamContExp,2.0,3.0,0.75,1.0,0.25,2.3333333333333335,0.5833333333333334
+HEAD,0,package http4s - object UriTemplate - object ParamContExp,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - object LiteralsSyntaxWithExistingSyntaxImportTests,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object HeaderExamples,0.0,80.0,1.0,80.0,1.0,80.0,1.0
+HEAD,0,package http4s - object HeaderExamples - class Foo,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object HeaderExamples - object Foo,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object HeaderExamples - object Foo - method headerFoo - <$anon: org.http4s.Header[com.examples.http4s.HeaderExamples.Foo org.http4s.Header.Single]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object HeaderExamples - class Bar,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object HeaderExamples - object Bar,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object HeaderExamples - object Bar - <$anon: org.http4s.Header[com.examples.http4s.HeaderExamples.Bar org.http4s.Header.Recurring] with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object HeaderExamples - class SetCookie,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object HeaderExamples - object SetCookie,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package http4s - object HeaderExamples - object SetCookie - <$anon: org.http4s.Header[com.examples.http4s.HeaderExamples.SetCookie org.http4s.Header.Recurring]>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package parsing - object Rfc2616,0.0,80.0,1.0,80.0,1.0,80.0,1.0
+HEAD,0,package parsing - object Rfc2616 - class Rfc1123Date,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package headers - object Proxy-Authenticate,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package http4s - package headers - class Proxy-Authenticate,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package laws - package discipline - trait EntityCodecTests,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package http4s - package laws - package discipline - object EntityCodecTests,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - package laws - package discipline - object EntityCodecTests - method apply - <$anon: org.http4s.laws.discipline.EntityCodecTests[F A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package bench - class CirceJsonBench,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package http4s - package bench - object CirceJsonBench,1.0,24.0,0.8275862068965517,14.0,0.4827586206896552,19.0,0.6551724137931034
+HEAD,0,package http4s - package bench - object CirceJsonBench - class BenchState,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package metrics - trait CustomLabels,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package metrics - object CustomLabels,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package metrics - object CustomLabels - method apply - <$anon: org.http4s.metrics.CustomLabels[SL]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package metrics - class EmptyCustomLabels,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package metrics - object EmptyCustomLabels,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package metrics - object EmptyCustomLabels - <$anon: org.http4s.metrics.EmptyCustomLabels>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Cache-Control,0.0,51.0,1.0,51.0,1.0,51.0,1.0
+HEAD,0,package http4s - package headers - class Cache-Control,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object CollectionCompat,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package http4s - package server - object Router,0.0,88.0,1.0,88.0,1.0,88.0,1.0
+HEAD,0,package http4s - package server - object Router - object Segment,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package server - object Router - object Segment - method instances - <$anon: <error>>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - package server - object Router - class Segment,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - package server - object Router - object Routable,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - package server - object Router - object Routable - class Static,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - object Router - object Routable - class Dynamic,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package http4s - package server - object Router - trait Routable,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object X-Forwarded-For,2.0,25.0,0.8064516129032258,2.0,0.06451612903225806,11.333333333333334,0.3655913978494624
+HEAD,0,package http4s - package headers - object X-Forwarded-For - <$anon: org.http4s.util.Renderable>,2.0,5.0,0.7142857142857143,2.0,0.2857142857142857,3.3333333333333335,0.4761904761904762
+HEAD,0,package http4s - package headers - class X-Forwarded-For,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - class ContextRequest,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - object ContextRequest,0.0,26.0,1.0,26.0,1.0,26.0,1.0
+HEAD,0,package http4s - object ContextRequest - method contextRequestInstances - <$anon: <error>>,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package fix - object LiteralsSyntaxTests,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class If-Range,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object If-Range,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package http4s - package headers - object If-Range - class LastModified,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object If-Range - class ETag,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package server - package middleware - object GZip,0.0,66.0,1.0,66.0,1.0,66.0,1.0
+HEAD,0,package dsl - object request,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object Content-Type,0.0,47.0,1.0,47.0,1.0,47.0,1.0
+HEAD,0,package http4s - package headers - object Content-Type - <$anon: org.http4s.util.Renderable>,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - package headers - class Content-Type,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package parsing - trait CommonRules,0.0,81.0,1.0,81.0,1.0,81.0,1.0
+HEAD,0,package parsing - object CommonRules,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package client - trait EmberClientBuilderPlatform,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package client - trait EmberClientBuilderCompanionPlatform,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package client - class ConnectionFailure,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package client - object ConnectionFailure,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object threads,8.0,28.0,0.35,2.0,0.025,13.777777777777779,0.17222222222222222
+HEAD,0,package internal - object threads - class ThreadPriority,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object threads - object ThreadPriority,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package internal - object threads - method threadFactory - <$anon: java.util.concurrent.ThreadFactory>,5.0,10.0,0.5,2.0,0.1,4.833333333333333,0.24166666666666664
+HEAD,0,package internal - object threads - method threadFactory - <$anon: java.util.concurrent.ThreadFactory> - method newThread - <$anon: Thread.UncaughtExceptionHandler>,2.0,7.0,0.7,2.0,0.2,4.333333333333333,0.4333333333333333
+HEAD,0,package http4s - object ContextRoutes,0.0,113.0,1.0,113.0,1.0,113.0,1.0
+HEAD,0,package http4s - package headers - object If-Match,0.0,30.0,1.0,30.0,1.0,30.0,1.0
+HEAD,0,package http4s - package headers - class If-Match,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - class Last-Event-Id,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Last-Event-Id,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - package headers - object Connection,0.0,24.0,1.0,24.0,1.0,24.0,1.0
+HEAD,0,package http4s - package headers - class Connection,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - object Platform,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - package headers - object Accept-Ranges,0.0,41.0,1.0,41.0,1.0,41.0,1.0
+HEAD,0,package http4s - package headers - class Accept-Ranges,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package impl - trait Statuses,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package server - class SecureSession,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - object X-B3-TraceId,0.0,25.0,1.0,25.0,1.0,25.0,1.0
+HEAD,0,package http4s - package headers - object X-B3-TraceId - <$anon: org.http4s.util.Renderable>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package headers - class X-B3-TraceId,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - trait Http4sSuitePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package client - package middleware - object ResponseLogger,0.0,102.0,1.0,102.0,1.0,102.0,1.0
+HEAD,0,package http4s - object Http,0.0,50.0,1.0,50.0,1.0,50.0,1.0
+HEAD,0,package http4s - trait SameSite,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object SameSite,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package http4s - object SameSite - object Strict,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object SameSite - object Lax,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object SameSite - object None,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - class H2TLSPlatform,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package http4s - package internal - package object internal,5.0,143.0,0.49140893470790376,28.0,0.09621993127147767,57.166666666666664,0.19644902634593356
+HEAD,0,package http4s - package internal - package object internal - object HexDecodeException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package server - package middleware - object Jsonp,0.0,49.0,1.0,49.0,1.0,49.0,1.0
+HEAD,0,package http4s - package headers - object Proxy-Authorization,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - package headers - class Proxy-Authorization,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fix - class GeneralLinters,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,0,package fix - class CaseClassWithoutAccessModifier,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fix - class LeakingSealedHierarchy,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fix - class NonValidatingCopyConstructor,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package http4s - package nodejs - trait IncomingMessage,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package nodejs - object IncomingMessage,2.0,37.0,0.74,10.0,0.2,22.333333333333332,0.44666666666666666
+HEAD,0,package http4s - package nodejs - object IncomingMessage - class IncomingMessageOps,2.0,30.0,0.7317073170731707,8.0,0.1951219512195122,19.333333333333332,0.47154471544715443
+HEAD,0,package http4s - package dsl - package impl - trait Responses,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses,0.0,188.0,1.0,188.0,1.0,188.0,1.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class ContinueOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class SwitchingProtocolsOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class EarlyHintsOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class OkOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class CreatedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class AcceptedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class NonAuthoritativeInformationOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class NoContentOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class ResetContentOps,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class PartialContentOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class MultiStatusOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class AlreadyReportedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class IMUsedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class MultipleChoicesOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class MovedPermanentlyOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class FoundOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class SeeOtherOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class NotModifiedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class TemporaryRedirectOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class PermanentRedirectOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class BadRequestOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class UnauthorizedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class PaymentRequiredOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class ForbiddenOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class NotFoundOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class MethodNotAllowedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class NotAcceptableOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class ProxyAuthenticationRequiredOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class RequestTimeoutOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class ConflictOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class GoneOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class LengthRequiredOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class PreconditionFailedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class PayloadTooLargeOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class UriTooLongOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class UnsupportedMediaTypeOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class RangeNotSatisfiableOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class ExpectationFailedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class MisdirectedRequestOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class UnprocessableEntityOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class LockedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class FailedDependencyOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class TooEarlyOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class UpgradeRequiredOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class PreconditionRequiredOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class TooManyRequestsOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class RequestHeaderFieldsTooLargeOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class UnavailableForLegalReasonsOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class InternalServerErrorOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class NotImplementedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class BadGatewayOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class ServiceUnavailableOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class GatewayTimeoutOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class HttpVersionNotSupportedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class VariantAlsoNegotiatesOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class InsufficientStorageOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class LoopDetectedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class NotExtendedOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package dsl - package impl - object Responses - class NetworkAuthenticationRequiredOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package websocket - object FrameTranscoder,0.0,59.0,1.0,59.0,1.0,59.0,1.0
+HEAD,0,package websocket - object FrameTranscoder - class TranscodeError,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package websocket - class FrameTranscoder,0.0,107.0,1.0,107.0,1.0,107.0,1.0
+HEAD,0,package h2 - class H2Frame,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package h2 - object H2Frame,4.0,336.0,0.38620689655172413,29.0,0.03333333333333333,194.8,0.2239080459770115
+HEAD,0,package h2 - object H2Frame - class RawFrame,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package h2 - object H2Frame - object RawFrame,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - object H2Frame - class Unknown,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package h2 - object H2Frame - class Data,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package h2 - object H2Frame - object Data,0.0,46.0,1.0,46.0,1.0,46.0,1.0
+HEAD,0,package h2 - object H2Frame - class Headers,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package h2 - object H2Frame - object Headers,2.0,87.0,0.7016129032258065,33.0,0.2661290322580645,67.0,0.5403225806451613
+HEAD,0,package h2 - object H2Frame - object Headers - class StreamDependency,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Frame - class Priority,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package h2 - object H2Frame - object Priority,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - object H2Frame - class RstStream,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package h2 - object H2Frame - object RstStream,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - object H2Frame - class Settings,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings,0.0,182.0,1.0,182.0,1.0,182.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - class ConnectionSettings,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - object ConnectionSettings,0.0,46.0,1.0,46.0,1.0,46.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - class Setting,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - object Setting,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - class SettingsHeaderTableSize,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - class SettingsEnablePush,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - class SettingsMaxConcurrentStreams,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - class SettingsInitialWindowSize,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - object SettingsInitialWindowSize,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - object H2Frame - object Settings - class SettingsMaxFrameSize,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - object SettingsMaxFrameSize,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - object H2Frame - object Settings - class SettingsMaxHeaderListSize,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package h2 - object H2Frame - object Settings - class Unknown,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package h2 - object H2Frame - class PushPromise,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package h2 - object H2Frame - object PushPromise,1.0,54.0,0.8709677419354839,21.0,0.3387096774193548,37.5,0.6048387096774194
+HEAD,0,package h2 - object H2Frame - class Ping,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package h2 - object H2Frame - object Ping,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - object H2Frame - class GoAway,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package h2 - object H2Frame - object GoAway,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - object H2Frame - class WindowUpdate,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package h2 - object H2Frame - object WindowUpdate,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package h2 - object H2Frame - class Continuation,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package h2 - object H2Frame - object Continuation,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait UriPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circe - class DecodingFailures,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package headers - object If-None-Match,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package http4s - package headers - class If-None-Match,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package laws - trait EntityEncoderLaws,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package http4s - package laws - object EntityEncoderLaws,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - package laws - object EntityEncoderLaws - method apply - <$anon: org.http4s.laws.EntityEncoderLaws[F A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class HttpDate,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package http4s - object HttpDate,0.0,253.0,1.0,253.0,1.0,253.0,1.0
+HEAD,0,package http4s - object HttpDate - <$anon: <error> with <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package parser - class QueryParser,8.0,34.0,0.3300970873786408,4.0,0.038834951456310676,14.777777777777779,0.14347357065803668
+HEAD,0,package http4s - package parser - object QueryParser,0.0,37.0,1.0,37.0,1.0,37.0,1.0
+HEAD,0,package http4s - package parser - object QueryParser - trait State,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package parser - object QueryParser - object KEY,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package parser - object QueryParser - object VALUE,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - trait CacheDirective,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package http4s - object CacheDirective,0.0,62.0,1.0,62.0,1.0,62.0,1.0
+HEAD,0,package http4s - object CacheDirective - class max-age,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object CacheDirective - class max-stale,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object CacheDirective - class min-fresh,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object CacheDirective - object must-revalidate,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object CacheDirective - class no-cache,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object CacheDirective - object no-store,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object CacheDirective - object no-transform,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object CacheDirective - object only-if-cached,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object CacheDirective - class private,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package http4s - object CacheDirective - object proxy-revalidate,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object CacheDirective - object public,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object CacheDirective - class s-maxage,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object CacheDirective - class stale-if-error,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object CacheDirective - class stale-while-revalidate,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - object CacheDirective - class CustomCacheDirective,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package client - class RequestKeySocket,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package scaffold - class ServerScaffold,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package scaffold - object ServerScaffold,0.0,47.0,1.0,47.0,1.0,47.0,1.0
+HEAD,0,package server - class SecureSession,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package server - object SecureSession,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - trait QueryOps,0.0,212.0,1.0,212.0,1.0,212.0,1.0
+HEAD,0,package http4s - package headers - class Upgrade-Insecure-Requests,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - package headers - object Upgrade-Insecure-Requests,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package internal - object PosixQuoting,0.0,54.0,1.0,54.0,1.0,54.0,1.0
+HEAD,0,package http4s - package headers - object Content-Location,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package http4s - package headers - class Content-Location,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object LanguageTag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class LanguageTag,2.0,17.0,0.68,12.0,0.48,14.333333333333334,0.5733333333333334
+HEAD,0,package fix - object LiteralsSyntaxWithExistingImplicitsImportTests,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package client - class RequestKey,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package http4s - package client - object RequestKey,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package ember - object EmberServerH2Example,0.0,88.0,1.0,88.0,1.0,88.0,1.0
+HEAD,0,package ember - object EmberServerH2Example - object ServerTest,0.0,76.0,1.0,76.0,1.0,76.0,1.0
+HEAD,0,package ember - object EmberServerH2Example - object ServerTest - method simpleApp - <$anon: org.http4s.dsl.Http4sDsl[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - class Status,0.0,35.0,1.0,35.0,1.0,35.0,1.0
+HEAD,0,package http4s - object Status,2.0,95.0,0.5397727272727273,12.0,0.06818181818181818,63.0,0.35795454545454547
+HEAD,0,package http4s - object Status - method apply - <$anon: org.http4s.Status>,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package http4s - object Status - method trust - <$anon: org.http4s.Status>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - object Status - trait ResponseClass,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package http4s - object Status - object Informational,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Status - object Successful,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Status - object Redirection,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Status - object ClientError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Status - object ServerError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package http4s - object Status - object Registry,2.0,19.0,0.8260869565217391,5.0,0.21739130434782608,12.0,0.5217391304347826
+HEAD,0,package middleware - trait GZipPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package dsl - object io,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package websocket - object WebSocketFrameDefragmenter,0.0,111.0,1.0,111.0,1.0,111.0,1.0
+HEAD,0,package http4s - package syntax - package object syntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package syntax - package object syntax - object all,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package syntax - package object syntax - object kleisli,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package syntax - package object syntax - object literals,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package syntax - package object syntax - object string,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package syntax - package object syntax - object header,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circe - trait CirceSensitiveDataEntityDecoder,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package circe - object CirceSensitiveDataEntityDecoder,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package circe - trait CirceEntityDecoder,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package circe - object CirceEntityDecoder,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package http4s - package middleware - object TranslateUri,0.0,25.0,1.0,25.0,1.0,25.0,1.0

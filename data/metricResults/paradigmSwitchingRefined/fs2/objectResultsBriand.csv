@@ -1,0 +1,1317 @@
+commit,faults,path,SwitchCount,MaxStretch,MaxStretchNormalized,MinStretch,MinStretchNormalized,AvgStretch,AvgStretchNormalized
+HEAD,6,package internal - class Scope,2.0,237.0,0.5880893300248139,18.0,0.04466501240694789,140.66666666666666,0.34904880066170385
+HEAD,0,package internal - class Scope - method interruptWhen - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class Scope - method lease - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object Scope,0.0,43.0,1.0,43.0,1.0,43.0,1.0
+HEAD,0,package internal - object Scope - trait State,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package internal - object Scope - object State,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package internal - object Scope - object State - class Open,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package internal - object Scope - object State - class Closed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - trait Permissions,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - class PosixPermissions,0.0,31.0,1.0,31.0,1.0,31.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermissions,1.0,26.0,0.6842105263157895,15.0,0.39473684210526316,20.5,0.5394736842105263
+HEAD,0,package fs2 - package io - package file - trait PosixPermission,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermission,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermission - object OwnerRead,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermission - object OwnerWrite,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermission - object OwnerExecute,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermission - object GroupRead,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermission - object GroupWrite,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermission - object GroupExecute,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermission - object OthersRead,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermission - object OthersWrite,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixPermission - object OthersExecute,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package net - package tls - trait S2nConnection,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package net - package tls - object S2nConnection,0.0,215.0,1.0,215.0,1.0,215.0,1.0
+HEAD,0,package fs2 - package net - package tls - object S2nConnection - method apply - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package net - package tls - object S2nConnection - class ConnectionContext,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - package net - package tls - object S2nConnection - class RecvCallbackContext,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package net - package tls - object S2nConnection - class SendCallbackContext,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package protocols - package pcapng - class Length,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package protocols - package ip - package udp - class Datagram,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package ip - package udp - object Datagram,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package protocols - package ip - package udp - object Datagram - <$anon: <error>>,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package fs2 - package io - package net - trait Socket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - object Socket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - trait Table,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait CollectorPlatform,2.0,24.0,0.5581395348837209,2.0,0.046511627906976744,15.333333333333334,0.35658914728682173
+HEAD,0,package fs2 - trait CollectorPlatform - trait BuilderPlatform,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package unixsocket - trait UnixSocketAddressCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package ethernet - object EtherType,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait FilesPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,2,package fs2 - package io - package file - trait FilesCompanionPlatform,14.0,138.0,0.3325301204819277,3.0,0.007228915662650603,32.93333333333333,0.0793574297188755
+HEAD,2,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles,13.0,138.0,0.33658536585365856,2.0,0.004878048780487805,34.714285714285715,0.08466898954703833
+HEAD,0,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles - method mkdir - <none>,2.0,4.0,0.6666666666666666,3.0,0.5,3.3333333333333335,0.5555555555555556
+HEAD,0,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles - method deleteRecursively - <none>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles - method exists - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles - method stat - <none>,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles - method getPosixFileAttributes - <$anon: fs2.io.file.PosixFileAttributes.UnsealedPosixFileAttributes>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles - method readStream - <$anon: fs2.io.internal.facade.fs.ReadStreamOptions>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles - method writeAll - <none>,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - class ChunkFlatten,4.0,10.0,0.4,1.0,0.04,7.2,0.28800000000000003
+HEAD,0,package fs2 - class ChunkFlatten - class Obj,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - class ChunkFlatten - object Obj,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - class ConcurrentDataTypes,0.0,37.0,1.0,37.0,1.0,37.0,1.0
+HEAD,0,package fs2 - package io - package file - class Path,0.0,67.0,1.0,67.0,1.0,67.0,1.0
+HEAD,1,package fs2 - package io - package file - object Path,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package compression - class GunzipResult,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package tls - object s2nutil,1.0,41.0,0.8723404255319149,38.0,0.8085106382978723,39.5,0.8404255319148937
+HEAD,0,package internal - object ThrowableOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object ThrowableOps - class ThrowableOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package benchmark - class ConcurrentBenchmark,1.0,17.0,0.8095238095238095,11.0,0.5238095238095238,14.0,0.6666666666666666
+HEAD,0,package fs2 - object hash,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package protocols - package pcapng - class NameResolutionBlock,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package pcapng - object NameResolutionBlock,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,1,package fs2 - package io - trait ioplatform,76.0,95.0,0.2111111111111111,1.0,0.0022222222222222222,8.666666666666666,0.019259259259259257
+HEAD,0,package fs2 - package io - trait ioplatform - method unsafeReadReadable - class Listener,15.0,22.0,0.36666666666666664,2.0,0.03333333333333333,6.266666666666667,0.10444444444444444
+HEAD,0,package fs2 - package io - trait ioplatform - method mkDuplex - class Listener,42.0,23.0,0.23469387755102042,1.0,0.01020408163265306,4.476190476190476,0.0456754130223518
+HEAD,0,package fs2 - package io - trait ioplatform - method mkDuplex - <none>,7.0,8.0,0.26666666666666666,4.0,0.13333333333333333,6.875,0.22916666666666666
+HEAD,0,package protocols - package pcapng - class ProcessInformationBlock,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package pcapng - object ProcessInformationBlock,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package protocols - package ip - trait IpHeader,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package protocols - package ip - object IpHeader,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package protocols - package ip - trait UnsealedIpHeader,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait WriteCursorCompanionPlatform,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package mpeg - package transport - class TransportStreamHeader,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package mpeg - package transport - object TransportStreamHeader,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package stream - trait DuplexOptions,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package stream - class Duplex,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package ip - package tcp - class TcpFlags,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package protocols - package ip - package tcp - object TcpFlags,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package hashing - class HashAlgorithm,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm,0.0,30.0,1.0,30.0,1.0,30.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object MD5,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA1,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA224,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA256,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA384,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA512,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA512_224,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA512_256,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA3_224,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA3_256,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA3_384,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - object SHA3_512,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - object HashAlgorithm - class Named,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fix - class MyStreamApp,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fix - object MyApp,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package interop - package flow - class StreamSubscriber,53.0,51.0,0.2170212765957447,2.0,0.00851063829787234,7.537037037037037,0.032072498029944836
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber,4.0,59.0,0.8805970149253731,3.0,0.04477611940298507,17.6,0.26268656716417915
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - class StreamSubscriberException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object StreamSubscriberException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object StreamSubscriberException - class InvalidStateException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object StreamSubscriberException - class UpstreamErrorException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - trait State,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object State,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object State - class Uninitialized,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object State - class Idle,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object State - class WaitingOnUpstream,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object State - class Failed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object State - object Terminal,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - trait Input,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object Input,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object Input - class Subscribe,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object Input - class Next,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object Input - class Error,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object Input - class Complete,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object StreamSubscriber - object Input - class Dequeue,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package benchmark - class ByteBufferChunkBenchmark,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,0,package tls - class CertAuthType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package tls - object CertAuthType,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package tls - object CertAuthType - object None,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package tls - object CertAuthType - object Required,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package tls - object CertAuthType - object Optional,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait ChunkRuntimePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait ChunkCompanionRuntimePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object tls,0.0,167.0,1.0,167.0,1.0,167.0,1.0
+HEAD,0,package facade - object tls - trait SecureContextOptions,0.0,43.0,1.0,43.0,1.0,43.0,1.0
+HEAD,0,package facade - object tls - trait Key,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package facade - object tls - trait Pfx,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package facade - object tls - trait TLSConnectOptions,0.0,31.0,1.0,31.0,1.0,31.0,1.0
+HEAD,0,package facade - object tls - trait PSKCallbackNegotation,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package facade - object tls - trait PeerCertificate,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object tls - trait TLSSocketOptions,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package facade - object tls - class TLSSocket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object tls - trait SSL,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package process - trait Process,0.0,35.0,1.0,35.0,1.0,35.0,1.0
+HEAD,0,package fs2 - package io - package process - trait UnsealedProcess,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - class SSLException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - class JavaScriptSSLException,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package ip - object Checksum,2.0,8.0,0.5714285714285714,4.0,0.2857142857142857,6.333333333333333,0.4523809523809524
+HEAD,0,package mpeg - package transport - package psi - trait Section,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - trait ExtendedSection,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class SectionExtension,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SectionExtension,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - class ProtocolException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - class SocketException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - class JavaScriptSocketException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package net - object SocketException,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - package io - package net - class BindException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - class JavaScriptBindException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package net - object BindException,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - package io - package net - class ConnectException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - class JavaScriptConnectException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package net - object ConnectException,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - package io - package net - class SocketTimeoutException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - class JavaScriptSocketTimeoutException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package net - object SocketTimeoutException,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - package io - package net - class UnknownHostException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - class JavaScriptUnknownHostException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package net - object UnknownHostException,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,1,package fs2 - package io - package object io,4.0,72.0,0.5901639344262295,3.0,0.02459016393442623,26.2,0.21475409836065573
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform,2.0,36.0,0.7659574468085106,6.0,0.1276595744680851,18.0,0.3829787234042553
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform,2.0,30.0,0.7692307692307693,6.0,0.15384615384615385,15.333333333333334,0.39316239316239315
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder,2.0,27.0,0.7941176470588235,6.0,0.17647058823529413,13.666666666666666,0.40196078431372545
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder - method fromS2nConfig - <$anon: TLSContextCompanionPlatform.this.UnsealedTLSContext[F]>,2.0,15.0,0.7142857142857143,6.0,0.2857142857142857,9.333333333333334,0.4444444444444445
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContext,0.0,33.0,1.0,33.0,1.0,33.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSContext,0.0,61.0,1.0,61.0,1.0,61.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSContext - trait UnsealedTLSContext,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSContext - trait Builder,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSContext - trait UnsealedBuilder,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSContext - object Builder,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSContext - trait SocketBuilder,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSContext - object SocketBuilder,0.0,31.0,1.0,31.0,1.0,31.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSContext - object SocketBuilder - method instance - <$anon: fs2.io.net.tls.TLSContext.SocketBuilder[F S]>,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package protocols - package pcapng - object BlockCodec,1.0,33.0,0.9166666666666666,9.0,0.25,21.0,0.5833333333333334
+HEAD,0,package protocols - package pcapng - object BlockCodec - class <error>,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package benchmark - class CompressionBenchmark,3.0,36.0,0.6101694915254238,3.0,0.05084745762711865,17.75,0.3008474576271186
+HEAD,0,package benchmark - object CompressionBenchmark,1.0,29.0,0.8055555555555556,27.0,0.75,28.0,0.7777777777777778
+HEAD,1,package internal - class PipedStreamBuffer,0.0,336.0,1.0,336.0,1.0,336.0,1.0
+HEAD,1,package internal - class PipedStreamBuffer - <$anon: java.io.InputStream>,0.0,170.0,1.0,170.0,1.0,170.0,1.0
+HEAD,1,package internal - class PipedStreamBuffer - <$anon: java.io.OutputStream>,0.0,152.0,1.0,152.0,1.0,152.0,1.0
+HEAD,0,package fs2 - package io - package net - trait NetworkPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait NetworkCompanionPlatform,2.0,32.0,0.8421052631578947,5.0,0.13157894736842105,14.666666666666666,0.38596491228070173
+HEAD,0,package fs2 - package io - package net - trait NetworkCompanionPlatform - method forAsyncAndDns - <$anon: NetworkCompanionPlatform.this.UnsealedNetwork[F]>,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,15,package fs2 - class Stream,48.0,569.0,0.1834300451321728,1.0,3.223726627981947E-4,68.28571428571429,0.02201344754536244
+HEAD,0,package fs2 - class Stream - method groupWithin - class JunctionBuffer,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,11,package fs2 - object Stream,18.0,563.0,0.2301717089125102,1.0,4.088307440719542E-4,134.73684210526315,0.055084563411800146
+HEAD,0,package fs2 - object Stream - class PartiallyAppliedFromOption,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - object Stream - class PartiallyAppliedFromEither,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,4,package fs2 - object Stream - class PartiallyAppliedFromIterator,2.0,16.0,0.64,9.0,0.36,13.333333333333334,0.5333333333333333
+HEAD,0,package fs2 - object Stream - object PartiallyAppliedFromIterator,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package fs2 - object Stream - class PartiallyAppliedFromBlockingIterator,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - object Stream - method resourceK - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Stream - method resourceWeakK - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,2,package fs2 - object Stream - class InvariantOps,0.0,131.0,1.0,131.0,1.0,131.0,1.0
+HEAD,0,package fs2 - object Stream - class NothingStreamOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Stream - class OptionStreamOps,0.0,34.0,1.0,34.0,1.0,34.0,1.0
+HEAD,0,package fs2 - object Stream - class ListStreamOps,2.0,23.0,0.7931034482758621,3.0,0.10344827586206896,11.0,0.3793103448275862
+HEAD,0,package fs2 - object Stream - class NestedStreamOps,2.0,134.0,0.7928994082840237,7.0,0.04142011834319527,59.0,0.34911242603550297
+HEAD,0,package fs2 - object Stream - class PureOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Stream - class IdOps,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - object Stream - class IdOps - method idToApplicative - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Stream - class FallibleOps,1.0,13.0,0.7222222222222222,6.0,0.3333333333333333,9.5,0.5277777777777778
+HEAD,0,package fs2 - object Stream - class IOOps,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,4,package fs2 - object Stream - class ToPull,0.0,441.0,1.0,441.0,1.0,441.0,1.0
+HEAD,0,package fs2 - object Stream - class CompileOps,4.0,272.0,0.9477351916376306,1.0,0.003484320557491289,61.0,0.21254355400696864
+HEAD,0,package fs2 - object Stream - class StepLeg,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package fs2 - object Stream - method parZip - trait State,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Stream - method parZip - object Racing,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Stream - method parZip - class LeftFirst,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Stream - method parZip - class RightFirst,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Stream - class PipeOps,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - object Stream - class PurePipeOps,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - object Stream - class PurePipe2Ops,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - object Stream - class StreamMonad,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - object Stream - method monadErrorInstance - <$anon: fs2.Stream.StreamMonad[F] with <error>>,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package fs2 - object Stream - method monoidInstance - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Stream - method alignInstance - <$anon: <error>>,0.0,65.0,1.0,65.0,1.0,65.0,1.0
+HEAD,0,package fs2 - object Stream - method functorFilterInstance - <$anon: <error>>,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package fs2 - object Stream - method functionKInstance - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Stream - method monoidKInstance - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Stream - method deferInstance - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package fs2 - trait StreamLowPriority,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package pcapng - class InterfaceDescriptionBlock,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package protocols - package pcapng - object InterfaceDescriptionBlock,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package internal - class ResizableBuffer,2.0,14.0,0.7777777777777778,5.0,0.2777777777777778,9.0,0.5
+HEAD,0,package internal - object ResizableBuffer,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package fs2 - trait PartiallyAppliedFromBlockingIteratorCrossCompat,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - class v1,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fix - object fixUtils,0.0,44.0,1.0,44.0,1.0,44.0,1.0
+HEAD,0,package fix - object BracketRules,0.0,68.0,1.0,68.0,1.0,68.0,1.0
+HEAD,0,package fix - object ConcurrentDataTypesRules,0.0,93.0,1.0,93.0,1.0,93.0,1.0
+HEAD,0,package fix - object SchedulerRules,0.0,80.0,1.0,80.0,1.0,80.0,1.0
+HEAD,0,package fix - object StreamAppRules,0.0,161.0,1.0,161.0,1.0,161.0,1.0
+HEAD,0,package fix - object StreamAppRules - object streamAppInit,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fix - object ChunkRules,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package fix - object UsabilityRenameRules,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package fix - object SinkToPipeRules,0.0,45.0,1.0,45.0,1.0,45.0,1.0
+HEAD,0,package protocols - package pcapng - package object pcapng,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package pcapng - class SimplePacketBlock,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package pcapng - object SimplePacketBlock,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package mpeg - trait PesPacket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - object PesPacket,0.0,51.0,1.0,51.0,1.0,51.0,1.0
+HEAD,0,package mpeg - object PesPacket - class WithHeader,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - object PesPacket - class WithoutHeader,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - object PesPacket - object Padding,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - trait HasherCompanionPlatform,5.0,40.0,0.4878048780487805,10.0,0.12195121951219512,18.166666666666668,0.22154471544715448
+HEAD,0,package fs2 - package hashing - trait HasherCompanionPlatform - method unsafeFromMessageDigest - <$anon: fs2.hashing.SyncHasher[F]>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package hashing - trait HasherCompanionPlatform - method unsafeFromMac - <$anon: fs2.hashing.SyncHasher[F]>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - class StreamUnicastPublisher,1.0,29.0,0.9666666666666667,14.0,0.4666666666666667,21.5,0.7166666666666667
+HEAD,0,package fs2 - package interop - package reactivestreams - class StreamUnicastPublisher - method subscribe - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamUnicastPublisher,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamUnicastPublisher - object CanceledStreamPublisherException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait WriteCursorCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - class AdaptationFieldFlags,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package mpeg - package transport - object AdaptationFieldFlags,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object hash,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package fs2 - package io - package net - trait AsynchronousDatagramSocketGroup,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package fs2 - package io - package net - object AsynchronousDatagramSocketGroup,78.0,33.0,0.10891089108910891,1.0,0.0033003300330033004,6.151898734177215,0.02030329615240005
+HEAD,0,package fs2 - package io - package net - object AsynchronousDatagramSocketGroup - class WriterDatagram,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package net - object AsynchronousDatagramSocketGroup - method unsafe - <$anon: fs2.io.net.AsynchronousDatagramSocketGroup>,78.0,33.0,0.11224489795918367,1.0,0.003401360544217687,6.037974683544304,0.02053732885559287
+HEAD,0,package fs2 - package io - package net - object AsynchronousDatagramSocketGroup - method unsafe - <$anon: fs2.io.net.AsynchronousDatagramSocketGroup> - class Attachment,20.0,23.0,0.2948717948717949,1.0,0.01282051282051282,6.190476190476191,0.07936507936507937
+HEAD,0,package fs2 - package io - package net - object AsynchronousDatagramSocketGroup - method unsafe - <$anon: fs2.io.net.AsynchronousDatagramSocketGroup> - <$anon: Runnable>,8.0,21.0,0.42,2.0,0.04,7.111111111111111,0.14222222222222222
+HEAD,0,package mpeg - package transport - package psi - class SectionCodec,2.0,62.0,0.6526315789473685,18.0,0.18947368421052632,38.0,0.4
+HEAD,0,package mpeg - package transport - package psi - object SectionCodec,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SectionCodec - trait UnknownSection,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SectionCodec - class UnknownNonExtendedSection,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SectionCodec - class UnknownExtendedSection,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SectionCodec - class Case,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SectionCodec - object Case,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package compression - object checksum,0.0,31.0,1.0,31.0,1.0,31.0,1.0
+HEAD,0,package fix - class SchedulerTimer,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package facade - object fs,0.0,239.0,1.0,239.0,1.0,239.0,1.0
+HEAD,0,package facade - object fs - trait ReadStreamOptions,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package facade - object fs - trait WriteStreamOptions,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package facade - object fs - trait FsConstants,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object fs - trait FsPromises,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object fs - trait MkdirOptions,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package facade - object fs - trait RmOptions,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package facade - object fs - trait StatOptions,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package facade - object fs - trait Dir,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object fs - trait DirEnt,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object fs - trait BigIntStats,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object fs - trait FileHandle,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object fs - trait FileHandleReadResult,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object fs - trait FileHandleWriteResult,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package file - class Flag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package file - object Flag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package file - trait FlagsCompanionPlatform,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - package io - package file - trait FilesPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,3,package fs2 - package io - package file - trait FilesCompanionPlatform,25.0,140.0,0.32036613272311215,7.0,0.016018306636155607,29.53846153846154,0.06759373349762367
+HEAD,0,package fs2 - package io - package file - trait FilesCompanionPlatform - class NioFileKey,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,1,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles,21.0,140.0,0.3431372549019608,7.0,0.01715686274509804,32.59090909090909,0.07987967914438503
+HEAD,0,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles - method deleteRecursively - <$anon: java.nio.file.SimpleFileVisitor[java.nio.file.Path]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait FilesCompanionPlatform - class AsyncFiles - class WalkEntry,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package io - package file - trait FilesCompanionPlatform - class DelegatingBasicFileAttributes,1.0,11.0,0.9166666666666666,5.0,0.4166666666666667,8.0,0.6666666666666666
+HEAD,2,package fs2 - package io - package file - trait FilesCompanionPlatform - class DelegatingPosixFileAttributes,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - package tls - trait SecureContext,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package tls - object SecureContext,26.0,32.0,0.2962962962962963,2.0,0.018518518518518517,6.777777777777778,0.06275720164609054
+HEAD,0,package fs2 - package tls - object SecureContext - method apply - <$anon: fs2.io.internal.facade.tls.SecureContextOptions>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package tls - object SecureContext - class SecureVersion,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package tls - object SecureContext - object SecureVersion,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package fs2 - package tls - object SecureContext - object SecureVersion - object TLSv1,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package tls - object SecureContext - object SecureVersion - object TLSv1.1,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package tls - object SecureContext - object SecureVersion - object TLSv1.2,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package tls - object SecureContext - object SecureVersion - object TLSv1.3,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package tls - object SecureContext - class Key,1.0,9.0,0.9,8.0,0.8,8.5,0.85
+HEAD,0,package fs2 - package tls - object SecureContext - class Key - method toJS - <$anon: fs2.io.internal.facade.tls.Key>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package tls - object SecureContext - class Pfx,1.0,9.0,0.9,8.0,0.8,8.5,0.85
+HEAD,0,package fs2 - package tls - object SecureContext - class Pfx - method toJS - <$anon: fs2.io.internal.facade.tls.Pfx>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSSocketPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSSocketCompanionPlatform,1.0,59.0,0.8676470588235294,44.0,0.6470588235294118,51.5,0.7573529411764706
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSSocketCompanionPlatform - method mk - <$anon: TLSSocketCompanionPlatform.this.UnsealedTLSSocket[F]>,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,1,package fs2 - package interop - package reactivestreams - class StreamSubscription,5.0,38.0,0.3917525773195876,2.0,0.020618556701030927,23.5,0.2422680412371134
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscription,0.0,34.0,1.0,34.0,1.0,34.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscription - trait Request,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscription - object Infinite,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscription - class Finite,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package io - package net - package object net,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - trait ioplatform,0.0,113.0,1.0,113.0,1.0,113.0,1.0
+HEAD,0,package fs2 - package concurrent - class Topic,0.0,106.0,1.0,106.0,1.0,106.0,1.0
+HEAD,0,package fs2 - package concurrent - class Topic - method imap - <$anon: fs2.concurrent.Topic[F B]>,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,1,package fs2 - package concurrent - object Topic,1.0,98.0,1.0,87.0,0.8877551020408163,92.5,0.9438775510204082
+HEAD,0,package fs2 - package concurrent - object Topic - object Closed,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package fs2 - package concurrent - object Topic - method apply - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package net - trait SocketOption,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package net - object SocketOption,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package net - object SocketOption - method apply - <$anon: fs2.io.net.SocketOption>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package pcapng - object CaptureFile,0.0,30.0,1.0,30.0,1.0,30.0,1.0
+HEAD,0,package tls - trait TLSLogger,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package tls - object TLSLogger,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package tls - object TLSLogger - object Disabled,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package tls - object TLSLogger - class Enabled,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - trait Chunk213And3Compat,1.0,16.0,0.8,7.0,0.35,11.5,0.575
+HEAD,0,package fs2 - trait ChunkAsSeq213And3Compat,5.0,13.0,0.41935483870967744,1.0,0.03225806451612903,8.5,0.27419354838709675
+HEAD,0,package fs2 - trait ChunkCompanion213And3Compat,0.0,25.0,1.0,25.0,1.0,25.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSParameters,19.0,20.0,0.46511627906976744,2.0,0.046511627906976744,4.1,0.09534883720930232
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSParameters - method toTLSSocketOptions - <$anon: fs2.io.internal.facade.tls.TLSSocketOptions>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSParameters - method toTLSConnectOptions - <$anon: fs2.io.internal.facade.tls.TLSConnectOptions>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters,3.0,69.0,0.8023255813953488,6.0,0.06976744186046512,26.25,0.30523255813953487
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters - class DefaultTLSParameters,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters - trait SNICallback,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters - trait PSKCallback,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters - class PSKCallbackNegotation,1.0,7.0,0.875,5.0,0.625,6.0,0.75
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters - class PSKCallbackNegotation - method toJS - <$anon: fs2.io.internal.facade.tls.PSKCallbackNegotation>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters - trait CheckServerIdentity,1.0,10.0,0.8333333333333334,5.0,0.4166666666666667,7.5,0.625
+HEAD,0,package internal - class ScopedResource,0.0,39.0,1.0,39.0,1.0,39.0,1.0
+HEAD,0,package internal - object ScopedResource,0.0,91.0,1.0,91.0,1.0,91.0,1.0
+HEAD,0,package internal - object ScopedResource - class State,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package internal - object ScopedResource - method create - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object ScopedResource - method create - <none> - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - class PesScramblingControl,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - object PesScramblingControl,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - object PesScramblingControl - object NotScrambled,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - object PesScramblingControl - object UserDefined1,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - object PesScramblingControl - object UserDefined2,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - object PesScramblingControl - object UserDefined3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - class PesPacketHeader,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package mpeg - object PesPacketHeader,0.0,142.0,1.0,142.0,1.0,142.0,1.0
+HEAD,0,package mpeg - object PesPacketHeader - class Flags,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package mpeg - object PesPacketHeader - object Flags,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - object PesPacketHeader - class ExtensionFlags,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package mpeg - object PesPacketHeader - object ExtensionFlags,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - object PesPacketHeader - class ProgramPacketSequenceCounter,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - object PesPacketHeader - object ProgramPacketSequenceCounter,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - object PesPacketHeader - class PStdBuffer,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - object PesPacketHeader - object PStdBuffer,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - object PesPacketHeader - class Extension,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package mpeg - object PesPacketHeader - object Extension,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package fs2 - trait ChunkPlatform,0.0,40.0,1.0,40.0,1.0,40.0,1.0
+HEAD,0,package fs2 - trait ChunkAsSeqPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait ChunkCompanionPlatform,2.0,31.0,0.5849056603773585,15.0,0.2830188679245283,24.666666666666668,0.46540880503144655
+HEAD,0,package fs2 - trait ChunkCompanionPlatform - class IArraySlice,2.0,31.0,0.7380952380952381,5.0,0.11904761904761904,21.0,0.5
+HEAD,0,package file - class PathInfo,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package net - trait SocketOptionCompanionPlatform,7.0,15.0,0.32608695652173914,7.0,0.15217391304347827,9.375,0.20380434782608695
+HEAD,0,package net - trait SocketOptionCompanionPlatform - trait Key,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package net - trait SocketOptionCompanionPlatform - object Encoding,1.0,5.0,0.7142857142857143,4.0,0.5714285714285714,4.5,0.6428571428571429
+HEAD,0,package net - trait SocketOptionCompanionPlatform - object KeepAlive,1.0,5.0,0.7142857142857143,4.0,0.5714285714285714,4.5,0.6428571428571429
+HEAD,0,package net - trait SocketOptionCompanionPlatform - object NoDelay,1.0,5.0,0.7142857142857143,4.0,0.5714285714285714,4.5,0.6428571428571429
+HEAD,0,package net - trait SocketOptionCompanionPlatform - object Timeout,1.0,8.0,0.8,7.0,0.7,7.5,0.75
+HEAD,0,package file - class PosixFileKey,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fix - trait Usability,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - package io - package file - class Flag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - object Flag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - object Flag - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait FlagsCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - class JavaScriptIOException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package io - object IOException,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package io - class InterruptedIOException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object InterruptedIOException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - class ClosedChannelException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class JIteratorOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class JIterableOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class JSetOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class ListOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class SetOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class EnumerationOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait Network,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - package io - package net - object Network,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - package io - package net - object Network - trait UnsealedNetwork,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait SocketGroup,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - object SocketGroup,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package fs2 - package io - package net - object SocketGroup - class AbstractAsyncSocketGroup,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package io - object compression,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object process,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketPlatform - trait GroupMembershipPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketCompanionPlatform,4.0,34.0,0.37362637362637363,5.0,0.054945054945054944,21.6,0.23736263736263738
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketCompanionPlatform - class AsyncDatagramSocket,3.0,32.0,0.5517241379310345,5.0,0.08620689655172414,17.5,0.3017241379310345
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketCompanionPlatform - class AsyncDatagramSocket - method join - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - object AkkaSink,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait Network,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package net - object Network,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - package io - package net - object Network - trait UnsealedNetwork,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package file - class CopyFlag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package file - object CopyFlag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package file - trait CopyFlagsCompanionPlatform,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package transport - class Clock27MHz,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,2,package fs2 - package io - package file - trait BasicFileAttributes,0.0,43.0,1.0,43.0,1.0,43.0,1.0
+HEAD,0,package fs2 - package io - package file - object BasicFileAttributes,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - object BasicFileAttributes - trait UnsealedBasicFileAttributes,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,2,package fs2 - package io - package file - trait PosixFileAttributes,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package fs2 - package io - package file - object PosixFileAttributes,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - object PosixFileAttributes - trait UnsealedPosixFileAttributes,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - class MyStreamApp,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fix - object MyApp,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait SocketCompanionPlatform,0.0,73.0,1.0,73.0,1.0,73.0,1.0
+HEAD,0,package fs2 - package io - package net - trait SocketCompanionPlatform - class AsyncSocket,0.0,52.0,1.0,52.0,1.0,52.0,1.0
+HEAD,0,package fix - trait ChunkRules,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - package io - package process - trait ProcessesCompanionPlatform,4.0,53.0,0.828125,2.0,0.03125,22.0,0.34375
+HEAD,0,package fs2 - package io - package process - trait ProcessesCompanionPlatform - method forAsync - <$anon: fs2.io.process.UnsealedProcesses[F]>,4.0,52.0,0.8387096774193549,2.0,0.03225806451612903,21.6,0.34838709677419355
+HEAD,0,package fs2 - package io - package process - trait ProcessesCompanionPlatform - method forAsync - <$anon: fs2.io.process.UnsealedProcesses[F]> - method spawn - <none>,2.0,6.0,0.75,2.0,0.25,3.6666666666666665,0.4583333333333333
+HEAD,0,package fs2 - package io - package process - trait ProcessesCompanionPlatform - method forAsync - <$anon: fs2.io.process.UnsealedProcesses[F]> - method spawn - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - class Scan,0.0,177.0,1.0,177.0,1.0,177.0,1.0
+HEAD,0,package fs2 - object Scan,4.0,21.0,0.5526315789473685,1.0,0.02631578947368421,8.6,0.2263157894736842
+HEAD,0,package fs2 - object Scan - method functor - <$anon: <error>>,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - object Scan - method contravariant - <$anon: <error>>,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - object Scan - method strong - <$anon: <error>>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package pcap - class Record,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package pcap - object Record,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fix - class SchedulerTimer,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketOption,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - package io - package net - object DatagramSocketOption,13.0,15.0,0.23809523809523808,6.0,0.09523809523809523,7.785714285714286,0.1235827664399093
+HEAD,0,package fs2 - package io - package net - object DatagramSocketOption - trait Key,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package net - object DatagramSocketOption - method apply - <$anon: fs2.io.net.DatagramSocketOption>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - object DatagramSocketOption - object Broadcast,1.0,4.0,1.0,2.0,0.5,3.0,0.75
+HEAD,0,package fs2 - package io - package net - object DatagramSocketOption - object MulticastInterface,1.0,4.0,1.0,2.0,0.5,3.0,0.75
+HEAD,0,package fs2 - package io - package net - object DatagramSocketOption - object MulticastLoopback,1.0,5.0,0.7142857142857143,4.0,0.5714285714285714,4.5,0.6428571428571429
+HEAD,0,package fs2 - package io - package net - object DatagramSocketOption - object MulticastTtl,1.0,5.0,0.7142857142857143,4.0,0.5714285714285714,4.5,0.6428571428571429
+HEAD,0,package fs2 - package io - package net - object DatagramSocketOption - object ReceiveBufferSize,1.0,4.0,1.0,2.0,0.5,3.0,0.75
+HEAD,0,package fs2 - package io - package net - object DatagramSocketOption - object SendBufferSize,1.0,4.0,1.0,2.0,0.5,3.0,0.75
+HEAD,0,package fs2 - package io - package net - object DatagramSocketOption - object Ttl,1.0,5.0,0.7142857142857143,4.0,0.5714285714285714,4.5,0.6428571428571429
+HEAD,0,package fs2 - package io - package file - class CopyFlag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - object CopyFlag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - object CopyFlag - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait CopyFlagsCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait ChunkRuntimePlatform,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package fs2 - trait ChunkCompanionRuntimePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class JIteratorOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class JIterableOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class JSetOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class ListOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class SetOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class EnumerationOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package timeseries - class TimeStamped,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,2,package fs2 - package timeseries - object TimeStamped,6.0,192.0,0.5517241379310345,2.0,0.005747126436781609,52.714285714285715,0.15147783251231528
+HEAD,0,package fs2 - package timeseries - object TimeStamped - method timeBasedOrdering - <$anon: Ordering[fs2.timeseries.TimeStamped[A]]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package timeseries - object TimeStamped - method ordering - <$anon: Ordering[fs2.timeseries.TimeStamped[A]]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package timeseries - object TimeStamped - object syntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package timeseries - object TimeStamped - object syntax - class AtSyntax,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package timeseries - object TimeStamped - <$anon: <error>>,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class ProgramMapTable,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ProgramMapTable,0.0,39.0,1.0,39.0,1.0,39.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ProgramMapTable - <$anon: fs2.protocols.mpeg.transport.psi.TableSupport[fs2.protocols.mpeg.transport.psi.ProgramMapTable]>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class StreamType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class ProgramMapRecord,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ProgramMapRecord,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class ProgramMapSection,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ProgramMapSection,0.0,30.0,1.0,30.0,1.0,30.0,1.0
+HEAD,0,package mpeg - package transport - package psi - trait SectionFragmentCodec,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - object SectionFragmentCodec,0.0,104.0,1.0,104.0,1.0,104.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SectionFragmentCodec - method extended - <$anon: fs2.protocols.mpeg.transport.psi.SectionFragmentCodec[A]>,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SectionFragmentCodec - method nonExtended - <$anon: fs2.protocols.mpeg.transport.psi.SectionFragmentCodec[A]>,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SectionFragmentCodec - method nonExtendedWithCrc - <$anon: fs2.protocols.mpeg.transport.psi.SectionFragmentCodec[A]>,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - package compression - trait Compression,0.0,45.0,1.0,45.0,1.0,45.0,1.0
+HEAD,0,package fs2 - package compression - object Compression,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - package compression - object Compression - trait UnsealedCompression,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketGroupCompanionPlatform,10.0,27.0,0.5869565217391305,1.0,0.021739130434782608,5.7272727272727275,0.12450592885375494
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketGroupCompanionPlatform - class AsyncDatagramSocketGroup,9.0,27.0,0.6923076923076923,1.0,0.02564102564102564,5.2,0.13333333333333333
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketGroupCompanionPlatform - class AsyncDatagramSocketGroup - method openDatagramSocket - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package internal - trait SuspendedStream,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fs2 - package io - package internal - object SuspendedStream,0.0,31.0,1.0,31.0,1.0,31.0,1.0
+HEAD,0,package fs2 - package io - package internal - object SuspendedStream - method apply - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait ReadCursorCompanionPlatform,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class SectionAccumulator,23.0,10.0,0.3125,1.0,0.03125,2.75,0.0859375
+HEAD,0,package mpeg - package transport - package psi - object SectionAccumulator,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait ReadCursorCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package pcapng - class SectionHeaderBlock,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package protocols - package pcapng - object SectionHeaderBlock,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package mpeg - package transport - class DemultiplexerError,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - object DemultiplexerError,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package mpeg - package transport - object DemultiplexerError - class Discontinuity,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package mpeg - package transport - object DemultiplexerError - class Decoding,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSSocket,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSSocket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSSocket - trait UnsealedTLSSocket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object zlib,0.0,63.0,1.0,63.0,1.0,63.0,1.0
+HEAD,0,package facade - object zlib - trait Zlib,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object zlib - trait Options,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package facade - object os,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object os - trait NetworkInterfaceInfo,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - class GroupedSections,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object GroupedSections,4.0,73.0,0.5793650793650794,1.0,0.007936507936507936,31.0,0.24603174603174602
+HEAD,0,package protocols - package mpeg - package transport - package psi - object GroupedSections - class InvariantOps,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object GroupedSections - class DefaultGroupedSections,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object GroupedSections - class ExtendedTableId,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object GroupedSections - class ExtendedSectionGrouperState,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fix - object Bracket,6.0,12.0,0.375,2.0,0.0625,6.714285714285714,0.20982142857142858
+HEAD,0,package mpeg - package transport - package psi - class ConditionalAccessTable,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ConditionalAccessTable,0.0,77.0,1.0,77.0,1.0,77.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ConditionalAccessTable - <$anon: fs2.protocols.mpeg.transport.psi.TableSupport[fs2.protocols.mpeg.transport.psi.ConditionalAccessTable]>,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class ConditionalAccessSection,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ConditionalAccessSection,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class ConditionalAccessDescriptor,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ConditionalAccessDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer,0.0,287.0,1.0,287.0,1.0,287.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - trait Result,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - class SectionResult,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - class PesPacketResult,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - class DecodeBody,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - class ResetDecodeState,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - class State,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - trait DecodeState,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - object DecodeState,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - object DecodeState - class AwaitingHeader,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - object DecodeState - class AwaitingBody,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - class StepResult,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Demultiplexer - object StepResult,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - object Fs2sinkremoval,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package benchmark - class PullBenchmark,3.0,12.0,0.5454545454545454,2.0,0.09090909090909091,8.0,0.36363636363636365
+HEAD,0,package fs2 - package protocols - package mpeg - trait MpegError,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package protocols - package mpeg - object MpegError,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - object MpegError - class General,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - object MpegError - class Decoding,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package unixsocket - trait UnixSocketAddressCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - class TransportStreamIndex,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TransportStreamIndex,0.0,53.0,1.0,53.0,1.0,53.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TransportStreamIndex - class LookupError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TransportStreamIndex - object LookupError,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TransportStreamIndex - object LookupError - object UnknownProgram,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TransportStreamIndex - object LookupError - object UnknownStreamType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TransportStreamIndex - object LookupError - object MissingProgramAssociation,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TransportStreamIndex - object LookupError - object MissingProgramMap,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TransportStreamIndex - class DefaultTransportStreamIndex,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,1,package fs2 - package benchmark - class TextBenchmark,3.0,20.0,0.4878048780487805,4.0,0.0975609756097561,13.5,0.32926829268292684
+HEAD,0,package fs2 - package io - trait compressionplatform,8.0,30.0,0.29411764705882354,3.0,0.029411764705882353,14.222222222222221,0.13943355119825707
+HEAD,0,package fs2 - package io - trait compressionplatform - class ZipException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - trait compressionplatform - method fs2ioCompressionForAsync - <$anon: fs2.compression.Compression.UnsealedCompression[F]>,6.0,29.0,0.32954545454545453,3.0,0.03409090909090909,15.428571428571429,0.17532467532467533
+HEAD,0,package fs2 - package io - trait compressionplatform - method fs2ioCompressionForAsync - <$anon: fs2.compression.Compression.UnsealedCompression[F]> - method deflateImpl - <$anon: fs2.io.internal.facade.zlib.Options>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package io - trait compressionplatform - method fs2ioCompressionForAsync - <$anon: fs2.compression.Compression.UnsealedCompression[F]> - method inflateImpl - <$anon: fs2.io.internal.facade.zlib.Options>,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package hashing - trait HasherCompanionPlatform,3.0,27.0,0.4576271186440678,14.0,0.23728813559322035,18.5,0.3135593220338983
+HEAD,0,package fs2 - package hashing - trait HasherCompanionPlatform - method unsafe - <$anon: fs2.hashing.SyncHasher[F]>,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package fs2 - package hashing - trait HasherCompanionPlatform - method unsafeHmac - <$anon: fs2.hashing.SyncHasher[F]>,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package fs2 - package hashing - object JsHash,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package hashing - object JsHash - trait Hash,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait DTLSSocket,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object DTLSSocket,1.0,31.0,0.8157894736842105,19.0,0.5,25.0,0.6578947368421053
+HEAD,0,package fs2 - package io - package net - package tls - object DTLSSocket - method mk - <$anon: fs2.io.net.tls.DTLSSocket[F]>,1.0,17.0,0.8095238095238095,16.0,0.7619047619047619,16.5,0.7857142857142857
+HEAD,0,package protocols - package pcapng - class EnhancedPacketBlock,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package protocols - package pcapng - object EnhancedPacketBlock,0.0,26.0,1.0,26.0,1.0,26.0,1.0
+HEAD,0,package fs2 - package io - trait iojvmnative,0.0,49.0,1.0,49.0,1.0,49.0,1.0
+HEAD,0,package fs2 - package hashing - trait HasherCompanionPlatform,0.0,129.0,1.0,129.0,1.0,129.0,1.0
+HEAD,0,package fs2 - package hashing - trait HasherCompanionPlatform - method apply - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package hashing - trait HasherCompanionPlatform - method hmac - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package hashing - object openssl,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - trait ioplatform,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - class StreamDecoder,0.0,190.0,1.0,190.0,1.0,190.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - class StreamDecoder - method strict - <$anon: <error>>,0.0,30.0,1.0,30.0,1.0,30.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamDecoder,0.0,91.0,1.0,91.0,1.0,91.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamDecoder - trait Step,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamDecoder - object Empty,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamDecoder - class Result,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamDecoder - class Failed,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamDecoder - class Decode,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamDecoder - class Isolate,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamDecoder - class Append,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamDecoder - <$anon: <error>>,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package protocols - package mpeg - package object mpeg,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fs2 - package io - package net - trait SocketGroupCompanionPlatform,10.0,39.0,0.312,1.0,0.008,13.181818181818182,0.10545454545454545
+HEAD,0,package fs2 - package io - package net - trait SocketGroupCompanionPlatform - class AsyncSocketGroup,9.0,39.0,0.3333333333333333,1.0,0.008547008547008548,13.1,0.11196581196581196
+HEAD,0,package fs2 - package io - package net - trait SocketGroupCompanionPlatform - class AsyncSocketGroup - method client - method connect - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait SocketGroupCompanionPlatform - class AsyncSocketGroup - method serverResource - method acceptIncoming - method go - method acceptChannel - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait Collector,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Collector,7.0,24.0,0.35294117647058826,2.0,0.029411764705882353,12.5,0.18382352941176472
+HEAD,0,package fs2 - object Collector - method make - <$anon: fs2.Collector[A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Collector - trait Builder,2.0,8.0,0.8,3.0,0.3,5.0,0.5
+HEAD,0,package fs2 - object Collector - trait Builder - method mapResult - <$anon: fs2.Collector.Builder[A Y]>,1.0,4.0,1.0,2.0,0.5,3.0,0.75
+HEAD,0,package fs2 - object Collector - object Builder,1.0,23.0,0.7931034482758621,13.0,0.4482758620689655,18.0,0.6206896551724138
+HEAD,0,package fs2 - object Collector - object Builder - method fromBuilder - <$anon: fs2.Collector.Builder[A C]>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - object Collector - object Builder - method string - <$anon: fs2.Collector.Builder[String String]>,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - object Collector - object Builder - method byteVector - <$anon: fs2.Collector.Builder[Byte <error>]>,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - trait CollectorK,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object CollectorK,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object CollectorK - method toCollector - <$anon: fs2.Collector[A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package compression - trait InflateParams,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package compression - object InflateParams,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package compression - object InflateParams - class InflateParamsImpl,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class SectionHeader,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SectionHeader,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - class ReadCursor,0.0,63.0,1.0,63.0,1.0,63.0,1.0
+HEAD,0,package fs2 - package io - package file - object ReadCursor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package compat - class NotGiven,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package compat - trait NotGivenLowPriority,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package compat - object NotGiven,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,1,package fs2 - package io - package net - trait SocketCompanionPlatform,13.0,64.0,0.4507042253521127,2.0,0.014084507042253521,17.928571428571427,0.12625754527162977
+HEAD,1,package fs2 - package io - package net - trait SocketCompanionPlatform - class BufferedReads,6.0,50.0,0.8064516129032258,1.0,0.016129032258064516,16.857142857142858,0.271889400921659
+HEAD,0,package fs2 - package io - package net - trait SocketCompanionPlatform - class AsyncSocket,1.0,61.0,0.9838709677419355,6.0,0.0967741935483871,33.5,0.5403225806451613
+HEAD,0,package fs2 - package io - package net - trait SocketCompanionPlatform - class IntCompletionHandler,4.0,4.0,0.5714285714285714,1.0,0.14285714285714285,2.6,0.37142857142857144
+HEAD,0,package fs2 - trait CollectorPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait CollectorPlatform - trait BuilderPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - object MyAppObject,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package internal - package object internal,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package pcap - trait LinkType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package pcap - object LinkType,0.0,37.0,1.0,37.0,1.0,37.0,1.0
+HEAD,0,package pcap - object LinkType - object Null,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package pcap - object LinkType - object Ethernet,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package pcap - object LinkType - object Raw,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package pcap - object LinkType - object IPv4,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package pcap - object LinkType - object IPv6,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package pcap - object LinkType - object MPEG2TS,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package pcap - object LinkType - class Unknown,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - trait FileHandle,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - object FileHandle,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package benchmark - class RangeFoldBenchmark,1.0,8.0,1.0,5.0,0.625,6.5,0.8125
+HEAD,0,package fs2 - package io - package net - package tls - trait InputOutputBuffer,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object InputOutputBuffer,0.0,66.0,1.0,66.0,1.0,66.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object InputOutputBuffer - method apply - <$anon: fs2.io.net.tls.InputOutputBuffer[F]>,0.0,60.0,1.0,60.0,1.0,60.0,1.0
+HEAD,0,package fs2 - package compression - trait CompressionPlatform,0.0,86.0,1.0,86.0,1.0,86.0,1.0
+HEAD,0,package fs2 - package compression - trait CompressionCompanionPlatformLowPriority,1.0,4.0,1.0,3.0,0.75,3.5,0.875
+HEAD,0,package fs2 - package compression - trait CompressionCompanionPlatform,23.0,204.0,0.2383177570093458,4.0,0.004672897196261682,48.041666666666664,0.056123442367601244
+HEAD,0,package fs2 - package compression - trait CompressionCompanionPlatform - method forSync - <$anon: fs2.compression.Compression.UnsealedCompression[F]>,21.0,204.0,0.24170616113744076,4.0,0.004739336492890996,51.59090909090909,0.06112666953899182
+HEAD,0,package fs2 - package compression - trait CompressionCompanionPlatform - method forSync - <$anon: fs2.compression.Compression.UnsealedCompression[F]> - object gzipCompressionMethod,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package compression - trait CompressionCompanionPlatform - method forSync - <$anon: fs2.compression.Compression.UnsealedCompression[F]> - object gzipFlag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package compression - trait CompressionCompanionPlatform - method forSync - <$anon: fs2.compression.Compression.UnsealedCompression[F]> - object gzipExtraFlag,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package compression - trait CompressionCompanionPlatform - method forSync - <$anon: fs2.compression.Compression.UnsealedCompression[F]> - object gzipOperatingSystem,0.0,26.0,1.0,26.0,1.0,26.0,1.0
+HEAD,0,package file - class CopyFlags,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package file - object CopyFlags,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package fs2 - package interop - package flow - class StreamPublisher,1.0,18.0,0.8181818181818182,9.0,0.4090909090909091,13.5,0.6136363636363636
+HEAD,1,package fs2 - package interop - package flow - object StreamPublisher,3.0,30.0,0.7142857142857143,7.0,0.16666666666666666,14.5,0.34523809523809523
+HEAD,1,package fs2 - package interop - package flow - object StreamPublisher - class DispatcherStreamPublisher,1.0,8.0,0.8888888888888888,6.0,0.6666666666666666,7.0,0.7777777777777778
+HEAD,1,package fs2 - package interop - package flow - object StreamPublisher - class IORuntimeStreamPublisher,1.0,7.0,0.875,5.0,0.625,6.0,0.75
+HEAD,0,package fs2 - package interop - package flow - object StreamPublisher - object CanceledStreamPublisherException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class AsyncByteArrayInputStream,10.0,20.0,0.3225806451612903,2.0,0.03225806451612903,7.636363636363637,0.12316715542521994
+HEAD,0,package internal - object AsyncByteArrayInputStream,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package internal - object AsyncByteArrayInputStream - object AsyncError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package flow - package object flow,0.0,159.0,1.0,159.0,1.0,159.0,1.0
+HEAD,0,package fs2 - trait CollectorPlatform,4.0,23.0,0.45098039215686275,2.0,0.0392156862745098,15.2,0.2980392156862745
+HEAD,0,package fs2 - trait CollectorPlatform - method supportsIArray - <$anon: fs2.Collector[A]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait CollectorPlatform - trait BuilderPlatform,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,1,package fs2 - package concurrent - package object concurrent,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait ChunkPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait ChunkAsSeqPlatform,1.0,22.0,0.7333333333333333,12.0,0.4,17.0,0.5666666666666667
+HEAD,0,package fs2 - trait ChunkCompanionPlatform,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package fs2 - package internal - package object internal,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package internal - package object internal - class FactoryOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - object Fs2sinkremoval,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package object fs2,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package ip - package udp - class DatagramHeader,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package ip - package udp - object DatagramHeader,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package unixsocket - trait UnixSocketsCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class ProgramAssociationTable,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ProgramAssociationTable,0.0,60.0,1.0,60.0,1.0,60.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ProgramAssociationTable - <$anon: fs2.protocols.mpeg.transport.psi.TableSupport[fs2.protocols.mpeg.transport.psi.ProgramAssociationTable]>,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class ProgramAssociationSection,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ProgramAssociationSection,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package protocols - package pcapng - trait BodyBlock,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package pcapng - object BodyBlock,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package file - trait FlagCompanionApi,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package compression - object ZLibParams,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package compression - object ZLibParams - class Header,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object ZLibParams - object Header,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package compression - object ZLibParams - object Header - object ZLIB,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object ZLibParams - object Header - object GZIP,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - trait SSLEngineTaskRunner,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - object SSLEngineTaskRunner,1.0,11.0,0.7333333333333333,9.0,0.6,10.0,0.6666666666666666
+HEAD,0,package fs2 - package io - package net - package tls - object SSLEngineTaskRunner - method apply - <$anon: fs2.io.net.tls.SSLEngineTaskRunner[F]>,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - class StreamSubscriber,1.0,32.0,0.8888888888888888,14.0,0.3888888888888889,23.0,0.6388888888888888
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber,20.0,77.0,0.5202702702702703,2.0,0.013513513513513514,9.0,0.060810810810810814
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - trait FSM,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - trait Input,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - class OnSubscribe,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - class OnNext,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - class OnError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - object OnComplete,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - object OnFinalize,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - class OnDequeue,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - trait State,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - object Uninitialized,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - class Idle,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - class RequestBeforeSubscription,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - class WaitingOnUpstream,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - object UpstreamCompletion,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - object DownstreamCancellation,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - class UpstreamError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - object StreamSubscriber - method fsm - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package compression - class GunzipResult,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fix - class ConcurrentDataTypes,0.0,35.0,1.0,35.0,1.0,35.0,1.0
+HEAD,0,package events - trait EventEmitter,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package events - object EventEmitter,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package events - object EventEmitter - class ops,0.0,30.0,1.0,30.0,1.0,30.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - class CodecError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketGroup,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - object DatagramSocketGroup,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - object JavaInputOutputStream,0.0,197.0,1.0,197.0,1.0,197.0,1.0
+HEAD,0,package fs2 - package io - object JavaInputOutputStream - class UpStreamState,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object JavaInputOutputStream - trait DownStreamState,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fs2 - package io - object JavaInputOutputStream - class Done,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object JavaInputOutputStream - class Ready,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object JavaInputOutputStream - method toInputStream - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package fs2 - package interop - package flow - class StreamSubscription,15.0,46.0,0.3484848484848485,1.0,0.007575757575757576,11.9375,0.09043560606060606
+HEAD,1,package fs2 - package interop - package flow - object StreamSubscription,2.0,35.0,0.9459459459459459,3.0,0.08108108108108109,15.333333333333334,0.41441441441441446
+HEAD,0,package protocols - package pcapng - object BlockCodec,0.0,48.0,1.0,48.0,1.0,48.0,1.0
+HEAD,0,package fs2 - package io - package file - trait FileHandlePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait FileHandleCompanionPlatform,0.0,108.0,1.0,108.0,1.0,108.0,1.0
+HEAD,0,package fs2 - package io - package file - trait FileHandleCompanionPlatform - method make - <$anon: fs2.io.file.FileHandle[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait FileHandleCompanionPlatform - method makeFromSeekableByteChannel - <$anon: fs2.io.file.FileHandle[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package pcapng - class InterfaceStatisticsBlock,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package pcapng - object InterfaceStatisticsBlock,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketGroupCompanionPlatform,7.0,47.0,0.47,4.0,0.04,16.875,0.16875
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketGroupCompanionPlatform - class AsyncDatagramSocketGroup,6.0,47.0,0.5053763440860215,2.0,0.021505376344086023,17.714285714285715,0.1904761904761905
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketGroupCompanionPlatform - class AsyncDatagramSocketGroup - method mkSocket - <$anon: fs2.io.net.DatagramSocket[F]>,3.0,33.0,0.559322033898305,16.0,0.2711864406779661,20.5,0.3474576271186441
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketGroupCompanionPlatform - class AsyncDatagramSocketGroup - method mkSocket - <$anon: fs2.io.net.DatagramSocket[F]> - method join - <$anon: this.GroupMembership>,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package facade - object child_process,0.0,38.0,1.0,38.0,1.0,38.0,1.0
+HEAD,0,package facade - object child_process - trait SpawnOptions,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package facade - object child_process - trait ChildProcess,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait FileKey,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - object FileKey,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object hash,2.0,35.0,0.8974358974358975,5.0,0.1282051282051282,15.333333333333334,0.39316239316239315
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform,5.0,111.0,0.4847161572052402,21.0,0.09170305676855896,53.333333333333336,0.2328966521106259
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform,5.0,83.0,0.41708542713567837,20.0,0.10050251256281408,48.333333333333336,0.24288107202680068
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder,5.0,80.0,0.41237113402061853,18.0,0.09278350515463918,47.5,0.24484536082474226
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder - method fromSSLContext - <$anon: TLSContextCompanionPlatform.this.UnsealedTLSContext[F]>,2.0,75.0,0.8333333333333334,13.0,0.14444444444444443,45.666666666666664,0.5074074074074074
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder - method fromSSLContext - <$anon: TLSContextCompanionPlatform.this.UnsealedTLSContext[F]> - method mkSocket - <$anon: fs2.io.net.tls.TLSEngine.Binding[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder - method fromSSLContext - <$anon: TLSContextCompanionPlatform.this.UnsealedTLSContext[F]> - method mkDtlsSocket - <$anon: fs2.io.net.tls.TLSEngine.Binding[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder - method fromSSLContext - <$anon: TLSContextCompanionPlatform.this.UnsealedTLSContext[F]> - method engine - <$anon: java.util.function.BiFunction[javax.net.ssl.SSLEngine java.util.List[String] String]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder - method insecure - <$anon: javax.net.ssl.X509ExtendedTrustManager>,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - class StreamEncoder,0.0,79.0,1.0,79.0,1.0,79.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - class StreamEncoder - method or - <$anon: fs2.interop.scodec.StreamEncoder.Step[A]>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - class StreamEncoder - method ++ - <$anon: fs2.interop.scodec.StreamEncoder.Step[A]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - class StreamEncoder - method xmapc - <$anon: fs2.interop.scodec.StreamEncoder.Step[B]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamEncoder,1.0,86.0,0.9662921348314607,5.0,0.056179775280898875,45.5,0.5112359550561798
+HEAD,0,package fs2 - package interop - package scodec - object StreamEncoder - trait Step,1.0,4.0,0.8,3.0,0.6,3.5,0.7
+HEAD,0,package fs2 - package interop - package scodec - object StreamEncoder - method empty - <$anon: fs2.interop.scodec.StreamEncoder.Step[A]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamEncoder - method once - <$anon: fs2.interop.scodec.StreamEncoder.Step[A]>,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamEncoder - method tryOnce - <$anon: fs2.interop.scodec.StreamEncoder.Step[A]>,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamEncoder - method emit - <$anon: fs2.interop.scodec.StreamEncoder.Step[A]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamEncoder - method raiseError - <$anon: fs2.interop.scodec.StreamEncoder.Step[A]>,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package interop - package scodec - object StreamEncoder - <$anon: <error>>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - trait Fallible,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Fallible,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Fallible - <$anon: fs2.RaiseThrowable[fs2.Fallible]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,7,package fs2 - class Chunk,78.0,45.0,0.08538899430740038,1.0,0.0018975332068311196,9.632911392405063,0.018278769245550403
+HEAD,0,package fs2 - class Chunk - method iterator - <$anon: Iterator[O]>,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - class Chunk - method reverseIterator - <$anon: Iterator[O]>,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,4,package fs2 - object Chunk,54.0,130.0,0.13555787278415016,2.0,0.0020855057351407717,24.254545454545454,0.025291496824343538
+HEAD,0,package fs2 - object Chunk - class EmptyChunk,1.0,8.0,0.8888888888888888,5.0,0.5555555555555556,6.5,0.7222222222222222
+HEAD,0,package fs2 - object Chunk - class Singleton,1.0,7.0,0.6363636363636364,6.0,0.5454545454545454,6.5,0.5909090909090909
+HEAD,0,package fs2 - object Chunk - class Constant,2.0,10.0,0.5263157894736842,5.0,0.2631578947368421,8.333333333333334,0.4385964912280702
+HEAD,0,package fs2 - object Chunk - class IndexedSeqChunk,1.0,25.0,0.7575757575757576,12.0,0.36363636363636365,18.5,0.5606060606060606
+HEAD,0,package fs2 - object Chunk - class JavaListChunk,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,3,package fs2 - object Chunk - class ArraySlice,4.0,26.0,0.43333333333333335,8.0,0.13333333333333333,19.0,0.31666666666666665
+HEAD,0,package fs2 - object Chunk - object ArraySlice,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - object Chunk - class Buffer,2.0,48.0,0.8,19.0,0.31666666666666665,34.0,0.5666666666666667
+HEAD,0,package fs2 - object Chunk - object CharBuffer,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Chunk - class CharBuffer,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package fs2 - object Chunk - object ByteBuffer,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Chunk - class ByteBuffer,0.0,39.0,1.0,39.0,1.0,39.0,1.0
+HEAD,0,package fs2 - object Chunk - class ByteVectorChunk,2.0,31.0,0.6888888888888889,11.0,0.24444444444444444,23.333333333333332,0.5185185185185185
+HEAD,3,package fs2 - object Chunk - class Queue,14.0,91.0,0.4080717488789238,2.0,0.008968609865470852,19.333333333333332,0.0866965620328849
+HEAD,0,package fs2 - object Chunk - object Queue,1.0,13.0,0.65,12.0,0.6,12.5,0.625
+HEAD,0,package fs2 - object Chunk - method newBuilder - <$anon: fs2.Collector.Builder[O fs2.Chunk[O]]>,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,2,package fs2 - object Chunk - method eqInstance - <$anon: <error>>,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,1,package fs2 - object Chunk - <$anon: <error> with <error> with <error> with <error>>,10.0,46.0,0.5227272727272727,2.0,0.022727272727272728,10.272727272727273,0.11673553719008266
+HEAD,0,package fs2 - class ChunkAsSeq,4.0,51.0,0.6986301369863014,1.0,0.0136986301369863,18.8,0.25753424657534246
+HEAD,0,package fs2 - class ChunkAsJavaList,0.0,39.0,1.0,39.0,1.0,39.0,1.0
+HEAD,0,package fs2 - class ChunkAsJavaList - method iterator - <$anon: java.util.Iterator[O]>,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package protocols - package pcap - package object pcap,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - class TableBuildingError,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - class TableBuilder,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TableBuilder,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - trait TableSupport,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TableSupport,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package protocols - package mpeg - package transport - package psi - object TableSupport - method singleton - <$anon: fs2.protocols.mpeg.transport.psi.TableSupport[A]>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,2,package fs2 - package timeseries - object TimeSeries,0.0,176.0,1.0,176.0,1.0,176.0,1.0
+HEAD,0,package fs2 - class CompositeFailure,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - object CompositeFailure,2.0,49.0,0.9423076923076923,4.0,0.07692307692307693,19.0,0.36538461538461536
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - package psi - class TransportStreamEvent,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - package psi - object TransportStreamEvent,0.0,102.0,1.0,102.0,1.0,102.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - package psi - object TransportStreamEvent - class Pes,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - package psi - object TransportStreamEvent - class Table,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - package psi - object TransportStreamEvent - class ScrambledPayload,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - package psi - object TransportStreamEvent - class Metadata,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - package psi - object TransportStreamEvent - class Error,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package hashing - trait Hasher,2.0,28.0,0.6086956521739131,9.0,0.1956521739130435,18.666666666666668,0.4057971014492754
+HEAD,0,package fs2 - package hashing - object Hasher,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package hashing - class SyncHasher,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package unixsocket - class UnixSocketAddress,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package unixsocket - object UnixSocketAddress,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package tls - class S2nConfig,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package tls - object S2nConfig,1.0,140.0,0.9790209790209791,10.0,0.06993006993006994,75.0,0.5244755244755245
+HEAD,0,package tls - object S2nConfig - class Builder,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package tls - object S2nConfig - class BuilderImpl,0.0,92.0,1.0,92.0,1.0,92.0,1.0
+HEAD,0,package fix - trait ChunkRules,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package protocols - package ip - class Ipv6Header,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package protocols - package ip - object Ipv6Header,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package process - trait Processes,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package process - trait UnsealedProcesses,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package process - object Processes,1.0,8.0,0.8,3.0,0.3,5.5,0.55
+HEAD,0,package unixsocket - trait UnixSocketsCompanionPlatform,4.0,56.0,0.5833333333333334,5.0,0.052083333333333336,23.0,0.23958333333333334
+HEAD,0,package unixsocket - trait UnixSocketsCompanionPlatform - class AsyncUnixSockets,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package unixsocket - trait UnixSocketsCompanionPlatform - class AsyncSocket,1.0,35.0,0.9722222222222222,6.0,0.16666666666666666,20.5,0.5694444444444444
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSSocketPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSSocketCompanionPlatform,0.0,40.0,1.0,40.0,1.0,40.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSSocketCompanionPlatform - class AsyncTLSSocket,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocket - trait GroupMembership,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - object DatagramSocket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object dgram,0.0,73.0,1.0,73.0,1.0,73.0,1.0
+HEAD,0,package facade - object dgram - trait Socket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object dgram - trait AddressInfo,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object dgram - trait BindOptions,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package facade - object dgram - trait RemoteInfo,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package hashing - class HashVerificationException,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package io - package file - package object file,0.0,299.0,1.0,299.0,1.0,299.0,1.0
+HEAD,1,package unixsocket - object JnrUnixSockets,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package unixsocket - class JnrUnixSocketsImpl,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package protocols - package ip - class Ipv4Header,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,1,package protocols - package ip - object Ipv4Header,0.0,57.0,1.0,57.0,1.0,57.0,1.0
+HEAD,1,package protocols - package ip - object Ipv4Header - <$anon: <error>>,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package io - package process - class ProcessBuilder,0.0,48.0,1.0,48.0,1.0,48.0,1.0
+HEAD,0,package io - package process - object ProcessBuilder,0.0,30.0,1.0,30.0,1.0,30.0,1.0
+HEAD,0,package io - package process - object ProcessBuilder - class ProcessBuilderImpl,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package protocols - object Ip4sCodecs,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package fs2 - package compression - trait CompressionPlatform,0.0,86.0,1.0,86.0,1.0,86.0,1.0
+HEAD,0,package fs2 - package compression - trait CompressionCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package tls - class CertChainAndKey,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package tls - object CertChainAndKey,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSParameters,1.0,37.0,0.9736842105263158,23.0,0.6052631578947368,30.0,0.7894736842105263
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters,0.0,81.0,1.0,81.0,1.0,81.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters - class DefaultTLSParameters,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package protocols - package ip - package tcp - class TcpHeader,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package protocols - package ip - package tcp - object TcpHeader,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,1,package unixsocket - object JdkUnixSockets,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package unixsocket - class JdkUnixSocketsImpl,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package unixsocket - trait UnixSockets,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package unixsocket - object UnixSockets,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package compression - trait DeflateParams,0.0,31.0,1.0,31.0,1.0,31.0,1.0
+HEAD,0,package compression - object DeflateParams,0.0,117.0,1.0,117.0,1.0,117.0,1.0
+HEAD,0,package compression - object DeflateParams - class DeflateParamsImpl,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package compression - object DeflateParams - class Level,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level,0.0,31.0,1.0,31.0,1.0,31.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object DEFAULT,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object BEST_SPEED,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object BEST_COMPRESSION,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object NO_COMPRESSION,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object ZERO,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object ONE,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object TWO,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object THREE,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object FOUR,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object FIVE,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object SIX,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object SEVEN,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object EIGHT,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Level - object NINE,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - class Strategy,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Strategy,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package compression - object DeflateParams - object Strategy - object DEFAULT,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Strategy - object BEST_SPEED,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Strategy - object BEST_COMPRESSION,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Strategy - object FILTERED,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object Strategy - object HUFFMAN_ONLY,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - class FlushMode,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object FlushMode,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package compression - object DeflateParams - object FlushMode - object DEFAULT,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object FlushMode - object BEST_SPEED,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object FlushMode - object BEST_COMPRESSION,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object FlushMode - object NO_FLUSH,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object FlushMode - object SYNC_FLUSH,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package compression - object DeflateParams - object FlushMode - object FULL_FLUSH,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package tls - object s2n,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - class ContinuityCounter,1.0,4.0,0.8,3.0,0.6,3.5,0.7
+HEAD,0,package mpeg - package transport - object ContinuityCounter,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package protocols - package pcap - class CaptureFile,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package protocols - package pcap - object CaptureFile,0.0,68.0,1.0,68.0,1.0,68.0,1.0
+HEAD,0,package protocols - package pcap - object CaptureFile - class DatagramRecord,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package mpeg - class PesPacketHeaderPrefix,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - object PesPacketHeaderPrefix,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class Lease,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package protocols - package ethernet - class EthernetFrameHeader,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package protocols - package ethernet - object EthernetFrameHeader,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - class TransportStreamId,1.0,3.0,1.0,2.0,0.6666666666666666,2.5,0.8333333333333334
+HEAD,0,package mpeg - package transport - object TransportStreamId,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package internal - object ThreadFactories,4.0,19.0,0.6551724137931034,2.0,0.06896551724137931,7.2,0.2482758620689655
+HEAD,0,package internal - object ThreadFactories - method named - <$anon: java.util.concurrent.ThreadFactory>,4.0,11.0,0.55,2.0,0.1,5.4,0.27
+HEAD,0,package internal - object ThreadFactories - method named - <$anon: java.util.concurrent.ThreadFactory> - method newThread - <$anon: Thread.UncaughtExceptionHandler>,4.0,5.0,0.5,2.0,0.2,3.4,0.33999999999999997
+HEAD,0,package fs2 - package hashing - class Hash,1.0,17.0,0.7727272727272727,12.0,0.5454545454545454,14.5,0.6590909090909091
+HEAD,0,package fs2 - package benchmark - class ChunksBenchmark,9.0,13.0,0.325,1.0,0.025,6.3,0.1575
+HEAD,0,package fs2 - package benchmark - class ChunksBenchmark - class Obj,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package benchmark - class ChunksBenchmark - object Obj,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - class ProgramNumber,1.0,3.0,1.0,2.0,0.6666666666666666,2.5,0.8333333333333334
+HEAD,0,package mpeg - package transport - object ProgramNumber,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - trait PartiallyAppliedFromBlockingIteratorCrossCompat,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - object Bracket,6.0,12.0,0.375,2.0,0.0625,6.714285714285714,0.20982142857142858
+HEAD,0,package internal - class InterruptContext,0.0,62.0,1.0,62.0,1.0,62.0,1.0
+HEAD,0,package internal - object InterruptContext,0.0,18.0,1.0,18.0,1.0,18.0,1.0
+HEAD,0,package net - trait SocketOptionCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - object AkkaSink,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSEngine,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSEngine,0.0,217.0,1.0,217.0,1.0,217.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSEngine - trait Binding,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSEngine - method apply - <none>,0.0,192.0,1.0,192.0,1.0,192.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - package object reactivestreams,0.0,86.0,1.0,86.0,1.0,86.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - package object reactivestreams - class PublisherOps,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package fs2 - package interop - package reactivestreams - package object reactivestreams - class StreamOps,0.0,21.0,1.0,21.0,1.0,21.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class GroupingError,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object GroupingError,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package tls - class SSLSession,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - class Packet,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Packet,2.0,97.0,0.5987654320987654,39.0,0.24074074074074073,67.33333333333333,0.4156378600823045
+HEAD,0,package fs2 - package io - package net - trait NetworkPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait NetworkCompanionPlatform,2.0,57.0,0.8260869565217391,5.0,0.07246376811594203,25.0,0.36231884057971014
+HEAD,0,package fs2 - package io - package net - trait NetworkCompanionPlatform - method forAsyncAndDns - <$anon: NetworkCompanionPlatform.this.UnsealedNetwork[F]>,0.0,48.0,1.0,48.0,1.0,48.0,1.0
+HEAD,0,package fix - trait Usability,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - trait ChunkPlatform,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package fs2 - trait ChunkAsSeqPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait ChunkCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - trait compressionplatform,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,3,package fs2 - object text,26.0,145.0,0.17575757575757575,2.0,0.0024242424242424242,39.77777777777778,0.04821548821548822
+HEAD,0,package fs2 - object text - object bom,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package fs2 - object text - object utf8,4.0,85.0,0.5555555555555556,20.0,0.13071895424836602,47.4,0.30980392156862746
+HEAD,0,package fs2 - object text - class LineTooLongException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object text - object base64,9.0,55.0,0.2682926829268293,2.0,0.00975609756097561,25.1,0.12243902439024391
+HEAD,0,package fs2 - object text - object base64 - method decodeWithAlphabet - class State,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object text - object hex,2.0,36.0,0.45,22.0,0.275,29.333333333333332,0.36666666666666664
+HEAD,0,package pcap - class RecordHeader,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package pcap - object RecordHeader,0.0,17.0,1.0,17.0,1.0,17.0,1.0
+HEAD,0,package fs2 - package concurrent - trait Signal,0.0,104.0,1.0,104.0,1.0,104.0,1.0
+HEAD,0,package fs2 - package concurrent - trait Signal - method changes - <$anon: fs2.concurrent.Signal[F A]>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package concurrent - object Signal,0.0,47.0,1.0,47.0,1.0,47.0,1.0
+HEAD,0,package fs2 - package concurrent - object Signal - method constant - <$anon: fs2.concurrent.Signal[F A]>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package concurrent - object Signal - method mapped - <$anon: fs2.concurrent.Signal[F B]>,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - package concurrent - object Signal - class SignalOps,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fs2 - package concurrent - object Signal - class BooleanSignalOps,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package fs2 - package concurrent - class SignallingRef,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package concurrent - object SignallingRef,4.0,146.0,0.6083333333333333,2.0,0.008333333333333333,49.6,0.20666666666666667
+HEAD,0,package fs2 - package concurrent - object SignallingRef - class PartiallyApplied,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package concurrent - object SignallingRef - method of - class State,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - package concurrent - object SignallingRef - method of - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package concurrent - object SignallingRef - class LensSignallingRef,1.0,59.0,0.9833333333333333,3.0,0.05,31.0,0.5166666666666667
+HEAD,0,package fs2 - package concurrent - object SignallingRef - method invariantInstance - <$anon: <error>>,2.0,23.0,0.696969696969697,2.0,0.06060606060606061,12.0,0.36363636363636365
+HEAD,0,package fs2 - package concurrent - object SignallingRef - method invariantInstance - <$anon: <error>> - method imap - <$anon: fs2.concurrent.SignallingRef[F B]>,2.0,21.0,0.7,2.0,0.06666666666666667,11.0,0.36666666666666664
+HEAD,0,package fs2 - package concurrent - trait SignallingMapRef,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package concurrent - object SignallingMapRef,0.0,176.0,1.0,176.0,1.0,176.0,1.0
+HEAD,0,package fs2 - package concurrent - object SignallingMapRef - method ofSingleImmutableMap - class State,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - package concurrent - object SignallingMapRef - method ofSingleImmutableMap - class KeyState,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - package concurrent - object SignallingMapRef - method ofSingleImmutableMap - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package concurrent - trait SignalInstances,0.0,43.0,1.0,43.0,1.0,43.0,1.0
+HEAD,0,package fs2 - package concurrent - trait SignalInstances - method applicativeInstance - <$anon: <error>>,0.0,26.0,1.0,26.0,1.0,26.0,1.0
+HEAD,0,package fs2 - package concurrent - trait SignalInstances - method applicativeInstance - <$anon: <error>> - method ap - <$anon: fs2.concurrent.Signal[F B]>,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package fs2 - package concurrent - trait SignalLowPriorityInstances,0.0,20.0,1.0,20.0,1.0,20.0,1.0
+HEAD,0,package fs2 - package concurrent - trait SignalLowPriorityInstances - method functorInstance - <$anon: <error>>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package protocols - package pcapng - class UnrecognizedBlock,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package protocols - package pcapng - object UnrecognizedBlock,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform,14.0,46.0,0.3333333333333333,1.0,0.007246376811594203,13.733333333333333,0.09951690821256039
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform,14.0,45.0,0.3488372093023256,1.0,0.007751937984496124,13.133333333333333,0.10180878552971576
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder,14.0,44.0,0.3464566929133858,1.0,0.007874015748031496,13.0,0.10236220472440945
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder - method fromSecureContext - <$anon: TLSContextCompanionPlatform.this.UnsealedTLSContext[F]>,14.0,28.0,0.26666666666666666,1.0,0.009523809523809525,11.533333333333333,0.10984126984126984
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSContextCompanionPlatform - trait BuilderCompanionPlatform - class AsyncBuilder - method fromSecureContext - <$anon: TLSContextCompanionPlatform.this.UnsealedTLSContext[F]> - method mkSocket - class Listener,8.0,11.0,0.4583333333333333,1.0,0.041666666666666664,4.777777777777778,0.19907407407407407
+HEAD,0,package net - trait NetworkLowPriority,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - package benchmark - class StreamBenchmark,3.0,50.0,0.5050505050505051,18.0,0.18181818181818182,34.75,0.351010101010101
+HEAD,0,package fs2 - package io - package process - trait ProcessesCompanionPlatform,4.0,46.0,0.7540983606557377,7.0,0.11475409836065574,15.6,0.25573770491803277
+HEAD,0,package fs2 - package io - package process - trait ProcessesCompanionPlatform - method forAsync - <$anon: fs2.io.process.UnsealedProcesses[F]>,3.0,45.0,0.7627118644067796,7.0,0.11864406779661017,17.0,0.288135593220339
+HEAD,0,package fs2 - package io - package process - trait ProcessesCompanionPlatform - method forAsync - <$anon: fs2.io.process.UnsealedProcesses[F]> - method spawn - <$anon: fs2.io.process.UnsealedProcess[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,2,package fs2 - package io - package file - trait Files,0.0,429.0,1.0,429.0,1.0,429.0,1.0
+HEAD,0,package fs2 - package io - package file - trait FilesLowPriority,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,1,package fs2 - package io - package file - object Files,2.0,119.0,0.9596774193548387,5.0,0.04032258064516129,43.333333333333336,0.34946236559139787
+HEAD,1,package fs2 - package io - package file - object Files - class UnsealedFiles,0.0,113.0,1.0,113.0,1.0,113.0,1.0
+HEAD,0,package fs2 - package io - package file - trait PermissionsPlatform,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package net - package tls - package object tls,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package internal - package object internal,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package mpeg - package transport - package psi - trait KnownDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - trait TransportStreamDescriptor,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - trait ProgramStreamDescriptor,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class Mpeg1Only,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object Mpeg1Only,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class VideoStreamDescriptor,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object VideoStreamDescriptor,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class AudioStreamDescriptor,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AudioStreamDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - trait HierarchyType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyType,0.0,28.0,1.0,28.0,1.0,28.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyType - object SpatialScalability,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyType - object SnrScalability,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyType - object TemporalScalability,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyType - object DataPartitioning,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyType - object ExtensionBitstream,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyType - object PrivateStream,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyType - object MultiViewProfile,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyType - class Reserved,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyType - object BaseLayer,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class HierarchyDescriptor,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object HierarchyDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class RegistrationDescriptor,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object RegistrationDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - trait AlignmentType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AlignmentType,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AlignmentType - object SliceOrVideoAccessUnit,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AlignmentType - object VideoAccessUnit,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AlignmentType - object GopOrSeq,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AlignmentType - object Seq,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AlignmentType - class Reserved,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class DataStreamAlignmentDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object DataStreamAlignmentDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class TargetBackgroundGridDescriptor,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object TargetBackgroundGridDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class VideoWindowDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object VideoWindowDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class CADescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object CADescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - trait AudioType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AudioType,0.0,19.0,1.0,19.0,1.0,19.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AudioType - object Undefined,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AudioType - object CleanEffects,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AudioType - object HearingImpaired,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AudioType - object VisualImpairedCommentary,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object AudioType - class Reserved,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - class LanguageField,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object LanguageField,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class Iso639LanguageDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object Iso639LanguageDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class SystemClockDescriptor,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SystemClockDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class MultiplexBufferUtilizationDescriptor,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object MultiplexBufferUtilizationDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class CopyrightDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object CopyrightDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class MaximumBitrateDescriptor,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object MaximumBitrateDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class PrivateDataIndicatorDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object PrivateDataIndicatorDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class SmoothingBufferDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SmoothingBufferDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class StdDescriptor,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object StdDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class IbpDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object IbpDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class Mpeg4VideoDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object Mpeg4VideoDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class Mpeg4AudioDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object Mpeg4AudioDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class IodDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object IodDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class SlDescriptor,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object SlDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class EsIdAndChannel,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object EsIdAndChannel,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class FmcDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object FmcDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class ExternalEsIdDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object ExternalEsIdDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class MuxCodeDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object MuxCodeDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class FmxBufferSizeDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object FmxBufferSizeDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class MultiplexBufferDescriptor,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object MultiplexBufferDescriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - package transport - package psi - class UnknownDescriptor,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object UnknownDescriptor,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package mpeg - package transport - package psi - object Descriptor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - object AcquireAfterScopeClosed,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSSocketPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSSocketCompanionPlatform,1.0,50.0,0.746268656716418,48.0,0.7164179104477612,49.0,0.7313432835820896
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSSocketCompanionPlatform - method mk - <$anon: TLSSocketCompanionPlatform.this.UnsealedTLSSocket[F]>,0.0,48.0,1.0,48.0,1.0,48.0,1.0
+HEAD,0,package fs2 - package concurrent - trait Channel,0.0,94.0,1.0,94.0,1.0,94.0,1.0
+HEAD,0,package fs2 - package concurrent - object Channel,1.0,172.0,0.9885057471264368,148.0,0.8505747126436781,160.0,0.9195402298850575
+HEAD,0,package fs2 - package concurrent - object Channel - object Closed,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package concurrent - object Channel - method bounded - class State,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fs2 - package concurrent - object Channel - method bounded - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fix - object MyAppObject,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package benchmark - class GroupWithinBenchmark,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - trait TLSParameters,0.0,62.0,1.0,62.0,1.0,62.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters,0.0,29.0,1.0,29.0,1.0,29.0,1.0
+HEAD,0,package fs2 - package io - package net - package tls - object TLSParameters - class DefaultTLSParameters,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package io - package net - trait SocketGroupCompanionPlatform,4.0,41.0,0.4270833333333333,6.0,0.0625,22.4,0.2333333333333333
+HEAD,0,package fs2 - package io - package net - trait SocketGroupCompanionPlatform - class AsyncSocketGroup,4.0,39.0,0.43333333333333335,6.0,0.06666666666666667,21.2,0.23555555555555555
+HEAD,0,package fs2 - package io - package net - trait SocketGroupCompanionPlatform - class AsyncSocketGroup - method client - <none>,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package net - trait SocketGroupCompanionPlatform - class AsyncSocketGroup - method serverResource - <none>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - package io - package file - trait PermissionsPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait ChunkRuntimePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait ChunkCompanionRuntimePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,2,package fs2 - class Pull,2.0,154.0,0.8700564971751412,24.0,0.13559322033898305,67.66666666666667,0.38229755178907726
+HEAD,0,package fs2 - class Pull - method flatMap - <$anon: fs2.Pull.Terminal[R] => fs2.Pull[F2 O2 R2]>,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - class Pull - method >> - <$anon: fs2.Pull.Terminal[R] => fs2.Pull[F2 O2 S]>,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - class Pull - method handleErrorWith - <$anon: fs2.Pull.Terminal[R2] => fs2.Pull[F2 O2 R2]>,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - class Pull - method map - <$anon: fs2.Pull.Terminal[R] => fs2.Pull[F O S]>,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,4,package fs2 - object Pull,34.0,333.0,0.31474480151228734,1.0,9.45179584120983E-4,33.026315789473685,0.031215799422942992
+HEAD,0,package fs2 - object Pull - class StreamPullOps,1.0,49.0,0.8909090909090909,8.0,0.14545454545454545,28.5,0.5181818181818182
+HEAD,0,package fs2 - object Pull - class PartiallyAppliedFromEither,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - object Pull - method suspend - <$anon: fs2.Pull.Terminal[Unit] => fs2.Pull[F O R]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Pull - trait Timed,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Pull - method functionKInstance - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Pull - class Terminal,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - object Pull - class Succeeded,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - object Pull - class Fail,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - object Pull - class Interrupted,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - object Pull - trait ContP,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - object Pull - object IdContP,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Pull - class Bind,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - object Pull - trait ViewL,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Pull - class DelegateBind,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - object Pull - method bindView - <$anon: fs2.Pull.Terminal[Unit] => fs2.Pull[F O Unit]>,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - object Pull - class BindBind,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - object Pull - class Action,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Pull - class Output,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Pull - class Translate,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - object Pull - class FlatMapOutput,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - object Pull - class Uncons,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package fs2 - object Pull - class StepLeg,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package fs2 - object Pull - class AlgEffect,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Pull - class Eval,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Pull - class Acquire,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - object Pull - class InScope,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - object Pull - class InterruptWhen,0.0,2.0,1.0,2.0,1.0,2.0,1.0
+HEAD,0,package fs2 - object Pull - class CloseScope,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - object Pull - class SucceedScope,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - object Pull - class CanceledScope,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - object Pull - class FailedScope,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - object Pull - class GetScope,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - object Pull - method compile - trait Run,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Pull - method compile - object TheBuildR,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fs2 - object Pull - method compile - method go - class ViewRunner,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,0,package fs2 - object Pull - method compile - method go - class TranslateRunner,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - object Pull - method compile - method go - class StepRunR,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - object Pull - method compile - method go - class UnconsRunR,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - object Pull - method compile - method go - class StepLegRunR,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,3,package fs2 - object Pull - method compile - method go - class FlatMapR,8.0,25.0,0.4807692307692308,1.0,0.019230769230769232,8.444444444444445,0.1623931623931624
+HEAD,0,package fs2 - object Pull - method compile - method go - method goInScope - <$anon: fs2.Pull.Terminal[Unit] => fs2.Pull[G X Unit]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object Pull - method compile - class OuterRun,3.0,14.0,0.56,1.0,0.04,8.0,0.32
+HEAD,0,package fs2 - object Pull - method transformWith - <$anon: fs2.Pull.Terminal[R] => fs2.Pull[F O S]>,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package fs2 - object Pull - class IdOps,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - object Pull - class IdOps - method idToApplicative - <$anon: <error>>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - trait PullLowPriority,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - class PullMonadErrorInstance,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package fs2 - class PullSyncInstance,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package io - package file - trait FileHandlePlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package fs2 - package io - package file - trait FileHandleCompanionPlatform,2.0,32.0,0.6153846153846154,5.0,0.09615384615384616,19.333333333333332,0.37179487179487175
+HEAD,1,package fs2 - package io - package file - trait FileHandleCompanionPlatform - method make - <$anon: fs2.io.file.FileHandle[F]>,2.0,28.0,0.5957446808510638,5.0,0.10638297872340426,17.666666666666668,0.3758865248226951
+HEAD,0,package fs2 - package io - package file - trait FileHandleCompanionPlatform - method make - <$anon: fs2.io.file.FileHandle[F]> - method size - <none>,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - class Watcher,0.0,50.0,1.0,50.0,1.0,50.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher,8.0,113.0,0.3741721854304636,4.0,0.013245033112582781,39.0,0.1291390728476821
+HEAD,0,package fs2 - package io - package file - object Watcher - class EventType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object EventType,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object EventType - object Created,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object EventType - object Deleted,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object EventType - object Modified,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object EventType - object Overflow,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object EventType - class NonStandard,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - class Event,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object Event,0.0,38.0,1.0,38.0,1.0,38.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object Event - class Created,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object Event - class Deleted,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object Event - class Modified,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object Event - class Overflow,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - object Event - class NonStandard,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - class Registration,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package io - package file - object Watcher - class DefaultWatcher,7.0,101.0,0.531578947368421,2.0,0.010526315789473684,28.375,0.1493421052631579
+HEAD,0,package fs2 - package io - package file - object Watcher - class DefaultWatcher - method watchDirectory - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package io - trait Readable,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package io - trait Writable,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package io - trait Duplex,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - class StreamDestroyedException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait DeprecatedFilesApi,0.0,355.0,1.0,355.0,1.0,355.0,1.0
+HEAD,0,package fs2 - package hashing - trait Hashing,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package fs2 - package hashing - object Hashing,2.0,25.0,0.6578947368421053,13.0,0.34210526315789475,17.333333333333332,0.45614035087719296
+HEAD,0,package fs2 - package hashing - object Hashing - method forSync - <$anon: fs2.hashing.Hashing[F]>,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package mpeg - package transport - class AdaptationField,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package mpeg - package transport - object AdaptationField,0.0,59.0,1.0,59.0,1.0,59.0,1.0
+HEAD,0,package mpeg - package transport - object AdaptationField - <$anon: <error>>,0.0,54.0,1.0,54.0,1.0,54.0,1.0
+HEAD,0,package mpeg - package transport - object AdaptationField - <$anon: <error>> - class NonEmptyAF,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package benchmark - class ChannelBenchmark,3.0,42.0,0.75,3.0,0.05357142857142857,17.25,0.3080357142857143
+HEAD,0,package fs2 - package io - package file - class FileSystemException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - object FileSystemException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - class AccessDeniedException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - class JavaScriptAccessDeniedException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package file - object AccessDeniedException,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package io - package file - class DirectoryNotEmptyException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - class JavaScriptDirectoryNotEmptyException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package file - object DirectoryNotEmptyException,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package io - package file - class FileAlreadyExistsException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - class JavaScriptFileAlreadyExistsException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package file - object FileAlreadyExistsException,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package io - package file - class FileSystemLoopException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - class NoSuchFileException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - class JavaScriptNoSuchFileException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package file - object NoSuchFileException,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package fs2 - package io - package file - class NotDirectoryException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - class JavaScriptNotDirectoryException,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package io - package file - object NotDirectoryException,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package io - package tls - class SSLException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - package tls - class S2nException,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package file - trait CopyFlagCompanionApi,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketPlatform - trait GroupMembershipPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait DatagramSocketCompanionPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,1,package facade - object path,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object path - trait ParsedPath,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package unixsocket - trait UnixSocketsCompanionPlatform,6.0,35.0,0.4166666666666667,5.0,0.05952380952380952,15.571428571428571,0.18537414965986393
+HEAD,0,package fs2 - package unixsocket - trait UnixSocketsCompanionPlatform - method forAsyncAndFiles - <$anon: fs2.io.net.unixsocket.UnixSockets[F]>,3.0,33.0,0.4714285714285714,8.0,0.11428571428571428,20.25,0.2892857142857143
+HEAD,0,package fs2 - package unixsocket - trait UnixSocketsCompanionPlatform - method forAsyncAndFiles - <$anon: fs2.io.net.unixsocket.UnixSockets[F]> - method client - <none>,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package unixsocket - trait UnixSocketsCompanionPlatform - method forAsyncAndFiles - <$anon: fs2.io.net.unixsocket.UnixSockets[F]> - method server - <none>,0.0,4.0,1.0,4.0,1.0,4.0,1.0
+HEAD,0,package fs2 - package io - package file - trait PathApi,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait PathCompanionApi,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - trait PathCompanionApi - object algebra,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package file - class Flags,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package file - object Flags,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package internal - class Synchronizer,0.0,23.0,1.0,23.0,1.0,23.0,1.0
+HEAD,0,package internal - class Synchronizer - <$anon: java.util.concurrent.locks.AbstractQueuedSynchronizer>,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package fs2 - package io - package net - trait NetworkPlatform,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package net - trait NetworkCompanionPlatform,2.0,41.0,0.8913043478260869,5.0,0.10869565217391304,17.333333333333332,0.3768115942028985
+HEAD,0,package fs2 - package io - package net - trait NetworkCompanionPlatform - method forAsync - <$anon: NetworkCompanionPlatform.this.UnsealedNetwork[F]>,0.0,36.0,1.0,36.0,1.0,36.0,1.0
+HEAD,0,package fs2 - package io - package net - class Datagram,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package io - object CollectionCompat,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class JIteratorOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class JIterableOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class JSetOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class ListOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class SetOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package io - object CollectionCompat - class EnumerationOps,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package pcap - class GlobalHeader,0.0,9.0,1.0,9.0,1.0,9.0,1.0
+HEAD,0,package pcap - object GlobalHeader,0.0,39.0,1.0,39.0,1.0,39.0,1.0
+HEAD,0,package pcap - object GlobalHeader - <$anon: <error>>,0.0,22.0,1.0,22.0,1.0,22.0,1.0
+HEAD,2,package fs2 - package benchmark - class ParEvalMapBenchmark,6.0,13.0,0.52,4.0,0.16,6.0,0.24
+HEAD,0,package fs2 - trait Compiler,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - trait CompilerLowPriority2,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package fs2 - trait CompilerLowPriority2 - method resource - <$anon: fs2.Compiler[F <error>]>,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - trait CompilerLowPriority1,0.0,14.0,1.0,14.0,1.0,14.0,1.0
+HEAD,0,package fs2 - trait CompilerLowPriority1 - method target - <$anon: fs2.Compiler[F F]>,0.0,7.0,1.0,7.0,1.0,7.0,1.0
+HEAD,0,package fs2 - trait CompilerLowPriority0,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package fs2 - trait CompilerLowPriority0 - <$anon: fs2.Compiler[<error> <error>]>,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - trait CompilerLowPriority,0.0,15.0,1.0,15.0,1.0,15.0,1.0
+HEAD,0,package fs2 - trait CompilerLowPriority - <$anon: fs2.Compiler[fs2.Fallible <error>]>,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package fs2 - object Compiler,4.0,49.0,0.6282051282051282,8.0,0.10256410256410256,20.8,0.26666666666666666
+HEAD,0,package fs2 - object Compiler - <$anon: fs2.Compiler[fs2.Pure <error>]>,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - object Compiler - trait Target,0.0,27.0,1.0,27.0,1.0,27.0,1.0
+HEAD,0,package fs2 - object Compiler - trait TargetLowPriority,1.0,13.0,0.8125,4.0,0.25,8.5,0.53125
+HEAD,0,package fs2 - object Compiler - trait TargetLowPriority - class SyncTarget,1.0,5.0,0.8333333333333334,2.0,0.3333333333333333,3.5,0.5833333333333334
+HEAD,0,package fs2 - object Compiler - object Target,1.0,14.0,0.9333333333333333,13.0,0.8666666666666667,13.5,0.9
+HEAD,0,package fs2 - object Compiler - object Target - class ConcurrentTarget,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package benchmark - class LinesBenchmark,1.0,23.0,0.6764705882352942,17.0,0.5,20.0,0.5882352941176471
+HEAD,0,package fs2 - package benchmark - class ChunkBenchmark,8.0,11.0,0.34375,2.0,0.0625,5.111111111111111,0.1597222222222222
+HEAD,0,package fs2 - package benchmark - class ChunkBenchmark - object OddStringExtractor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - class WriteCursor,0.0,32.0,1.0,32.0,1.0,32.0,1.0
+HEAD,0,package fs2 - package io - package file - object WriteCursor,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - class Watcher,0.0,50.0,1.0,50.0,1.0,50.0,1.0
+HEAD,0,package fs2 - package io - object Watcher,8.0,100.0,0.34965034965034963,2.0,0.006993006993006993,36.666666666666664,0.1282051282051282
+HEAD,0,package fs2 - package io - object Watcher - class EventType,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object EventType,0.0,16.0,1.0,16.0,1.0,16.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object EventType - object Created,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object EventType - object Deleted,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object EventType - object Modified,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object EventType - object Overflow,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object EventType - class NonStandard,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - class Event,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object Event,0.0,38.0,1.0,38.0,1.0,38.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object Event - class Created,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object Event - class Deleted,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object Event - class Modified,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object Event - class Overflow,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - object Event - class NonStandard,0.0,1.0,1.0,1.0,1.0,1.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - class Registration,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package io - object Watcher - class DefaultWatcher,7.0,100.0,0.5263157894736842,2.0,0.010526315789473684,28.5,0.15
+HEAD,0,package fs2 - package io - object Watcher - class DefaultWatcher - method watchDirectory - <none>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - class Pid,1.0,3.0,1.0,2.0,0.6666666666666666,2.5,0.8333333333333334
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object Pid,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - class PidStamped,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package fs2 - package protocols - package mpeg - package transport - object PidStamped,0.0,8.0,1.0,8.0,1.0,8.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object syntax,0.0,31.0,1.0,31.0,1.0,31.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object syntax - class PublisherOps,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object syntax - class StreamOps,0.0,10.0,1.0,10.0,1.0,10.0,1.0
+HEAD,0,package fs2 - package interop - package flow - object syntax - class FromPublisherPartiallyApplied,0.0,11.0,1.0,11.0,1.0,11.0,1.0
+HEAD,0,package fs2 - package io - package file - trait WalkOptions,0.0,41.0,1.0,41.0,1.0,41.0,1.0
+HEAD,0,package fs2 - package io - package file - object WalkOptions,0.0,24.0,1.0,24.0,1.0,24.0,1.0
+HEAD,0,package fs2 - package io - package file - object WalkOptions - class DefaultWalkOptions,0.0,13.0,1.0,13.0,1.0,13.0,1.0
+HEAD,0,package fs2 - trait RaiseThrowable,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - object RaiseThrowable,1.0,6.0,0.75,3.0,0.375,4.5,0.5625
+HEAD,0,package fs2 - object RaiseThrowable - method fromApplicativeError - <$anon: fs2.RaiseThrowable[F]>,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package fs2 - package io - package file - class Path,0.0,46.0,1.0,46.0,1.0,46.0,1.0
+HEAD,0,package fs2 - package io - package file - object Path,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package mpeg - object PesStreamId,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package tls - class SSLSession,0.0,12.0,1.0,12.0,1.0,12.0,1.0
+HEAD,0,package protocols - package pcapng - object ByteOrderMagic,0.0,25.0,1.0,25.0,1.0,25.0,1.0
+HEAD,0,package facade - object net,0.0,84.0,1.0,84.0,1.0,84.0,1.0
+HEAD,0,package facade - object net - trait Server,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object net - trait ServerAddress,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+HEAD,0,package facade - object net - trait ServerOptions,0.0,6.0,1.0,6.0,1.0,6.0,1.0
+HEAD,0,package facade - object net - trait ListenOptions,0.0,3.0,1.0,3.0,1.0,3.0,1.0
+HEAD,0,package facade - object net - trait SocketOptions,0.0,5.0,1.0,5.0,1.0,5.0,1.0
+HEAD,0,package facade - object net - class Socket,0.0,0.0,0.0,0.0,0.0,0.0,0.0
