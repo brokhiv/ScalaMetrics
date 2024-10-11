@@ -19,11 +19,14 @@ categories = [
 
 projects = {
     'akka': 'Akka',
+    'chisel': 'Chisel',
+    'fs2': 'FS2',
+    'gatling': 'Gatling',
     'gitbucket': 'Gitbucket',
     'http4s': 'Http4s',
-    'quill': 'Quill',
-    'scio': 'Scio',
-    'shapeless': 'Shapeless',
+    'lila': 'Lila',
+    'metals': 'Metals',
+    'SynapseML': 'SynapseML',
     'zio': 'ZIO',
 }
 

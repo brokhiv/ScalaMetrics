@@ -12,3 +12,5 @@ class ParadigmScoreFractionValidatorTest extends UnitSpec("paradigmScoreFraction
 class ParadigmScoreLandkroonValidatorTest extends UnitSpec("paradigmScoreLandkroon", List(ParadigmScoreLandkroon))
 
 class ParadigmSwitchingValidatorTest extends UnitSpec("paradigmSwitching", List(ParadigmSwitching))
+
+class ParadigmSwitchingRefinedValidatorTest extends UnitSpec("paradigmSwitchingRefined", List(ParadigmSwitchingRefined))

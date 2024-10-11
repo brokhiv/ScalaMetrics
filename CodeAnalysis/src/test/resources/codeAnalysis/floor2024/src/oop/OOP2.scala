@@ -4,7 +4,7 @@ import scala.collection.mutable.ListBuffer
 
 object OOP2 {
   /*
-   * What is the functionality of funcA, and what does fundB do?
+   * What is the functionality of funcA, and what does funcB do?
    */
 
   def funcA(listA: List[Int]): List[Int] = {

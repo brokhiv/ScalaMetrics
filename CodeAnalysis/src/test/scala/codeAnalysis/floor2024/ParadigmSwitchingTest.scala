@@ -3,7 +3,7 @@ package codeAnalysis.floor2024
 import codeAnalysis.UnitSpec
 import codeAnalysis.analyser.Analyser
 import codeAnalysis.analyser.metric.MetricProducer
-import codeAnalysis.metrics.mixedusage.ParadigmSwitching
+import codeAnalysis.metrics.mixedusage.{ParadigmSwitching, ParadigmSwitchingRefined}
 
 class ParadigmSwitchingTest extends UnitSpec {
   val subpackages = List("oop", "mp", "fp")
@@ -15,5 +15,9 @@ class ParadigmSwitchingTest extends UnitSpec {
 
   test("Paradigm Switching test") {
     subpackages.foreach(print(ParadigmSwitching, _))
+  }
+
+  test("Paradigm Switching Refined test") {
+    subpackages.foreach(print(ParadigmSwitchingRefined, _))
   }
 }
