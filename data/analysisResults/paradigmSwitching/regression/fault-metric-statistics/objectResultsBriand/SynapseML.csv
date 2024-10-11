@@ -1,0 +1,23 @@
+name,rows_with_data,faulty_rows_with_data,non_faulty_rows_with_data,percentage_faulty,percentage_total_faults
+Switch count,343,5,338,1.4577259475218658,100.0
+Max stretch,1006,5,1001,0.4970178926441352,100.0
+Min stretch,1006,5,1001,0.4970178926441352,100.0
+Average stretch,1006,5,1001,0.4970178926441352,100.0
+AvrParadigmEntropyBool,171,4,167,2.3391812865497075,80.0
+AvrParadigmGiniBool,746,5,741,0.6702412868632708,100.0
+MaxParadigmEntropyBool,171,4,167,2.3391812865497075,80.0
+MaxParadigmGiniBool,746,5,741,0.6702412868632708,100.0
+SumParadigmEntropyBool,171,4,167,2.3391812865497075,80.0
+SumParadigmGiniBool,746,5,741,0.6702412868632708,100.0
+AvrParadigmEntropyCount,171,4,167,2.3391812865497075,80.0
+AvrParadigmGiniCount,746,5,741,0.6702412868632708,100.0
+MaxParadigmEntropyCount,171,4,167,2.3391812865497075,80.0
+MaxParadigmGiniCount,746,5,741,0.6702412868632708,100.0
+SumParadigmEntropyCount,171,4,167,2.3391812865497075,80.0
+SumParadigmGiniCount,746,5,741,0.6702412868632708,100.0
+AvrParadigmEntropyFraction,4,0,4,0.0,0.0
+AvrParadigmGiniFraction,795,5,790,0.628930817610063,100.0
+MaxParadigmEntropyFraction,4,0,4,0.0,0.0
+MaxParadigmGiniFraction,795,5,790,0.628930817610063,100.0
+SumParadigmEntropyFraction,4,0,4,0.0,0.0
+SumParadigmGiniFraction,795,5,790,0.628930817610063,100.0

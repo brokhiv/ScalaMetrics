@@ -1,0 +1,11 @@
+name,rows_with_data,faulty_rows_with_data,non_faulty_rows_with_data,percentage_faulty,percentage_total_faults
+Switch count,2854,73,2781,2.55781359495445,36.5
+Max stretch,8438,138,8300,1.6354586394880304,69.0
+Min stretch,8438,138,8300,1.6354586394880304,69.0
+Average stretch,8438,138,8300,1.6354586394880304,69.0
+parParadigmEntropyBool,2461,49,2412,1.991060544494108,24.5
+parParadigmGiniBool,6808,105,6703,1.5423031727379553,52.5
+parParadigmEntropyCount,1031,42,989,4.073714839961203,21.0
+parParadigmGiniCount,5468,98,5370,1.7922457937088514,49.0
+parParadigmEntropyFraction,94,0,94,0.0,0.0
+parParadigmGiniFraction,7044,99,6945,1.405451448040886,49.5

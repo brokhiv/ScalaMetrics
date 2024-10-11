@@ -1,0 +1,8 @@
+name,rows_with_data,faulty_rows_with_data,non_faulty_rows_with_data,percentage_faulty,percentage_total_faults
+SwitchCount,980,46,934,4.6938775510204085,23.0
+MaxStretch,9170,143,9027,1.559432933478735,71.5
+MaxStretchNormalized,9170,143,9027,1.559432933478735,71.5
+MinStretch,9089,141,8948,1.5513257784134669,70.5
+MinStretchNormalized,9089,141,8948,1.5513257784134669,70.5
+AvgStretch,9170,143,9027,1.559432933478735,71.5
+AvgStretchNormalized,9170,143,9027,1.559432933478735,71.5
